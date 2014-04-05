@@ -6,7 +6,7 @@
 		"fieldName"	 	"xHairCircle"
 		"font"			"xHairCircle"
 		"visible" 		 "0"
-		"enabled" 		 "1"
+		"enabled" 		 "0"
 		"zpos"			"2"
 
 		"xpos" 		 "1"
@@ -49,7 +49,7 @@
 		"controlName"	"CExLabel"
 		"fieldName"	 	"ThinCross"
 		"visible" 		 "0"
-		"enabled" 		 "1"
+		"enabled" 		 "0"
 		"zpos"			"0"
 
 		"xpos" 		 "0"
@@ -69,8 +69,8 @@
 	{
 		"controlName" "CExLabel"
 		"fieldName" "BanjoTooie"
-		"visible" "1"
-		"enabled" "1"
+		"visible" "0"
+		"enabled" "0"
 		"zpos" "2"
 
 		"xpos" "1"
@@ -90,7 +90,7 @@
 		"controlName" "CExLabel"
 		"fieldName" "FogNew"
 		"visible" "0"
-		"enabled" "1"
+		"enabled" "0"
 		"zpos" "2"
 
 		"xpos" "1"
