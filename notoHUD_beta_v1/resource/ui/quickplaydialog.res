@@ -31,7 +31,7 @@
 		"tabPosition"		"0"
 		"PaintBackgroundType"	"0"
 		"paintbackground"		"1"
-		"border"				"QuickplayBorder"
+		"border"				"FuckinBorderDude"
 
 		"Background"
 		{
@@ -133,7 +133,7 @@
 				"tall"		"245"
 				"visible"	"1"
 				"enabled"	"1"
-				"border"				"MainMenuHighlightBorder"
+				"border"				"FuckinBorderDude"
 
 				"ModeImage"
 				{
