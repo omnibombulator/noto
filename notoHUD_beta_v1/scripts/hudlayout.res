@@ -62,14 +62,14 @@
 		"labelText"		"+"
 		"textAlignment"	"center"	
 		
-		"fgcolor" 		 "127 255 0 134"
+		"fgcolor" 		 "NotoCross"
 	}
 	
 	BanjoTooie
 	{
 		"controlName" "CExLabel"
 		"fieldName" "BanjoTooie"
-		"visible" "0"
+		"visible" "1"
 		"enabled" "1"
 		"zpos" "2"
 
@@ -82,7 +82,7 @@
 		"labelText" "z"
 		"textAlignment" "center"
 
-		"fgcolor" "255 255 255 192"
+		"fgcolor" "NotoCross2"
 	}
 	
 	FogNew
@@ -102,7 +102,7 @@
 		"labelText" "0"
 		"textAlignment" "center"
 
-		"fgcolor" "255 255 255 192"
+		"fgcolor" "NotoCross2"
 	}
 	
 	HudPlayerStatus

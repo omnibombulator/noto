@@ -774,11 +774,11 @@ event NotificationsPresentBlinkStop
 event DamagedPlayer
 {
 	// empty
-	Animate ThinCross FgColor "255 0 4 134" Linear 0.0 0.0
-	Animate ThinCross FgColor "127 255 0 134" Linear 0.15 0.0
+	Animate ThinCross FgColor "NotoCrossDamage" Linear 0.0 0.0
+	Animate ThinCross FgColor "NotoCross" Linear 0.15 0.0
 	
-	Animate BanjoTooie FgColor "255 0 4 134" Linear 0.0 0.0
-	Animate BanjoTooie FgColor "255 255 255 134" Linear 0.15 0.0
+	Animate BanjoTooie FgColor "NotoCrossDamage" Linear 0.0 0.0
+	Animate BanjoTooie FgColor "NotoCross2" Linear 0.15 0.0
 }
 
 //===========================================

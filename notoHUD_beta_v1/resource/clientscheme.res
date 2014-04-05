@@ -28,6 +28,11 @@ Scheme
 		"NotoGreenSolid"	"90 180 0 255"
 		"NotoDarker"		"43 43 43 255"
 		
+		// notohud xhair colors
+		"NotoCross"			"127 255 0 134"
+		"NotoCrossDamage"	"255 0 4 134"
+		"NotoCross2"		"255 255 255 134"
+		
 		// base colors
 		"Orange"			"178 82 22 255"
 		"OrangeDim"			"178 82 22 120"
@@ -230,16 +235,16 @@ Scheme
 		Button.DepressedTextColor		"NotoWhite"
 		Button.DepressedBgColor			"NotoGreenSolid"
 
-		CheckButton.TextColor			"Yellow"
-		CheckButton.SelectedTextColor	"Yellow"
+		CheckButton.TextColor			"220 220 220 255"
+		CheckButton.SelectedTextColor	"220 220 220 255"
 		CheckButton.BgColor				"TransparentBlack"
-		CheckButton.Border1  			"Yellow" 		// the left checkbutton border
-		CheckButton.Border2  			"Yellow"		// the right checkbutton border
-		CheckButton.Check				"Yellow"		// color of the check itself
-		CheckButton.HighlightFgColor	"Yellow"
+		CheckButton.Border1  			"220 220 220 255" 		// the left checkbutton border
+		CheckButton.Border2  			"220 220 220 255"		// the right checkbutton border
+		CheckButton.Check				"220 220 220 255"		// color of the check itself
+		CheckButton.HighlightFgColor	"220 220 220 255"
 		
-		ComboBoxButton.ArrowColor		"TanLight"
-		ComboBoxButton.ArmedArrowColor	"TanLight"
+		ComboBoxButton.ArrowColor		"220 220 220 255"
+		ComboBoxButton.ArmedArrowColor	"220 220 220 255"
 		ComboBoxButton.BgColor			"Blank"
 		ComboBoxButton.DisabledBgColor	"Blank"
 
@@ -5534,7 +5539,7 @@ Scheme
 			{
 				"1"
 				{
-					"color" "Blank"
+					"color" "0 0 0 0"
 					"offset" "0 0"
 				}
 			}
@@ -5543,7 +5548,7 @@ Scheme
 			{
 				"1"
 				{
-					"color" "Blank"
+					"color" "0 0 0 0"
 					"offset" "0 0"
 				}
 			}
@@ -5552,7 +5557,7 @@ Scheme
 			{
 				"1"
 				{
-					"color" "Blank"
+					"color" "0 0 0 0"
 					"offset" "0 0"
 				}
 			}
@@ -5561,7 +5566,7 @@ Scheme
 			{
 				"1"
 				{
-					"color" "Blank"
+					"color" "0 0 0 0"
 					"offset" "0 0"
 				}
 			}
@@ -5574,12 +5579,12 @@ Scheme
 			{
 				"1"
 				{
-					"color" "Black"
+					"color" "0 0 0 0"
 					"offset" "0 0"
 				}
 				"2"
 				{
-					"color" "Black"
+					"color" "0 0 0 0"
 					"offset" "0 0"
 				}
 			}
@@ -5588,12 +5593,12 @@ Scheme
 			{
 				"1"
 				{
-					"color" "Black"
+					"color" "0 0 0 0"
 					"offset" "0 0"
 				}
 				"2"
 				{
-					"color" "Black"
+					"color" "0 0 0 0"
 					"offset" "0 0"
 				}
 			}
@@ -5602,12 +5607,12 @@ Scheme
 			{
 				"1"
 				{
-					"color" "Black"
+					"color" "0 0 0 0"
 					"offset" "0 0"
 				}
 				"2"
 				{
-					"color" "Black"
+					"color" "0 0 0 0"
 					"offset" "0 0"
 				}
 			}
@@ -5616,12 +5621,12 @@ Scheme
 			{
 				"1"
 				{
-					"color" "Black"
+					"color" "0 0 0 0"
 					"offset" "0 0"
 				}
 				"2"
 				{
-					"color" "Black"
+					"color" "0 0 0 0"
 					"offset" "0 0"
 				}
 			}
@@ -5795,7 +5800,7 @@ Scheme
 			{
 				"1"
 				{
-					"color" "TanDarker"
+					"color" "0 0 0 0"
 					"offset" "0 0"
 				}
 			}
@@ -5804,7 +5809,7 @@ Scheme
 			{
 				"1"
 				{
-					"color" "TanDarker"
+					"color" "0 0 0 0"
 					"offset" "0 0"
 				}
 			}
@@ -7196,7 +7201,7 @@ Scheme
 			{
 				"1"
 				{
-					"color" "TanDark"
+					"color" "0 0 0 0"
 					"offset" "0 0"
 				}
 			}
@@ -7205,7 +7210,7 @@ Scheme
 			{
 				"1"
 				{
-					"color" "TanDark"
+					"color" "0 0 0 0"
 					"offset" "0 0"
 				}
 			}
@@ -7214,7 +7219,7 @@ Scheme
 			{
 				"1"
 				{
-					"color" "TanDark"
+					"color" "0 0 0 0"
 					"offset" "0 0"
 				}
 			}
@@ -7223,7 +7228,7 @@ Scheme
 			{
 				"1"
 				{
-					"color" "TanDark"
+					"color" "0 0 0 0"
 					"offset" "0 0"
 				}
 			}
@@ -7236,7 +7241,7 @@ Scheme
 			{
 				"1"
 				{
-					"color" "TanDark"
+					"color" "0 0 0 0"
 					"offset" "0 0"
 				}
 			}
@@ -7245,7 +7250,7 @@ Scheme
 			{
 				"1"
 				{
-					"color" "TanDark"
+					"color" "0 0 0 0"
 					"offset" "0 0"
 				}
 			}
@@ -7254,7 +7259,7 @@ Scheme
 			{
 				"1"
 				{
-					"color" "TanDark"
+					"color" "0 0 0 0"
 					"offset" "0 0"
 				}
 			}
@@ -7263,7 +7268,7 @@ Scheme
 			{
 				"1"
 				{
-					"color" "TanDark"
+					"color" "0 0 0 0"
 					"offset" "0 0"
 				}
 			}
