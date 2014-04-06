@@ -22,19 +22,39 @@
 		"draw_corner_width"	"8"				// screen size of the corners ( and sides ), proportional
 		"draw_corner_height" 	"8"	
 	}
+	
+	"TournPanelBG"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"TournPanelBG"
+		"xpos"			"0"
+		"ypos"			"0"
+		"zpos"			"0"
+		"wide"			"212"
+		"tall"			"43"
+		"visible"		"1"
+		"enabled"		"1"
+		"scaleImage"	"1"
+		"fillcolor"		"32 32 32 255"
+		
+		if_mvm
+		{
+			"visible"		"0"
+		}
+	}
 
 	"TournamentSetupLabel"
 	{	
 		"ControlName"		"Label"
 		"fieldName"		"TournamentLabel"
 		"font"			"NotoBold20"
-		"fgcolor_override"		"NotoDark"
-		"bgcolor_override"	"NotoWhite"
+		"fgcolor_override"		"NotoWhite"
+		"bgcolor_override"	"0 0 0 0"
 		"xpos"			"0"
 		"ypos"			"0"
 		"zpos"			"1"
-		"wide"			"f0"
-		"tall"			"22"
+		"wide"			"200"
+		"tall"			"20"
 		"textinsetx"	"8"
 		"autoResize"		"0"
 		"pinCorner"		"0"
@@ -69,10 +89,10 @@
 	{
 		"ControlName"		"TextEntry"
 		"fieldName"		"TournamentNameEdit"
-		"xpos"		"c-40"
-		"ypos"		"2"
+		"xpos"		"5"
+		"ypos"		"22"
 		"zpos"		"4"
-		"wide"		"80"
+		"wide"		"123"
 		"tall"		"19"
 		"autoResize"		"0"
 		"pinCorner"		"0"
@@ -86,46 +106,10 @@
 		"unicode"		"0"
 		"wrap"			"0"
 		"fgcolor_override"		"NotoWhite"
-		"bgcolor_override"	"32 32 32 255"
+		"bgcolor_override"	"50 50 50 255"
 		"labelText"		"%teamname%"
 		"textAlignment"		"center"
 		"font_override"		"NotoBold16"
-	}
-	
-	"NOTACTUALLYABUTTON"
-	{
-		"ControlName"	"CExButton"
-		"fieldName"		"NOTACTUALLYABUTTON"
-		"xpos"		"c-40"
-		"ypos"		"2"
-		"wide"		"80"
-		"tall"		"19"
-		"zpos"		"4"
-		"autoResize"	"0"
-		"pinCorner"		"2"
-		"visible"		"1"
-		"enabled"		"1"
-		"labelText"		""
-		"textAlignment"	"center"
-		"dulltext"		"0"
-		"brighttext"	"0"
-		"command"		""
-		"default"		"1"
-		"font"			"NotoBold16"
-		"fgcolor"		"Red"
-		
-		"defaultBgColor_override"	"NotoDark"
-		"defaultFgColor_override" "NotoDark"
-		"border_default"		"FuckinBorderDude"
-		
-		// armed style
-		"armedBgColor_override"	"NotoDark"
-		"armedFgColor_override" 	"NotoDark"
-		"border_armed"		"FuckinBorderDude"
-    
-		// depressed style    
-		"depressedBgColor_override"	"NotoDark"
-		"depressedFgColor_override" "NotoDark"
 	}
 
 	"HudTournamentNameBG"
@@ -149,7 +133,7 @@
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"TournamentNotReadyButton"
-		"xpos"		"c-121"
+		"xpos"		"130"
 		"ypos"		"2"
 		"wide"		"80"
 		"tall"		"19"
@@ -168,8 +152,8 @@
 		"fgcolor"		"NotoWhite"
 		"fgcolor_override"		"NotoWhite"
 		
-		"defaultBgColor_override"	"NotoDark"
-		"defaultFgColor_override" "NotoWhite"
+		"defaultBgColor_override"	"NotoWhite"
+		"defaultFgColor_override" "NotoDark"
 		"border_default"		"FuckinBorderDude"
 		
 		// armed style
@@ -178,16 +162,16 @@
 		"border_armed"		"FuckinBorderDude"
     
 		// depressed style    
-		"depressedBgColor_override"	"NotoDark"
-		"depressedFgColor_override" "NotoWhite"
+		"depressedBgColor_override"	"NotoWhite"
+		"depressedFgColor_override" "NotoDark"
 	}
 
 	"TournamentReadyButton"
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"TournamentReadyButton"
-		"xpos"		"c41"
-		"ypos"		"2"
+		"xpos"		"130"
+		"ypos"		"22"
 		"wide"		"80"
 		"tall"		"19"
 		"zpos"		"4"
@@ -205,8 +189,8 @@
 		"fgcolor"		"NotoWhite"
 		"fgcolor_override"		"NotoWhite"
 		
-		"defaultBgColor_override"	"NotoDark"
-		"defaultFgColor_override" "NotoWhite"
+		"defaultBgColor_override"	"NotoWhite"
+		"defaultFgColor_override" "NotoDark"
 		"border_default"		"FuckinBorderDude"
 		
 		// armed style
@@ -215,7 +199,7 @@
 		"border_armed"		"FuckinBorderDude"
     
 		// depressed style    
-		"depressedBgColor_override"	"NotoDark"
-		"depressedFgColor_override" "NotoWhite"
+		"depressedBgColor_override"	"NotoWhite"
+		"depressedFgColor_override" "NotoDark"
 	}
 }

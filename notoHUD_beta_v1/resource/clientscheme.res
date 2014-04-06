@@ -2653,6 +2653,28 @@ Scheme
 			}
 		}
 		
+		"KonrWings20"
+		{
+			"1"
+			{
+			"name"			"Garm3nFont"
+			"tall"			"20"
+			"weight"		"0"
+			"antialias"		"1"
+			}
+		}
+		
+		"KonrWings22"
+		{
+			"1"
+			{
+			"name"			"Garm3nFont"
+			"tall"			"22"
+			"weight"		"0"
+			"antialias"		"1"
+			}
+		}
+		
 		"KonrWings24"
 		{
 			"1"

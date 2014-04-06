@@ -31,7 +31,7 @@
 		"zpos"			"2"
 
 		"xpos"			"c-108"
-		"ypos"			"c-99"
+		"ypos"			"c-100"
 		"wide"			"200"
 		"tall"			"200"
 
