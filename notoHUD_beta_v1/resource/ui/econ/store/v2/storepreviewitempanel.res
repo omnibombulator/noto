@@ -86,7 +86,7 @@
 		"ControlName"	"EditablePanel"
 		"fieldName"		"DialogFrame"
 		"xpos"			"c-240"
-		"ypos"			"c-140"
+		"ypos"			"c-145"
 		"zpos"			"0"
 		"wide"			"480"
 		"tall"			"280"
@@ -110,7 +110,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"paintborder"	"1"
-			"border"		"StoreInnerShadowBorder"
+			"border"		"NoBorder"
 		}
 	
 		// 90-degree corners on the top part of the footer
@@ -1579,7 +1579,7 @@
 		"ControlName"	"CExButton"
 		"fieldName"		"AddToCartButton"
 		"xpos"			"c71"
-		"ypos"			"c103"
+		"ypos"			"c98"
 		"zpos"			"2"
 		"wide"			"160"
 		"tall"			"27"
