@@ -154,7 +154,7 @@
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"alpha"			"0"		
-		"fillcolor"		"NotoAmmoLow"
+		"fillcolor"		"NotoAmmoBGLow"
 		"PaintBackgroundType"	"0"
 	}
 	
@@ -173,7 +173,7 @@
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"alpha"			"0"		
-		"fillcolor"		"NotoAmmoLow2"
+		"fillcolor"		"NotoAmmoBGLow2"
 		"PaintBackgroundType"	"0"
 	}	
 }
