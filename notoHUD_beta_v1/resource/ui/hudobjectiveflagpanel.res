@@ -424,13 +424,14 @@
 		
 		"if_hybrid"
 		{
-			"visible"	"0"
+			"visible"	"c-40"
 			"ypos"		"r100"
 		}
 		
 		"if_hybrid_single"
 		{
-			"xpos"		"c-80"
+			"xpos"		"c-60"
+			"ypos"		"r52"
 		}
 		
 		"if_hybrid_double"
@@ -470,7 +471,8 @@
 		
 		"if_hybrid_single"
 		{
-			"xpos"		"c-80"
+			"xpos"		"c-60"
+			"ypos"		"r52"
 		}
 		
 		"if_hybrid_double"

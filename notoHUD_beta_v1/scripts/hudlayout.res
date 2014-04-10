@@ -41,7 +41,7 @@
 		"labelText"		"i"
 		"textAlignment"	"center"	
 		
-		"fgcolor"		"255 255 255 255"
+		"fgcolor"		"NotoCross2"
 	}
 
 	ThinCross
@@ -552,7 +552,7 @@
 		"MaxDeathNotices" "6"
 		"IconScale"	  "0.35"
 		"LineHeight"	  "14"
-		"LineSpacing"	  "-1"
+		"LineSpacing"	  "0"
 		"CornerRadius"	  "0"
 		"RightJustify"	  "1"	// If 1, draw notices from the right
 		
@@ -563,10 +563,8 @@
 		"IconColor"		"HudWhite"
 		"LocalPlayerColor"	"HUDBlack"
 
-		"BaseBackgroundColor"	"20 20 20 255"		[$WIN32]
+		"BaseBackgroundColor"	"32 32 32 255"		[$WIN32]
 		"LocalBackgroundColor"	"220 220 220 255"	[$WIN32]
-		"BaseBackgroundColor"	"32 32 32 255"		[$X360]
-		"LocalBackgroundColor"	"0 0 0 255"		[$X360]
 	}
 
 	HudVehicle
@@ -1086,11 +1084,10 @@
 		"fieldName"				"HudTeamGoal"
 		"visible"				"0"
 		"enabled"				"0"
-		"xpos"					"c-160"
-		"ypos"					"65"
-		"ypos_lodef"			"75"
-		"wide"					"320"
-		"tall"					"100"
+		"xpos"					"9999"
+		"ypos"					"9999"
+		"wide"					"0"
+		"tall"					"0"
 	}
 
 
@@ -1099,11 +1096,10 @@
 		"fieldName"				"HudTeamGoalTournament"
 		"visible"				"0"
 		"enabled"				"0"
-		"xpos"					"c-160"
-		"ypos"					"15"
-		"ypos_lodef"			"75"
-		"wide"					"320"
-		"tall"					"245"
+		"xpos"					"9999"
+		"ypos"					"9999"
+		"wide"					"0"
+		"tall"					"0"
 	}
 
 	HudTeamSwitch

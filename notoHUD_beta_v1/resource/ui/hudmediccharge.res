@@ -78,7 +78,7 @@
 		"textAlignment"	"Left"
 		"dulltext"		"0"
 		"brighttext"	"0"
-		"bgcolor_override"	"0 0 0 75"
+		"bgcolor_override"	"NotoMedicBarBG"
 		"fgcolor_override" 		"32 160 32 255"
 	}		
 
@@ -99,7 +99,7 @@
 		"textAlignment"	"Left"
 		"dulltext"		"0"
 		"brighttext"	"0"
-		"bgcolor_override"	"0 0 0 75"
+		"bgcolor_override"	"NotoMedicBarBG"
 		"fgcolor_override" 		"32 160 32 255"
 	}
 
@@ -120,7 +120,7 @@
 		"textAlignment"	"Left"
 		"dulltext"		"0"
 		"brighttext"	"0"
-		"bgcolor_override"	"0 0 0 75"
+		"bgcolor_override"	"NotoMedicBarBG"
 		"fgcolor_override" 		"32 160 32 255"
 	}
 
@@ -141,7 +141,7 @@
 		"textAlignment"	"Left"
 		"dulltext"		"0"
 		"brighttext"	"0"
-		"bgcolor_override"	"0 0 0 75"
+		"bgcolor_override"	"NotoMedicBarBG"
 		"fgcolor_override" 		"32 160 32 255"
 	}
 
@@ -162,7 +162,7 @@
 		"textAlignment"	"Left"
 		"dulltext"		"0"
 		"brighttext"	"0"
-		"bgcolor_override"	"0 0 0 75"
+		"bgcolor_override"	"NotoMedicBarBG"
 		"fgcolor_override" 		"32 160 32 255"
 	}
 	

@@ -18,7 +18,7 @@ Scheme
 	//////////////////////// COLORS ///////////////////////////
 	Colors
 	{
-		// notohud colors
+		// notoHUD colors
 		"NotoWhite"			"220 220 220 255"
 		"NotoBlue"			"70 130 180 125"
 		"NotoRed"			"205 50 50 153"
@@ -28,10 +28,56 @@ Scheme
 		"NotoGreenSolid"	"90 180 0 255"
 		"NotoDarker"		"43 43 43 255"
 		
-		// notohud xhair colors
+		// notoHUD health colors
+		"NotoHealthNormal"		"220 220 220 255"
+		"NotoHealthBuff"		"220 220 220 255"
+		"NotoHealthLow"			"220 220 220 255"
+		// health shadows
+		"NotoHealthShadow"		"32 32 32 255"
+		"NotoHealthShadowBuff"	"32 32 32 255"
+		"NotoHealthShadowLow"	"32 32 32 255"
+		// health backgrounds
+		"NotoHealthBGBuff"		"32 160 32 255"
+		"NotoHealthBGBuff2"		"12 90 12 255"
+		"NotoHealthBGLow"		"192 28 0 255"
+		"NotoHealthBGLow2"		"112 8 0 255"
+		
+		// notoHUD ammo colors
+		"NotoAmmoClip"			"220 220 220 255"
+		"NotoAmmoClipLow"		"220 220 220 255"
+		"NotoAmmoReserve"		"220 220 220 255"
+		"NotoAmmoReserveLow"	"220 220 220 255"
+		"NotoAmmoNoClip"		"220 220 220 255"
+		"NotoAmmoNoClipLow"		"220 220 220 255"
+		// ammo shadows
+		"NotoAmmoClipShadow"		"32 32 32 255"
+		"NotoAmmoClipShadowLow"		"32 32 32 255"
+		"NotoAmmoReserveShadow" 	"32 32 32 255"
+		"NotoAmmoReserveShadowLow" 	"32 32 32 255"
+		"NotoAmmoNoClipShadow"		"32 32 32 255"
+		"NotoAmmoNoClipShadowLow"	"32 32 32 255"
+		// ammo backgrounds
+		"NotoAmmoBGLow"		"192 28 0 255"
+		"NotoAmmoBGLow2"	"112 8 0 255"
+		
+		// notoHUD medic colors
+		"NotoMedicNormal"			"220 220 220 255"
+		"NotoMedicCharged1"			"220 220 220 255"
+		"NotoMedicCharged2"			"220 220 220 255"
+		// chargebar
+		"NotoMedicBarNormal"		"32 160 32 255"
+		"NotoMedicBarCharged1"		"32 160 32 255"
+		"NotoMedicBarCharged2"		"12 90 12 255"
+		"NotoMedicBarBG"			"0 0 0 75"
+		
+		// notoHUD xhair colors
+		// NotoCross and NotoCross2 are default colors, NotoCrossDamage will change the color of the crosshair when damage is dealt
 		"NotoCross"			"127 255 0 134"
 		"NotoCrossDamage"	"255 0 4 134"
 		"NotoCross2"		"255 255 255 134"
+		
+		// notoHUD scoreboard backgrounds
+		"NotoScoreBGMain"	"32 32 32 255"
 		
 		// base colors
 		"Orange"			"178 82 22 255"

@@ -64,7 +64,7 @@
 	"QuitGameX"
 	{
 		"label" "X"
-		"command" "engine replay_confirmquit"
+		"command" "quit"
         "tooltip" "Quit Game"
 	}
 	"ToggleScoreboard"

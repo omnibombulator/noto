@@ -352,7 +352,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"	"0"	
-		"fillcolor"		"32 32 32 255"
+		"fillcolor"		"NotoScoreBGMain"
 		"PaintBackgroundType"	"0"
 		
 		if_mvm
@@ -376,7 +376,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"	"0"	
-		"fillcolor"		"32 32 32 255"
+		"fillcolor"		"NotoScoreBGMain"
 		"PaintBackgroundType"	"0"
 		
 		if_mvm

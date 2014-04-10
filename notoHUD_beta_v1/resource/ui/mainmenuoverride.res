@@ -3124,7 +3124,7 @@
 		"brighttext"	"0"
 		"default"		"1"
 		"paintbackground""0"
-		"Command"		"engine replay_confirmquit"
+		"Command"		"quit"
 		
 		"defaultFgColor_override" "NotoWhite"
 		"armedFgColor_override" "NotoGreenSolid"

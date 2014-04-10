@@ -204,6 +204,9 @@ event KeyHintMessageHide
 //Health Bonus Pulse
 event HudHealthBonusPulse
 {
+	Animate PlayerStatusHealthValue			FgColor		"NotoHealthBuff"		Accel 0.0 0.0
+	Animate PlayerStatusHealthValueShadow	FgColor		"NotoHealthShadowBuff"		Accel 0.0 0.0
+	
 	Animate	PlayerStatusHealthBonusImage 	Alpha		"255"		Linear 0.0 0.2
 	Animate	PlayerStatusHealthBonusImage 	Alpha		"0"			Linear 0.2 0.4
 	
@@ -249,6 +252,9 @@ event HudHealthBonusPulseStop
 	Animate HealthBarBuffTourna2  Alpha       "0"           Accel 0.0 0.0
 	
 	Animate PlayerStatusHealthValueSpec		FgColor		"220 220 220 255"		Accel 0.0 0.0
+	
+	Animate PlayerStatusHealthValue			FgColor		"NotoHealthNormal"		Accel 0.0 0.0
+	Animate PlayerStatusHealthValueShadow	FgColor		"NotoHealthShadow"		Accel 0.0 0.0
 }
 
 //===========================================
@@ -256,6 +262,9 @@ event HudHealthBonusPulseStop
 //Health Dying Pulse
 event HudHealthDyingPulse
 {
+	Animate PlayerStatusHealthValue			FgColor		"NotoHealthLow"		Accel 0.0 0.0
+	Animate PlayerStatusHealthValueShadow	FgColor		"NotoHealthShadowLow"		Accel 0.0 0.0
+
 	Animate	PlayerStatusHealthBonusImage 	Alpha		"255"		Linear 0.0 0.075
 	Animate	PlayerStatusHealthBonusImage 	Alpha		"0"			Linear 0.125 0.075
 	
@@ -282,12 +291,26 @@ event HudHealthDyingPulseStop
 	Animate HealthBarLow   Alpha       "0"           Accel 0.0 0.0
 	Animate HealthBarLow2  Alpha       "0"           Accel 0.0 0.0
 	
+	Animate PlayerStatusHealthValue			FgColor		"NotoHealthNormal"		Accel 0.0 0.0
+	
+	Animate PlayerStatusHealthValueShadow	FgColor		"NotoHealthShadow"		Accel 0.0 0.0
+	
 }
 
 //===========================================
 
 event HudLowAmmoPulse
 {
+	
+	Animate AmmoInClip		FgColor		"NotoAmmoClipLow"		Accel 0.0 0.0
+	Animate AmmoInClipShadow	FgColor		"NotoAmmoClipShadowLow"		Accel 0.0 0.0
+	
+	Animate AmmoInReserve		FgColor		"NotoAmmoReserveLow"		Accel 0.0 0.0
+	Animate AmmoInReserveShadow	FgColor		"NotoAmmoReserveShadowLow"		Accel 0.0 0.0
+	
+	Animate AmmoNoClip		FgColor		"NotoAmmoNoClipLow"		Accel 0.0 0.0
+	Animate AmmoNoClipShadow	FgColor		"NotoAmmoNoClipShadowLow"		Accel 0.0 0.0
+
 	Animate	HudWeaponLowAmmoImage		Alpha		"255"		Linear 0.0 0.075
 	Animate	HudWeaponLowAmmoImage		Alpha		"0"			Linear 0.125 0.075
 	
@@ -308,6 +331,15 @@ event HudLowAmmoPulseLoop
 
 event HudLowAmmoPulseStop
 {
+	Animate AmmoInClip		FgColor		"NotoAmmoClip"		Accel 0.0 0.0
+	Animate AmmoInClipShadow	FgColor		"NotoAmmoClipShadow"		Accel 0.0 0.0
+	
+	Animate AmmoInReserve		FgColor		"NotoAmmoReserve"		Accel 0.0 0.0
+	Animate AmmoInReserveShadow	FgColor		"NotoAmmoReserveShadow"		Accel 0.0 0.0
+	
+	Animate AmmoNoClip		FgColor		"NotoAmmoNoClip"		Accel 0.0 0.0
+	Animate AmmoNoClipShadow	FgColor		"NotoAmmoNoClipShadow"		Accel 0.0 0.0
+	
 	StopEvent HudLowAmmoPulse 0.0
 	StopEvent HudLowAmmoPulseLoop 0.0
 	
@@ -470,11 +502,11 @@ event HudTournamentSetupPanelClose
 
 event HudMedicCharged
 {
-	Animate	ChargeLabel 	FgColor		"220 220 220 255"		Linear 0.0 0.1
-	Animate	ChargeLabel 	FgColor		"220 220 220 255"		Linear 0.3 0.4
+	Animate	ChargeLabel 	FgColor		"NotoMedicCharged1"		Linear 0.0 0.1
+	Animate	ChargeLabel 	FgColor		"NotoMedicCharged2"		Linear 0.3 0.4
 	
-	Animate	ChargeMeter 	FgColor		"32 160 32 255"		Linear 0.0 0.1
-	Animate	ChargeMeter 	FgColor		"12 90 12 255"		Linear 0.3 0.4
+	Animate	ChargeMeter 	FgColor		"NotoMedicBarCharged1"		Linear 0.0 0.1
+	Animate	ChargeMeter 	FgColor		"NotoMedicBarCharged2"		Linear 0.3 0.4
 
 	RunEvent HudMedicChargedLoop	0.6
 }
@@ -490,8 +522,8 @@ event HudMedicChargedStop
 	StopEvent HudMedicCharged 0.0
 	StopEvent HudMedicChargedLoop 0.0
 	
-	Animate	ChargeLabel 	FgColor		"220 220 220 255"		Linear 0.0 0.0001
-	Animate	ChargeMeter 	FgColor		"32 160 32 255"		Linear 0.0 0.0001
+	Animate	ChargeLabel 	FgColor		"NotoMedicNormal"		Linear 0.0 0.0001
+	Animate	ChargeMeter 	FgColor		"NotoMedicBarNormal"		Linear 0.0 0.0001
 }
 
 //====================================

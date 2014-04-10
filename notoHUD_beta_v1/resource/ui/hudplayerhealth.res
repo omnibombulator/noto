@@ -71,26 +71,24 @@
 		"labelText"		"%Health%"
 		"textAlignment"	"east"	
 		"font"			"NotoBold58"
-		"fgcolor"		"220 220 220 255"
-		"bgcolor_override" "32 32 32 0"
+		"fgcolor"		"NotoHealthNormal"
 	}
 	"PlayerStatusHealthValueShadow"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"PlayerStatusHealthValueShadow"
-		"xpos"			"77"
-		"ypos"			"53"	[$WIN32]
-		"ypos"			"55"	[$X360]
+		"xpos"			"38"
+		"ypos"			"26"	[$WIN32]
 		"zpos"			"5"
 		"wide"			"100"
 		"tall"			"50"
 		"visible"		"0"
 		"enabled"		"1"
 		"labelText"		"%Health%"
-		"textAlignment"	"center"	
-		"font"			"NotoBold70"
-		"fgcolor"		"0 0 0 255"
-	}		
+		"textAlignment"	"east"	
+		"font"			"NotoBold58"
+		"fgcolor"		"NotoHealthShadow"
+	}
 	"PlayerStatusBleedImage"
 	{
 		"ControlName"	"ImagePanel"
@@ -323,7 +321,7 @@
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"alpha"			"0"		
-		"fillcolor"		"32 160 32 255"
+		"fillcolor"		"NotoHealthBGBuff"
 		"PaintBackgroundType"	"0"
 	}
 	
@@ -342,7 +340,7 @@
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"alpha"			"0"		
-		"fillcolor"		"12 90 12 255"
+		"fillcolor"		"NotoHealthBGBuff2"
 		"PaintBackgroundType"	"0"
 	}
 	
@@ -361,7 +359,7 @@
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"alpha"			"0"		
-		"fillcolor"		"192 28 0 255"
+		"fillcolor"		"NotoHealthBGLow"
 		"PaintBackgroundType"	"0"
 	}
 	
@@ -380,7 +378,7 @@
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"alpha"			"0"		
-		"fillcolor"		"112 8 0 255"
+		"fillcolor"		"NotoHealthBGLow2"
 		"PaintBackgroundType"	"0"
 	}
 }
