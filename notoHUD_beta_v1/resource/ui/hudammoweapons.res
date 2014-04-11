@@ -66,7 +66,7 @@
 		"wide"			"55"
 		"tall"			"50"
 		"visible"		"0"
-		"enabled"		"0"
+		"enabled"		"1"
 		"textAlignment"	"south-west"	
 		"labelText"		"%Ammo%"
 		
@@ -100,7 +100,7 @@
 		"wide"			"40"
 		"tall"			"30"
 		"visible"		"0"
-		"enabled"		"0"
+		"enabled"		"1"
 		"textAlignment"	"south-west"		
 		"labelText"		"%AmmoInReserve%"
 	}									
@@ -125,16 +125,16 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"AmmoNoClipShadow"
-		"font"			"NotoWhite58"
+		"font"			"NotoBold58"
 		"fgcolor"		"NotoAmmoNoClipShadow"
 		//"xpos"			"5"
 		"xpos"			"9999"
-		"ypos"			"29"
+		"ypos"			"30"
 		"zpos"			"4"
 		"wide"			"84"
 		"tall"			"50"
 		"visible"		"0"
-		"enabled"		"0"
+		"enabled"		"1"
 		"textAlignment"	"south-west"		
 		"labelText"		"%Ammo%"
 		
