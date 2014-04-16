@@ -628,30 +628,31 @@
 		"ControlName"		"ScalableImagePanel"
 		"fieldName"		"CountdownBG"
 		"xpos"			"230"
-		"ypos"			"r55"
+		"ypos"			"r40"
 		"zpos"			"-1"
 		"wide"			"40"
-		"tall"			"40"
+		"tall"			"30"
 		"autoResize"		"0"
 		"pinCorner"		"0"
 		"visible"		"0"
 		"enabled"		"1"
-		"image"			"../HUD/color_panel_red"
+		"image"			""
+		"fillcolor"		"NotoRedSolid"
 
 		"src_corner_height"	"23"				// pixels inside the image
 		"src_corner_width"	"23"
 		
-		"draw_corner_width"	"5"				// screen size of the corners ( and sides ), proportional
-		"draw_corner_height" 	"5"	
+		"draw_corner_width"	"0"				// screen size of the corners ( and sides ), proportional
+		"draw_corner_height" 	"0"	
 	}
 
 	"CountdownLabel"
 	{	
 		"ControlName"		"CExLabel"
 		"fieldName"		"CountdownLabel"
-		"font"			"HudFontGiant"
+		"font"			"NotoBold30"
 		"xpos"			"230"
-		"ypos"			"r65"
+		"ypos"			"r45"
 		"wide"			"40"
 		"tall"			"40"
 		"zpos"			"1"
@@ -668,9 +669,9 @@
 	{	
 		"ControlName"		"CExLabel"
 		"fieldName"		"CountdownLabelShadow"
-		"font"			"HudFontGiant"
-		"xpos"			"231"
-		"ypos"			"r54"
+		"font"			"NotoBold30"
+		"xpos"			"9999"
+		"ypos"			"r44"
 		"wide"			"40"
 		"tall"			"40"
 		"zpos"			"1"
