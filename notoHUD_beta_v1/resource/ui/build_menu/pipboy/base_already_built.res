@@ -4,7 +4,7 @@
 	{	
 		"ControlName"	"CExLabel"
 		"fieldName"		"CantBuildReason"
-		"font"			"Noto14"
+		"font"			"NotoBold12"
 		"xpos"			"2"
 		"ypos"			"18"
 		"zpos"			"2"
@@ -25,7 +25,7 @@
 	{	
 		"ControlName"	"CExLabel"
 		"fieldName"		"ItemNameLabel"
-		"font"			"Noto14"
+		"font"			"NotoBold12"
 		"xpos"			"2"
 		"ypos"			"9"
 		"zpos"			"1"
@@ -71,7 +71,7 @@
 		"enabled"		"1"
 		"scaleImage"	"1"	
 		"icon"			"hud_menu_sentry_build"
-		"iconColor"		"255 255 255 255"
+		"iconColor"		"0 255 0 255"
 	}
 	
 	"MetalIcon"	

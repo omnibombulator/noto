@@ -88,10 +88,10 @@
 	{	
 		"ControlName"	"CExLabel"
 		"fieldName"		"NumberLabel"
-		"font"			"Noto26"
+		"font"			"NotoBold26"
 		"fgcolor"		"78 78 78 255"
 		"xpos"			"12"
-		"ypos"			"18"
+		"ypos"			"16"
 		"zpos"			"5"
 		"wide"			"100"
 		"tall"			"18"

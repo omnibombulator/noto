@@ -4,8 +4,8 @@
 	{	
 		"ControlName"	"CExLabel"
 		"fieldName"		"CantBuildReason"
-		"font"			"Noto14"
-		"fgcolor"		"RedSolid"
+		"font"			"NotoBold12"
+		"fgcolor"		"NotoRedSolid"
 		"xpos"			"2"
 		"ypos"			"18"
 		"zpos"			"2"
@@ -24,7 +24,7 @@
 	{	
 		"ControlName"	"CExLabel"
 		"fieldName"		"ItemNameLabel"
-		"font"			"Noto14"
+		"font"			"NotoBold12"
 		"xpos"			"2"
 		"ypos"			"9"
 		"zpos"			"1"
@@ -93,8 +93,8 @@
 	{	
 		"ControlName"	"CExLabel"
 		"fieldName"		"CostLabel"
-		"font"			"Noto16"
-		"fgcolor"		"RedSolid"
+		"font"			"NotoBold16"
+		"fgcolor"		"NotoRedSolid"
 		"xpos"			"46"
 		"ypos"			"0"
 		"zpos"			"2"

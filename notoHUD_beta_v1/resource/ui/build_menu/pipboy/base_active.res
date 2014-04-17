@@ -72,7 +72,7 @@
 	{	
 		"ControlName"	"CExLabel"
 		"fieldName"		"CostLabel"
-		"font"			"Noto16"
+		"font"			"NotoBold16"
 		"fgcolor"		"98 98 98 255"
 		"xpos"			"46"
 		"ypos"			"0"
@@ -126,10 +126,10 @@
 	{	
 		"ControlName"	"CExLabel"
 		"fieldName"		"NumberLabel"
-		"font"			"Noto26"
+		"font"			"NotoBold26"
 		"fgcolor"		"78 78 78 255"
 		"xpos"			"12"
-		"ypos"			"18"
+		"ypos"			"16"
 		"zpos"			"5"
 		"wide"			"100"
 		"tall"			"18"

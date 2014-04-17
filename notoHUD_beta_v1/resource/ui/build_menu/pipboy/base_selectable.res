@@ -51,7 +51,7 @@
 		"enabled"		"1"
 		"scaleImage"	"1"	
 		"icon"			"hud_menu_item_bg"
-		"iconColor"		"0 0 0 255"
+		"iconColor"		"ProgressOffWhite"
 	}
 	
 	"BuildingIcon"	
@@ -91,7 +91,7 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"CostLabel"
 		"font"			"HudFontSmall"
-		"fgcolor"		"0 255 0 255"
+		"fgcolor"		"TanDarker"
 		"xpos"			"23"
 		"ypos"			"78"
 		"zpos"			"1"
