@@ -5,6 +5,10 @@ There's no mac/linux support, sorry about that!
 **If fonts are not working for any reason, please be sure to install them to your system.**
 You can do this by selecting the fonts in the resource folder, right-clicking and selecting "Install".
 
+Minimal UI
+-----
+There is an option to have smaller Ammo, Health and Medic Charge numbers. These can be found in alternative files to their standard sized counterparts. These files are **HudAmmoWeapons_minimal.res**, **HudMedicCharge_minimal.res** and **HudPlayerHealth_minimal.res**. Just rename these to **HudAmmoWeapons.res**, **HudMedicCharge.res** and **HudPlayerHealth.res** respectively. To make sure you don't lose the original files, be sure to rename them.
+
 Health/Ammo Shadows
 -----
 You can add shadows to health and ammo in notoHUD, as they are turned off by default.
@@ -93,4 +97,5 @@ Need More Information or Help?
 Check out the notoHUD thread on [teamfortress.tv](http://teamfortress.tv/thread/16965/notohud) for anything you may need. You're free to add me on steam (follow from my tftv profile), but I may not accept your friend request right away. You should also check out teamfortress.tv's TF2 Customization forum for any general hud questions. Pretty much everything that has ever needed to be asked has been, so check it out.
 
 Thanks for using the HUD
-omnibombulator
+
+**omnibombulator**
