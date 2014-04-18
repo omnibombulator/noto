@@ -637,7 +637,9 @@
 		"visible"		"0"
 		"enabled"		"1"
 		"image"			""
+		"paintbackground"	"0"
 		"fillcolor"		"NotoRedSolid"
+		"bgcolor_override"	"NotoRedSolid"
 
 		"src_corner_height"	"23"				// pixels inside the image
 		"src_corner_width"	"23"
@@ -652,9 +654,9 @@
 		"fieldName"		"CountdownLabel"
 		"font"			"NotoBold30"
 		"xpos"			"230"
-		"ypos"			"r45"
+		"ypos"			"r40"
 		"wide"			"40"
-		"tall"			"40"
+		"tall"			"30"
 		"zpos"			"1"
 		"autoResize"		"0"
 		"pinCorner"		"0"
@@ -663,6 +665,7 @@
 		"wrap"			"0"
 		"labelText"		"%tournamentstatelabel%"
 		"textAlignment"		"center"
+		"bgcolor_override"	"NotoRedSolid"
 	}
 	
 	"CountdownLabelShadow"
