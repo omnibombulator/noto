@@ -70,6 +70,9 @@ Scheme
 		"NotoMedicBarCharged2"		"12 90 12 255"
 		"NotoMedicBarBG"			"0 0 0 75"
 		
+		// notoHUD Damage Number
+		"NotoDamage"		"255 255 0 255"
+		
 		// notoHUD xhair colors
 		// NotoCross and NotoCross2 are default colors, NotoCrossDamage will change the color of the crosshair when damage is dealt
 		"NotoCross"			"127 255 0 134"
@@ -3853,6 +3856,17 @@ Scheme
 				"tall"		"24"
 				"additive"  "0"
 				"antialias"	"1"
+			}
+		}
+		"NotoBold24Outline"
+		{
+			"1"
+			{
+				"name"		"Open Sans Bold"
+				"tall"		"24"
+				"additive"  "0"
+				"antialias"	"1"
+				"outline"	"1"
 			}
 		}
 		"NotoBold26"

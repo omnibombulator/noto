@@ -27,7 +27,7 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"TournPanelBG"
-		"xpos"			"0"
+		"xpos"			"c-106"
 		"ypos"			"0"
 		"zpos"			"0"
 		"wide"			"212"
@@ -35,7 +35,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"scaleImage"	"1"
-		"fillcolor"		"32 32 32 255"
+		"fillcolor"		"NotoDark"
 		
 		if_mvm
 		{
@@ -50,7 +50,7 @@
 		"font"			"NotoBold20"
 		"fgcolor_override"		"NotoWhite"
 		"bgcolor_override"	"0 0 0 0"
-		"xpos"			"0"
+		"xpos"			"c-106"
 		"ypos"			"0"
 		"zpos"			"1"
 		"wide"			"200"
@@ -89,7 +89,7 @@
 	{
 		"ControlName"		"TextEntry"
 		"fieldName"		"TournamentNameEdit"
-		"xpos"		"5"
+		"xpos"		"c-102"
 		"ypos"		"22"
 		"zpos"		"4"
 		"wide"		"123"
@@ -133,7 +133,7 @@
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"TournamentNotReadyButton"
-		"xpos"		"130"
+		"xpos"		"c24"
 		"ypos"		"2"
 		"wide"		"80"
 		"tall"		"19"
@@ -170,7 +170,7 @@
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"TournamentReadyButton"
-		"xpos"		"130"
+		"xpos"		"c24"
 		"ypos"		"22"
 		"wide"		"80"
 		"tall"		"19"

@@ -549,7 +549,7 @@
 		"visible"		"1"	[$WIN32]
 		"visible"		"0"	[$X360]
 		"enabled"		"1"
-		"fgcolor"		"32 32 32 255"
+		"fgcolor"		"NotoWhite"
 		
 		if_mvm
 		{
@@ -570,7 +570,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"	"0"	
-		"fillcolor"		"220 220 220 255"
+		"fillcolor"		"NotoScoreBGMain"
 		"PaintBackgroundType"	"0"
 		
 		if_mvm
@@ -847,7 +847,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"bgcolor_override"	"32 32 32 255"
+		"bgcolor_override"	"32 32 32 0"
 		
 		if_mvm
 		{
@@ -1053,14 +1053,14 @@
 		"xpos"			"c-260"
 		"ypos"			"r53"	[$WIN32]
 		"zpos"			"2"
-		"wide"			"81"
+		"wide"			"259"
 		"tall"			"53"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"	"0"	
-		"fillcolor"		"32 32 32 255"
+		"fillcolor"		"NotoScoreBGMain"
 		"PaintBackgroundType"	"0"
 		
 		if_mvm
@@ -1080,10 +1080,10 @@
 		"tall"			"53"
 		"autoResize"	"0"
 		"pinCorner"		"0"
-		"visible"		"1"
+		"visible"		"0"
 		"enabled"		"1"
 		"tabPosition"	"0"	
-		"fillcolor"		"32 32 32 255"
+		"fillcolor"		"NotoScoreBGMain"
 		"PaintBackgroundType"	"0"
 		
 		if_mvm
@@ -1106,7 +1106,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"	"0"	
-		"fillcolor"		"32 32 32 255"
+		"fillcolor"		"NotoScoreBGMain"
 		"PaintBackgroundType"	"0"
 		
 		if_mvm
