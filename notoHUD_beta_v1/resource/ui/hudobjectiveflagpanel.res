@@ -325,7 +325,7 @@
 		
 		"if_specialdelivery"
 		{
-			"visible"	"1"
+			"visible"	"0"
 		}
 	}
 															
@@ -442,7 +442,7 @@
 		"if_specialdelivery"
 		{
 			"xpos"		"c-60"
-			"ypos"		"r50"
+			"ypos"		"r42"
 		}
 		
 		"if_no_flags"
@@ -483,7 +483,7 @@
 		"if_specialdelivery"
 		{	
 			"xpos"		"c-60"
-			"ypos"		"r50"
+			"ypos"		"r42"
 		}
 		
 		"if_no_flags"
