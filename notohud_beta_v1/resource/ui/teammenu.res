@@ -114,7 +114,90 @@
 		"font"			"NotoBold60"
 		"fgcolor_override"		"NotoWhite"
 	}
-	
+	"RandomShortcut"
+	{
+		"ControlName"	"CExButton"
+		"fieldName"		"RandomShortcut"
+		"xpos"			"3"
+		"ypos"			"9999"
+		"zpos"			"6"
+		"visible"		"1"
+		"enabled"		"1"
+		"labelText"		"(&R)"
+		"Command"		"jointeam auto"
+	}
+	"CancelShortcut"
+	{
+		"ControlName"	"CExButton"
+		"fieldName"		"CancelShortcut"
+		"xpos"			"3"
+		"ypos"			"9999"
+		"zpos"			"6"
+		"visible"		"1"
+		"enabled"		"1"
+		"labelText"		"(&Q)"
+		"Command"		"vguicancel"
+	}
+    "SpectatorShortcut"
+	{
+		"ControlName"	"CExButton"
+		"fieldName"		"SpectatorShortcut"
+		"xpos"			"3"
+		"ypos"			"9999"
+		"zpos"			"6"
+		"visible"		"1"
+		"enabled"		"1"
+		"labelText"		"(&E)"
+		"Command"		"jointeam spectate"
+	}
+	"AutoShortcutNum"
+	{
+		"ControlName"	"CExButton"
+		"fieldName"		"AutoShortcut"
+		"xpos"			"3"
+		"ypos"			"9999"
+		"zpos"			"6"
+		"visible"		"1"
+		"enabled"		"1"
+		"labelText"		"(&1)"
+		"Command"		"jointeam auto"
+	}
+    "SpectatorShortcutNum"
+	{
+		"ControlName"	"CExButton"
+		"fieldName"		"SpectatorShortcut"
+		"xpos"			"3"
+		"ypos"			"9999"
+		"zpos"			"6"
+		"visible"		"1"
+		"enabled"		"1"
+		"labelText"		"(&2)"
+		"Command"		"jointeam spectate"
+	}
+    "BlueTeamShortcutNum"
+	{
+		"ControlName"	"CExButton"
+		"fieldName"		"BlueTeamShortcut"
+		"xpos"			"3"
+		"ypos"			"9999"
+		"zpos"			"6"
+		"visible"		"1"
+		"enabled"		"1"
+		"labelText"		"(&3)"
+		"Command"		"jointeam blue"
+	}
+    "RedTeamShortcutNum"
+	{
+		"ControlName"	"CExButton"
+		"fieldName"		"RedTeamShortcut"
+		"xpos"			"3"
+		"ypos"			"9999"
+		"zpos"			"6"
+		"visible"		"1"
+		"enabled"		"1"
+		"labelText"		"(&4)"
+		"Command"		"jointeam red"
+	}
 	"teambutton0"
 	{
 		"ControlName"	"CTFTeamButton"

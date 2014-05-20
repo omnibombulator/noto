@@ -225,4 +225,28 @@
 		"visible"		"0"
 		"enabled"		"0"
 	}		
+	"ContinueShortcut"
+	{
+		"ControlName"	"CExButton"
+		"fieldName"		"ContinueShortcut"
+		"xpos"			"3"
+		"ypos"			"9999"
+		"zpos"			"6"
+		"visible"		"1"
+		"enabled"		"1"
+		"labelText"		"(&E)"
+		"Command"		"okay"
+	}
+	"ContinueShortcut2"
+	{
+		"ControlName"	"CExButton"
+		"fieldName"		"ContinueShortcut2"
+		"xpos"			"3"
+		"ypos"			"9999"
+		"zpos"			"6"
+		"visible"		"1"
+		"enabled"		"1"
+		"labelText"		"(&R)"
+		"Command"		"okay"
+	}
 }

@@ -64,7 +64,30 @@
 		"font"			"NotoBold60"
 		"fgcolor_override"		"NotoWhite"
 	}
-	
+	"FightShortcut"
+	{
+		"ControlName"	"CExButton"
+		"fieldName"		"FightShortcut"
+		"xpos"			"3"
+		"ypos"			"9999"
+		"zpos"			"6"
+		"visible"		"1"
+		"enabled"		"1"
+		"labelText"		"(&R)"
+		"Command"		"jointeam spectate"
+	}
+	"SpectatorShortcut"
+	{
+		"ControlName"	"CExButton"
+		"fieldName"		"SpectatorShortcut"
+		"xpos"			"3"
+		"ypos"			"9999"
+		"zpos"			"6"
+		"visible"		"1"
+		"enabled"		"1"
+		"labelText"		"(&E)"
+		"Command"		"jointeam spectatearena"
+	}
 	"teambutton2"
 	{
 		"ControlName"	"CTFTeamButton"

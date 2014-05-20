@@ -84,8 +84,31 @@
 		"selectonhover"			"1"
 		"keyboardinputenabled"	"0"
 	}
+	"RandomShortcut"
+	{
+		"ControlName"	"CExButton"
+		"fieldName"		"RandomShortcut"
+		"xpos"			"3"
+		"ypos"			"9999"
+		"zpos"			"6"
+		"visible"		"1"
+		"enabled"		"1"
+		"labelText"		"(&R)"
+		"Command"		"joinclass auto"
+	}
+	"CancelShortcut"
+	{
+		"ControlName"	"CExButton"
+		"fieldName"		"CancelShortcut"
+		"xpos"			"3"
+		"ypos"			"9999"
+		"zpos"			"6"
+		"visible"		"1"
+		"enabled"		"1"
+		"labelText"		"(&Q)"
+		"Command"		"vguicancel"
+	}
 	
-		
 	"Offense"
 	{
 		"ControlName"	"CExLabel"

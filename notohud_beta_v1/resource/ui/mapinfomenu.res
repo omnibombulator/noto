@@ -151,6 +151,31 @@
 		"depressedFgColor_override" "NotoGreenSolid"
 		"selectedFgColor_override" 	"NotoGreenSolid"
 	}
+	"ContinueShortcut"
+	{
+		"ControlName"	"CExButton"
+		"fieldName"		"ContinueShortcut"
+		"xpos"			"3"
+		"ypos"			"9999"
+		"zpos"			"6"
+		"visible"		"1"
+		"enabled"		"1"
+		"labelText"		"(&E)"
+		"Command"		"continue"
+	}
+
+	"ContinueShortcut2"
+	{
+		"ControlName"	"CExButton"
+		"fieldName"		"ContinueShortcut2"
+		"xpos"			"3"
+		"ypos"			"9999"
+		"zpos"			"6"
+		"visible"		"1"
+		"enabled"		"1"
+		"labelText"		"(&R)"
+		"Command"		"continue"
+	}
 	
 	"MapInfoWatchIntro" [$WIN32]
 	{
