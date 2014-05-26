@@ -48,7 +48,7 @@
 		"enabled"		"1"
 		"tabPosition"		"0"
 		"bgcolor_override"	"239 128 73 255"
-		"PaintBackgroundType"	"2"
+		"PaintBackgroundType"	"0"
 		"mouseinputenabled" "0"
 		"proportionalToParent"	"1"
 	}
@@ -85,7 +85,7 @@
 		"enabled"		"1"
 		"tabPosition"		"0"
 		"bgcolor_override"	"76 70 66 255"
-		"PaintBackgroundType"	"2"	
+		"PaintBackgroundType"	"0"	
 		"proportionalToParent"	"1"
 	}
 
@@ -123,7 +123,7 @@
 		"enabled"		"1"
 		"tabPosition"		"0"
 		"bgcolor_override"	"42 39 37 255"
-		"PaintBackgroundType"	"2"
+		"PaintBackgroundType"	"0"
 		"mouseinputenabled" "0"
 		"proportionalToParent"	"1"
 	}

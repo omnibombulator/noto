@@ -22,14 +22,14 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"TitleLabel"
-			"font"			"EconFontSmall"
+			"font"			"NotoBold20"
 			"labelText"		"#ConfirmTitle"
 			"textAlignment"	"north"
 			"xpos"			"0"
-			"ypos"			"10"
+			"ypos"			"5"
 			"zpos"			"1"
 			"wide"			"220"
-			"tall"			"30"
+			"tall"			"22"
 			"autoResize"	"1"
 			"pinCorner"		"0"
 			"visible"		"1"
@@ -40,7 +40,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"ExplanationLabel"
-			"font"			"ReplayBrowserSmallest"
+			"font"			"NotoBold12"
 			"labelText"		"%text%"
 			"textAlignment"	"north"
 			"xpos"			"10"
@@ -79,12 +79,22 @@
 			"Command"		"confirm"
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
-			"border_default"			"Econ.Button.Border.Default"
-			"border_armed"				"Econ.Button.Border.Armed"
-			"armedBgColor_override"		"Econ.Button.ArmedBgColor"
-			"armedFgColor_override"		"Econ.Button.ArmedFgColor"
-			"depressedBgColor_override"	"Econ.Button.DepressedBgColor"
-			"depressedFgColor_override"	"Econ.Button.DepressedFgColor"
+			
+			"fgcolor_override"	"NotoWhite"
+			
+			// default style
+			"defaultBgColor_override"	"NotoDarker"
+			"defaultFgColor_override" "NotoWhite"
+			"border_default"		"FuckinBorderDude"
+			
+			// armed style
+			"armedBgColor_override"	"NotoGreenSolid"
+			"armedFgColor_override" 	"NotoWhite"
+			"border_armed"		"FuckinBorderDude"
+		
+			// depressed style    
+			"depressedBgColor_override"	"NotoDarker"
+			"depressedFgColor_override" "NotoWhite"
 		}
 
 		"SpectatorGUIHealth"
@@ -92,10 +102,10 @@
 			"ControlName"		"EditablePanel"
 			"fieldName"			"SpectatorGUIHealth"
 			"xpos"				"165"
-			"ypos"				"39"
+			"ypos"				"45"
 			"zpos"				"20"
-			"wide"				"48"
-			"tall"				"48"
+			"wide"				"32"
+			"tall"				"20"
 			"visible"			"1"
 			"enabled"			"1"	
 			"HealthBonusPosAdj"	"10"

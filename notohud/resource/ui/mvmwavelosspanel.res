@@ -23,7 +23,7 @@
 		"tall"			"350"
 		"visible"		"1"
 		
-		"PaintBackgroundType"	"2"
+		"PaintBackgroundType"	"0"
 		"paintbackground"	"0"
 		"border"		"MainMenuHighlightBorder"
 	}

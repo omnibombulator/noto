@@ -30,40 +30,86 @@
 //		"border"				"QuickplayBorder"
 
 		"mouseoveritempanel"
-		{
-			"ControlName"	"CItemModelPanel"
-			"fieldName"		"mouseoveritempanel"
-			"xpos"			"c-70"
-			"ypos"			"270"
-			"zpos"			"100"
-			"wide"			"300"
-			"tall"			"300"
-			"visible"		"0"
-			"bgcolor_override"		"0 0 0 0"
-			"noitem_textcolor"		"117 107 94 255"
+	{
+		"ControlName"	"EditablePanel"
+		"fieldName"		"mouseoveritempanel"
+		"xpos"			"c-70"
+		"ypos"			"270"
+		"zpos"			"100"
+		"wide"			"300"
+		"tall"			"300"
+		"visible"		"0"
+		"bgcolor_override"		"NotoDarker"
+		"noitem_textcolor"		"110 110 110 255"
+		"PaintBackgroundType"	"2"
+		"border"				"FuckinBorderDude"
+		"border_override"		"FuckinBorderDude"
+		"paintborder"	"1"
+		"paintbackground"	"1"
+		
+		"text_ypos"			"10"
+		"text_center"		"1"
+		"model_hide"		"1"
+		"resize_to_text"	"1"
+		"padding_height"	"6"
+		
+		"BackColor"
+    	{
+    		"ControlName"		"ImagePanel"
+    		"fieldName"			"BackColor"
+    		"xpos"				"0"
+    		"ypos"				"0"
+    		"zpos"				"0"
+    		"wide"				"6"
+    		"tall"	 			"f0"
+    		"visible"			"1"
+    		"enabled"			"1"
+			"pinCorner"		"0"
+			"autoResize"	"0"
+			"paintbackground"		"1"
 			"PaintBackgroundType"	"2"
-			"paintborder"	"1"
-			
-			"text_ypos"			"20"
-			"text_center"		"1"
-			"model_hide"		"1"
-			"resize_to_text"	"1"
-			"padding_height"	"15"
-			
-			"attriblabel"
-			{
-				"font"			"ItemFontAttribLarge"
-				"xpos"			"0"
-				"ypos"			"30"
-				"zpos"			"2"
-				"wide"			"140"
-				"tall"			"60"
-				"labelText"		"%attriblist%"
-				"textAlignment"	"center"
-				"fgcolor"		"117 107 94 255"
-				"centerwrap"	"1"
-			}
+			"border"		"NoBorder"
+			"fillcolor"			"NotoDarker"
+    	}
+		
+		"BackColor2"
+    	{
+    		"ControlName"		"ImagePanel"
+    		"fieldName"			"BackColor2"
+    		"xpos"				"294"
+    		"ypos"				"0"
+    		"zpos"				"0"
+    		"wide"				"6"
+    		"tall"	 			"f0"
+    		"visible"			"1"
+    		"enabled"			"1"
+			"pinCorner"		"0"
+			"autoResize"	"0"
+			"paintbackground"		"1"
+			"PaintBackgroundType"	"2"
+			"border"		"NoBorder"
+			"fillcolor"			"NotoDarker"
+    	}
+		
+		"attriblabel"
+		{
+			"font"			"ItemFontAttribLarge"
+			"xpos"			"0"
+			"ypos"			"30"
+			"zpos"			"2"
+			"wide"			"140"
+			"tall"			"60"
+			"autoResize"	"0"
+			"pinCorner"		"0"
+			"visible"		"1"
+			"enabled"		"1"
+			"labelText"		"%attriblist%"
+			"textAlignment"	"center"
+			"fgcolor"		"110 110 110 255"
+			"bgcolor_override"	"0 0 0 0"
+			"centerwrap"	"1"
 		}
+	}
 
 		"ToolBG"
 		{
@@ -247,7 +293,7 @@
 			{
 				"ControlName"	"CExLabel"
 				"fieldName"		"PageTitleLabel"
-				"font"			"HudFontMediumSmall"
+				"font"			"NotoBold20"
 				"labelText"		"#ToolCustomizeTextureStep1"
 				"textAlignment"	"north-west"
 				"xpos"			"0"
@@ -286,7 +332,7 @@
 					"ControlName"		"RadioButton"
 					"fieldName"			"UseAnyImageRadio"
 					"xpos"				"10"
-					"ypos"				"80"
+					"ypos"				"30"
 					"wide"				"330"
 					"tall"				"20"
 					"labelText"		"#ToolCustomizeTextureUseAnyImage"
@@ -298,8 +344,8 @@
 				{
 					"ControlName"	"CExButton"
 					"fieldName"		"BrowseForNewImageButton"
-					"xpos"			"40"
-					"ypos"			"110"
+					"xpos"			"10"
+					"ypos"			"60"
 					"zpos"			"1"
 					"wide"			"300"
 					"tall"			"20"
@@ -308,15 +354,30 @@
 					"Command"		"pick_image"
 					"sound_depressed"	"UI/buttonclick.wav"
 					"sound_released"	"UI/buttonclickrelease.wav"
+					"fgcolor_override"	"NotoWhite"
+		
+					// default style
+					"defaultBgColor_override"	"NotoDarker"
+					"defaultFgColor_override" "NotoWhite"
+					"border_default"		"FuckinBorderDude"
+					
+					// armed style
+					"armedBgColor_override"	"NotoGreenSolid"
+					"armedFgColor_override" 	"NotoWhite"
+					"border_armed"		"FuckinBorderDude"
+				
+					// depressed style    
+					"depressedBgColor_override"	"NotoDarker"
+					"depressedFgColor_override" "NotoWhite"
 				}
 
 				"ForBestResultsLabel"
 				{
 					"ControlName"		"CExLabel"
 					"fieldName"		"ForBestResultsLabel"
-					"font"			"HudFontSmall"
-					"xpos"		"40"
-					"ypos"		"140"
+					"font"			"NotoSemibold12"
+					"xpos"		"11"
+					"ypos"		"85"
 					"wide"		"300"
 					"tall"		"40"
 					"labelText"		"#ToolCustomizeTextureBestResults"
@@ -386,6 +447,21 @@
 				"Command"		"cancel"
 				"sound_depressed"	"UI/buttonclick.wav"
 				"sound_released"	"UI/buttonclickrelease.wav"
+				"fgcolor_override"	"NotoWhite"
+		
+				// default style
+				"defaultBgColor_override"	"NotoDarker"
+				"defaultFgColor_override" "NotoWhite"
+				"border_default"		"FuckinBorderDude"
+				
+				// armed style
+				"armedBgColor_override"	"NotoGreenSolid"
+				"armedFgColor_override" 	"NotoWhite"
+				"border_armed"		"FuckinBorderDude"
+			
+				// depressed style    
+				"depressedBgColor_override"	"NotoDarker"
+				"depressedFgColor_override" "NotoWhite"
 			}
 			
 			"NextButton"
@@ -403,6 +479,21 @@
 				"Command"		"next_page"
 				"sound_depressed"	"UI/buttonclick.wav"
 				"sound_released"	"UI/buttonclickrelease.wav"
+				"fgcolor_override"	"NotoWhite"
+		
+				// default style
+				"defaultBgColor_override"	"NotoDarker"
+				"defaultFgColor_override" "NotoWhite"
+				"border_default"		"FuckinBorderDude"
+				
+				// armed style
+				"armedBgColor_override"	"NotoGreenSolid"
+				"armedFgColor_override" 	"NotoWhite"
+				"border_armed"		"FuckinBorderDude"
+			
+				// depressed style    
+				"depressedBgColor_override"	"NotoDarker"
+				"depressedFgColor_override" "NotoWhite"
 			}
 		}
 
@@ -422,7 +513,7 @@
 			{
 				"ControlName"	"CExLabel"
 				"fieldName"		"PageTitleLabel"
-				"font"			"HudFontMediumSmall"
+				"font"			"NotoBold20"
 				"labelText"		"#ToolCustomizeTextureStep2"
 				"textAlignment"	"north-west"
 				"xpos"			"0"
@@ -558,6 +649,22 @@
 						"Command"		"prev_stencil_palette"
 						"sound_depressed"	"UI/buttonclick.wav"
 						"sound_released"	"UI/buttonclickrelease.wav"
+						
+						"fgcolor_override"	"NotoWhite"
+		
+						// default style
+						"defaultBgColor_override"	"NotoDarker"
+						"defaultFgColor_override" "NotoWhite"
+						"border_default"		"FuckinBorderDude"
+						
+						// armed style
+						"armedBgColor_override"	"NotoGreenSolid"
+						"armedFgColor_override" 	"NotoWhite"
+						"border_armed"		"FuckinBorderDude"
+					
+						// depressed style    
+						"depressedBgColor_override"	"NotoDarker"
+						"depressedFgColor_override" "NotoWhite"
 					}
 
 					"NextStencilPaletteButton"
@@ -575,6 +682,22 @@
 						"Command"		"next_stencil_palette"
 						"sound_depressed"	"UI/buttonclick.wav"
 						"sound_released"	"UI/buttonclickrelease.wav"
+						
+						"fgcolor_override"	"NotoWhite"
+		
+						// default style
+						"defaultBgColor_override"	"NotoDarker"
+						"defaultFgColor_override" "NotoWhite"
+						"border_default"		"FuckinBorderDude"
+						
+						// armed style
+						"armedBgColor_override"	"NotoGreenSolid"
+						"armedFgColor_override" 	"NotoWhite"
+						"border_armed"		"FuckinBorderDude"
+					
+						// depressed style    
+						"depressedBgColor_override"	"NotoDarker"
+						"depressedFgColor_override" "NotoWhite"
 					}
 
 					"StencilGradientMap"
@@ -620,7 +743,8 @@
 				"zpos"		"-1"
 				"wide"		"180"
 				"tall"		"200"
-				"border"		"GrayDialogBorder"
+				"border"		"FuckinBorderDude"
+				"paintborder"	"0"
 
 				"PreviewFilteredImage"
 				{
@@ -643,12 +767,12 @@
 				"zpos"		"-1"
 				"wide"		"180"
 				"tall"		"200"
-				"border"		"GrayDialogBorder"
+				"border"		"FuckinBorderDude"
 
-				"GradientBgPanel"
+				"GradientBgPanel2"
 				{
 					"ControlName"	"ImagePanel"
-					"FieldName"		"GradientBgPanel"
+					"FieldName"		"GradientBgPanel2"
 					"xpos"			"10"
 					"ypos"			"10"
 					"zpos"			"1"
@@ -657,9 +781,9 @@
 					"visible"		"1"
 					"tileImage"		"0"
 					"scaleImage"	"1"
-					"image"			"loadout_bottom_gradient"
-					"border"		"ButtonBorder"
-					"paintbackgroundtype"	"2"
+					"fillcolor"		"NotoDarker"
+					"border"		"FuckinBorderDude"
+					"paintbackgroundtype"	"0"
 					"paintbackground"	"1"
 				}
 
@@ -670,7 +794,7 @@
 					"font"			"HudFontSmall"
 					"labelText"		"#ToolCustomizeTextureDragToRotate"
 					"textAlignment"	"center"
-					"xpos"			"10"
+					"xpos"			"9999"
 					"ypos"			"170"
 					"zpos"			"2"
 					"wide"			"160"
@@ -694,6 +818,22 @@
 				"Command"		"cancel"
 				"sound_depressed"	"UI/buttonclick.wav"
 				"sound_released"	"UI/buttonclickrelease.wav"
+				
+				"fgcolor_override"	"NotoWhite"
+		
+				// default style
+				"defaultBgColor_override"	"NotoDarker"
+				"defaultFgColor_override" "NotoWhite"
+				"border_default"		"FuckinBorderDude"
+				
+				// armed style
+				"armedBgColor_override"	"NotoGreenSolid"
+				"armedFgColor_override" 	"NotoWhite"
+				"border_armed"		"FuckinBorderDude"
+			
+				// depressed style    
+				"depressedBgColor_override"	"NotoDarker"
+				"depressedFgColor_override" "NotoWhite"
 			}
 
 			"BackButton"
@@ -711,6 +851,22 @@
 				"Command"		"prev_page"
 				"sound_depressed"	"UI/buttonclick.wav"
 				"sound_released"	"UI/buttonclickrelease.wav"
+				
+				"fgcolor_override"	"NotoWhite"
+		
+				// default style
+				"defaultBgColor_override"	"NotoDarker"
+				"defaultFgColor_override" "NotoWhite"
+				"border_default"		"FuckinBorderDude"
+				
+				// armed style
+				"armedBgColor_override"	"NotoGreenSolid"
+				"armedFgColor_override" 	"NotoWhite"
+				"border_armed"		"FuckinBorderDude"
+			
+				// depressed style    
+				"depressedBgColor_override"	"NotoDarker"
+				"depressedFgColor_override" "NotoWhite"
 			}
 
 			"NextButton"
@@ -728,6 +884,22 @@
 				"Command"		"next_page"
 				"sound_depressed"	"UI/buttonclick.wav"
 				"sound_released"	"UI/buttonclickrelease.wav"
+				
+				"fgcolor_override"	"NotoWhite"
+		
+				// default style
+				"defaultBgColor_override"	"NotoDarker"
+				"defaultFgColor_override" "NotoWhite"
+				"border_default"		"FuckinBorderDude"
+				
+				// armed style
+				"armedBgColor_override"	"NotoGreenSolid"
+				"armedFgColor_override" 	"NotoWhite"
+				"border_armed"		"FuckinBorderDude"
+			
+				// depressed style    
+				"depressedBgColor_override"	"NotoDarker"
+				"depressedFgColor_override" "NotoWhite"
 			}
 		}
 
@@ -745,7 +917,7 @@
 			{
 				"ControlName"	"CExLabel"
 				"fieldName"		"PageTitleLabel"
-				"font"			"HudFontMediumSmall"
+				"font"			"NotoBold20"
 				"labelText"		"#ToolCustomizeTextureStep3"
 				"textAlignment"	"north-west"
 				"xpos"			"0"
@@ -761,7 +933,7 @@
 				"fieldName"		"WarningTextGroupBox"
 				"Font"		"HudFontSmallestBold"
 				"xpos"		"0"
-				"ypos"		"25"
+				"ypos"		"18"
 				"zpos"		"-1"
 				"wide"		"350"
 				"tall"		"200"
@@ -771,9 +943,9 @@
 				{
 					"ControlName"		"CExLabel"
 					"fieldName"		"WarningText"
-					"font"			"HudFontSmall"
+					"font"			"Noto16"
 					"xpos"		"10"
-					"ypos"		"10"
+					"ypos"		"0"
 					"wide"		"330"
 					"tall"		"180"
 					"labelText"		 "#ToolCustomizeTextureConfirmWarning"
@@ -793,10 +965,10 @@
 				"tall"		"200"
 				"border"		"GrayDialogBorder"
 
-				"GradientBgPanel"
+				"GradientBgPanel2"
 				{
 					"ControlName"	"ImagePanel"
-					"FieldName"		"GradientBgPanel"
+					"FieldName"		"GradientBgPanel2"
 					"xpos"			"10"
 					"ypos"			"10"
 					"zpos"			"1"
@@ -805,9 +977,9 @@
 					"visible"		"1"
 					"tileImage"		"0"
 					"scaleImage"	"1"
-					"image"			"loadout_bottom_gradient"
-					"border"		"ButtonBorder"
-					"paintbackgroundtype"	"2"
+					"fillcolor"		"NotoDarker"
+					"border"		"FuckinBorderDude"
+					"paintbackgroundtype"	"0"
 					"paintbackground"	"1"
 				}
 
@@ -818,7 +990,7 @@
 					"font"			"HudFontSmall"
 					"labelText"		"#ToolCustomizeTextureDragToRotate"
 					"textAlignment"	"center"
-					"xpos"			"10"
+					"xpos"			"9999"
 					"ypos"			"170"
 					"zpos"			"2"
 					"wide"			"160"
@@ -843,6 +1015,22 @@
 				"Command"		"cancel"
 				"sound_depressed"	"UI/buttonclick.wav"
 				"sound_released"	"UI/buttonclickrelease.wav"
+				
+				"fgcolor_override"	"NotoWhite"
+		
+				// default style
+				"defaultBgColor_override"	"NotoDarker"
+				"defaultFgColor_override" "NotoWhite"
+				"border_default"		"FuckinBorderDude"
+				
+				// armed style
+				"armedBgColor_override"	"NotoGreenSolid"
+				"armedFgColor_override" 	"NotoWhite"
+				"border_armed"		"FuckinBorderDude"
+			
+				// depressed style    
+				"depressedBgColor_override"	"NotoDarker"
+				"depressedFgColor_override" "NotoWhite"
 			}
 
 			"BackButton"
@@ -860,6 +1048,22 @@
 				"Command"		"prev_page"
 				"sound_depressed"	"UI/buttonclick.wav"
 				"sound_released"	"UI/buttonclickrelease.wav"
+				
+				"fgcolor_override"	"NotoWhite"
+		
+				// default style
+				"defaultBgColor_override"	"NotoDarker"
+				"defaultFgColor_override" "NotoWhite"
+				"border_default"		"FuckinBorderDude"
+				
+				// armed style
+				"armedBgColor_override"	"NotoGreenSolid"
+				"armedFgColor_override" 	"NotoWhite"
+				"border_armed"		"FuckinBorderDude"
+			
+				// depressed style    
+				"depressedBgColor_override"	"NotoDarker"
+				"depressedFgColor_override" "NotoWhite"
 			}
 
 			"OkButton"
@@ -878,6 +1082,21 @@
 				"Command"		"apply"
 				"sound_depressed"	"UI/buttonclick.wav"
 				"sound_released"	"UI/buttonclickrelease.wav"
+				"fgcolor_override"	"NotoWhite"
+		
+				// default style
+				"defaultBgColor_override"	"NotoDarker"
+				"defaultFgColor_override" "NotoWhite"
+				"border_default"		"FuckinBorderDude"
+				
+				// armed style
+				"armedBgColor_override"	"NotoGreenSolid"
+				"armedFgColor_override" 	"NotoWhite"
+				"border_armed"		"FuckinBorderDude"
+			
+				// depressed style    
+				"depressedBgColor_override"	"NotoDarker"
+				"depressedFgColor_override" "NotoWhite"
 			}
 		}
 

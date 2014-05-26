@@ -52,7 +52,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		
-		"PaintBackgroundType" "2"
+		"PaintBackgroundType" "0"
 		"bgcolor_override"	"97 94 85 255"
 	}
 	
@@ -70,8 +70,8 @@
 		"visible"		"1"
 		"enabled"		"1"
 		
-		"PaintBackgroundType" "2"
-		"bgcolor_override"	"235 226 202 255"
+		"PaintBackgroundType" "0"
+		"bgcolor_override"	"NotoDark"
 	}
 	
 	"Icon"
@@ -99,7 +99,7 @@
 		"ControlName"	"Label"
 		"fieldName"		"PriceLabel"
 		"xpos"			"2"
-		"ypos"			"32"
+		"ypos"			"31"
 		"wide"			"30"
 		"tall"			"13"
 		"zpos"			"25"
@@ -111,7 +111,7 @@
 		
 		"labelText"		""
 		"textAlignment"	"center"
-		"font"			"HudFontSmall"
+		"font"			"NotoBold16"
 	}
 	
 	"ShortDescriptionLabel"
@@ -132,7 +132,7 @@
 		
 		"labelText"		""
 		"textAlignment"	"center-west"
-		"font"			"HudFontSmallest"
+		"font"			"NotoSemibold12"
 	}
 	
 	"BuySellBG"
@@ -149,7 +149,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		
-		"PaintBackgroundType" "2"
+		"PaintBackgroundType" "0"
 		"bgcolor_override"	"117 114 103 255"
 	}
 	

@@ -10,15 +10,15 @@
 		"tall"			"80"
 		"autoResize"	"0"
 		"pinCorner"		"0"
-		"visible"		"1"
+		"visible"		"0"
 		"enabled"		"1"
 		"image"			"../HUD/tournament_panel_brown"
 
 		"src_corner_height"	"22"				// pixels inside the image
 		"src_corner_width"	"22"
 	
-		"draw_corner_width"	"5"				// screen size of the corners ( and sides ), proportional
-		"draw_corner_height" 	"5"	
+		"draw_corner_width"	"0"				// screen size of the corners ( and sides ), proportional
+		"draw_corner_height" 	"0"	
 	}
 	
 	"WaveCompleteContainer"
@@ -28,9 +28,9 @@
 		"xpos"			"0"
 		"ypos"			"0"
 		"wide"			"250"
-		"tall"			"35"
+		"tall"			"42"
 		"visible"		"1"
-		"PaintBackgroundType" "2"
+		"PaintBackgroundType" "0"
 		
 		"WaveCompleteLabelShadow"
 		{
@@ -39,11 +39,11 @@
 			"font"			"HudFontMediumSmallBold"
 			"textAlignment"	"center"
 			"labelText"		"%titletext%"
-			"xpos"			"3"
+			"xpos"			"9999"
 			"ypos"			"3"
 			"wide"			"245"
 			"tall"			"36"
-			"visible"		"1"
+			"visible"		"0"
 			"enabled"		"1"
 			"fgcolor"		"black"		
 			
@@ -57,16 +57,16 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"WaveCompleteLabel"
-			"font"			"HudFontMediumSmallBold"
+			"font"			"NotoBold40"
 			"textAlignment"	"center"
 			"labelText"		"%titletext%"
 			"xpos"			"2"
-			"ypos"			"2"
+			"ypos"			"0"
 			"wide"			"244"
-			"tall"			"35"
+			"tall"			"40"
 			"visible"		"1"
 			"enabled"		"1"
-			"fgcolor"		"tanlight"		
+			"fgcolor"		"NotoWhite"		
 		}
 	}
 		
@@ -75,7 +75,7 @@
 		"ControlName"	"EditablePanel"
 		"fieldName"		"CreditContainer"
 		"xpos"			"0"
-		"ypos"			"30"
+		"ypos"			"35"
 		"wide"			"400"
 		"tall"			"400"
 		"autoResize"	"1"
@@ -85,11 +85,11 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"CreditCollectedTextLabel"
-			"font"			"HudFontSmall"
+			"font"			"NotoBold16"
 			"labelText"		"#TF_PVE_CurrencyCollected"
 			"textAlignment" "north-east"
 			"xpos"			"0"
-			"ypos"			"5"
+			"ypos"			"2"
 			"wide"			"105"
 			"tall"			"20"
 			"fgcolor"		"tanlight"
@@ -99,11 +99,11 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"CreditCollectedCountLabel"
-			"font"			"HudFontSmall"
+			"font"			"NotoBold16"
 			"labelText"		"%creditscollected%"
 			"textAlignment" "north-east"
 			"xpos"			"115"
-			"ypos"			"5"
+			"ypos"			"2"
 			"wide"			"30"
 			"tall"			"20"
 			"fgcolor"		"CreditsGreen"
@@ -113,11 +113,11 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"CreditMissedTextLabel"
-			"font"			"HudFontSmall"
+			"font"			"NotoBold16"
 			"labelText"		"#TF_PVE_Missed"
 			"textAlignment" "north-east"
 			"xpos"			"0"
-			"ypos"			"17"
+			"ypos"			"15"
 			"wide"			"105"
 			"tall"			"20"
 			"fgcolor"		"tanlight"
@@ -127,11 +127,11 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"CreditMissedCountLabel"
-			"font"			"HudFontSmall"
+			"font"			"NotoBold16"
 			"labelText"		"%creditsmissed%"
 			"textAlignment" "north-east"
 			"xpos"			"115"
-			"ypos"			"17"
+			"ypos"			"15"
 			"wide"			"30"
 			"tall"			"20"
 			"fgcolor"		"RedSolid"
@@ -141,11 +141,11 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"CreditBonusTextLabel"
-			"font"			"HudFontSmall"
+			"font"			"NotoBold16"
 			"labelText"		"#TF_PVE_Bonus"
 			"textAlignment" "north-east"
 			"xpos"			"0"
-			"ypos"			"29"
+			"ypos"			"28"
 			"wide"			"105"
 			"tall"			"20"
 			"fgcolor"		"tanlight"
@@ -155,11 +155,11 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"CreditBonusCountLabel"
-			"font"			"HudFontSmall"
+			"font"			"NotoBold16"
 			"labelText"		"%creditbonus%"
 			"textAlignment" "north-east"
 			"xpos"			"115"
-			"ypos"			"29"
+			"ypos"			"28"
 			"wide"			"30"
 			"tall"			"20"
 			"fgcolor"		"CreditsGreen"
@@ -184,11 +184,11 @@
 			"font"			"HudFontSmall"
 			"labelText"		"%ratinglabel%"
 			"textAlignment" "center"
-			"xpos"			"0"
+			"xpos"			"9999"
 			"ypos"			"5"
 			"wide"			"115"
 			"tall"			"20"
-			"fgcolor"		"tanlight"
+			"fgcolor"		"NotoWhite"
 		}
 		
 		"RatingTextShadow"
@@ -198,7 +198,7 @@
 			"font"			"HudFontMediumBold"
 			"labelText"		"%ratingscore%"
 			"textAlignment" "center"
-			"xpos"			"1"
+			"xpos"			"9999"
 			"ypos"			"20"
 			"wide"			"115"
 			"tall"			"30"
@@ -209,13 +209,13 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"RatingText"
-			"font"			"HudFontMediumBold"
+			"font"			"NotoBold52"
 			"labelText"		"%ratingscore%"
 			"textAlignment" "center"
 			"xpos"			"0"
-			"ypos"			"19"
+			"ypos"			"0"
 			"wide"			"115"
-			"tall"			"30"
+			"tall"			"52"
 			"fgcolor"		"White"
 		}
 	}
@@ -224,7 +224,7 @@
 	{
 		"ControlName"	"ScalableImagePanel"
 		"fieldName"		"RespecBackground"
-		"xpos"			"0"
+		"xpos"			"9999"
 		"ypos"			"80"
 		"wide"			"250"
 		"tall"			"25"
@@ -237,8 +237,8 @@
 		"src_corner_height"	"22"				// pixels inside the image
 		"src_corner_width"	"22"
 	
-		"draw_corner_width"	"5"				// screen size of the corners ( and sides ), proportional
-		"draw_corner_height" 	"5"	
+		"draw_corner_width"	"0"				// screen size of the corners ( and sides ), proportional
+		"draw_corner_height" 	"0"	
 	}
 
 	"RespecContainer"
@@ -250,13 +250,13 @@
 		"wide"			"250"
 		"tall"			"25"
 		"visible"		"1"
-		"PaintBackgroundType" "2"
+		"PaintBackgroundType" "0"
 	
 		"RespecTextLabelWin"
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"RespecTextLabelWin"
-			"font"			"HudFontSmall"
+			"font"			"NotoBold16"
 			"labelText"		"#TF_PVE_Respecs"
 			"textAlignment" "center"
 			"xpos"			"0"
@@ -270,7 +270,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"RespecCountLabel"
-			"font"			"HudFontSmall"
+			"font"			"NotoBold16"
 			"labelText"		"%respeccount%"
 			"textAlignment" "center"
 			"xpos"			"145"

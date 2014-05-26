@@ -135,7 +135,7 @@ Scheme
 		ScrollBarButton.DepressedBgColor	"Blank"
 
 		ScrollBarSlider.FgColor				"NotoDark"
-		ScrollBarSlider.BgColor				"Blank"
+		ScrollBarSlider.BgColor				"43 43 43 255"
 
 		Slider.NobColor				"NotoWhite"
 		Slider.TextColor			"NotoWhite"
