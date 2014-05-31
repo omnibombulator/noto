@@ -19,14 +19,14 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"TitleLabel"
-		"font"			"HudFontSmallBold"
+		"font"			"NotoBold20"
 		"labelText"		"#TF_Item_SelectStyle"
 		"textAlignment"	"center"
 		"xpos"			"0"
 		"ypos"			"0"
 		"zpos"			"0"
 		"wide"			"280"
-		"tall"			"60"
+		"tall"			"45"
 		"autoResize"	"1"
 		"pinCorner"		"0"
 		"visible"		"1"
@@ -86,13 +86,13 @@
 		"NumericInputOnly"	"0"
 		"unicode"			"0"
 		
-		"fgcolor_override"	"117 107 94 255"
-		"bgcolor_override"	"251 235 202 0"
-		"disabledFgColor_override" "117 107 94 0"
-		"disabledBgColor_override" "251 235 202 0"
-		"selectionColor_override" "0 0 0 0"
-		"selectionTextColor_override" "117 107 94 255"
-		"defaultSelectionBG2Color_override" "251 235 202 255"
+		"fgcolor_override"	"NotoWhite"
+		"bgcolor_override"	"NotoDarker"
+		"disabledFgColor_override" "NotoWhite"
+		"disabledBgColor_override" "NotoDarker"
+		"selectionColor_override" "NotoDarker"
+		"selectionTextColor_override" "NotoWhite"
+		"defaultSelectionBG2Color_override" "NotoDarker"
 	}
 		
 	"CancelButton"
@@ -118,6 +118,22 @@
 		"Command"		"cancel"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
+		
+		"fgcolor_override"	"NotoWhite"
+		
+		// default style
+		"defaultBgColor_override"	"NotoDarker"
+		"defaultFgColor_override" "NotoWhite"
+		"border_default"		"FuckinBorderDude"
+		
+		// armed style
+		"armedBgColor_override"	"NotoGreenSolid"
+		"armedFgColor_override" 	"NotoWhite"
+		"border_armed"		"FuckinBorderDude"
+		
+		// depressed style    
+		"depressedBgColor_override"	"NotoDarker"
+		"depressedFgColor_override" "NotoWhite"
 	}
 	
 	"OkButton"
@@ -143,5 +159,21 @@
 		"Command"		"apply"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
+		
+		"fgcolor_override"	"NotoWhite"
+		
+		// default style
+		"defaultBgColor_override"	"NotoDarker"
+		"defaultFgColor_override" "NotoWhite"
+		"border_default"		"FuckinBorderDude"
+		
+		// armed style
+		"armedBgColor_override"	"NotoGreenSolid"
+		"armedFgColor_override" 	"NotoWhite"
+		"border_armed"		"FuckinBorderDude"
+		
+		// depressed style    
+		"depressedBgColor_override"	"NotoDarker"
+		"depressedFgColor_override" "NotoWhite"
 	}
 }

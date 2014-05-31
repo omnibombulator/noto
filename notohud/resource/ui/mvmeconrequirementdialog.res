@@ -39,7 +39,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"ExplanationLabel"
-		"font"			"HudFontSmallBold"
+		"font"			"NotoBold16"
 		"labelText"		"%text%"
 		"textAlignment"	"north"
 		"xpos"			"40"
@@ -93,6 +93,21 @@
 		"Command"		"show_in_store"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
+		"fgcolor_override"	"NotoWhite"
+		
+		// default style
+		"defaultBgColor_override"	"NotoDarker"
+		"defaultFgColor_override" "NotoWhite"
+		"border_default"		"FuckinBorderDude"
+		
+		// armed style
+		"armedBgColor_override"	"NotoGreenSolid"
+		"armedFgColor_override" 	"NotoWhite"
+		"border_armed"		"FuckinBorderDude"
+	
+		// depressed style    
+		"depressedBgColor_override"	"NotoDarker"
+		"depressedFgColor_override" "NotoWhite"
 	}			
 
 	"ConfirmButton"
@@ -118,5 +133,20 @@
 		"Command"		"confirm"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
+		"fgcolor_override"	"NotoWhite"
+		
+		// default style
+		"defaultBgColor_override"	"NotoDarker"
+		"defaultFgColor_override" "NotoWhite"
+		"border_default"		"FuckinBorderDude"
+		
+		// armed style
+		"armedBgColor_override"	"NotoGreenSolid"
+		"armedFgColor_override" 	"NotoWhite"
+		"border_armed"		"FuckinBorderDude"
+	
+		// depressed style    
+		"depressedBgColor_override"	"NotoDarker"
+		"depressedFgColor_override" "NotoWhite"
 	}			
 }

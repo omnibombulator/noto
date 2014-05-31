@@ -10,7 +10,7 @@
 		"wide"			"f0"
 		"tall"			"480"
 		"visible"		"1"
-		"bgcolor_override"		"20 20 20 245"
+		"bgcolor_override"		"0 0 0 240"
 	}
 	
 
@@ -19,9 +19,9 @@
 		"ControlName"	"EditablePanel"
 		"fieldName"		"BannerContainer"
 		"xpos"			"c-300"
-		"ypos"			"20"
+		"ypos"			"10"
 		"wide"			"600"
-		"tall"			"50"
+		"tall"			"64"
 		"visible"		"1"
 		"enabled"		"1"
 		
@@ -29,7 +29,7 @@
 		{
 			"ControlName"	"ScalableImagePanel"
 			"fieldName"		"BannerImage"
-			"xpos"			"0"
+			"xpos"			"9999"
 			"ypos"			"0"
 			"wide"			"600"
 			"tall"			"50"
@@ -52,7 +52,7 @@
 			"font"			"HudFontBiggerBold"
 			"labelText"		"#TF_MVM_Victory_Complete"
 			"textAlignment" "center"
-			"xpos"			"2"
+			"xpos"			"9999"
 			"ypos"			"2"
 			"wide"			"600"
 			"tall"			"35"
@@ -63,13 +63,13 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"BannerTextDropShadow"
-			"font"			"HudFontBiggerBold"
+			"font"			"NotoBold62"
 			"labelText"		"#TF_MVM_Victory_Complete"
 			"textAlignment" "center"
 			"xpos"			"0"
 			"ypos"			"0"
 			"wide"			"600"
-			"tall"			"35"
+			"tall"			"64"
 			"fgcolor"		"tanlight"
 		}
 	}

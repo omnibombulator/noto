@@ -93,13 +93,13 @@
 		"enabled" "0"
 		"zpos" "2"
 
-		"xpos" "1"
+		"xpos" "c-101"
 		"ypos" "c-101"
-		"wide" "f0"
-		"tall" "198"
+		"wide" "197"
+		"tall" "200"
 
-		"font" "Crosshairs32"
-		"labelText" "0"
+		"font" "Crosshairs24"
+		"labelText" "3"
 		"textAlignment" "center"
 
 		"fgcolor" "NotoCross2"
@@ -238,35 +238,31 @@
 		"ypos" 	"0"
 		"tall"	"480"
 		"RightMargin" "0"
-		"RightMargin_hidef" "32"
-		"RightMargin_lodef" "38"
 		"visible" "1"
 		"enabled" "1"
-		"SmallBoxWide" "72"
-		"SmallBoxTall" "54"
+		"SmallBoxWide" "100"
+		"SmallBoxTall" "55"
 		"PlusStyleBoxWide" "90"
 		"PlusStyleBoxTall" "63"
-		"PlusStyleExpandSelected"	"0.3"
-		"LargeBoxWide" "110"
-		"LargeBoxTall" "77"
-		"BoxGap" "4"	[$WIN32]
-		"BoxGap" "4"	[$X360]
-		"SelectionNumberXPos" "12"
-		"SelectionNumberYPos" "4"
+		"PlusStyleExpandSelected"	"0"
+		"LargeBoxWide" "120"
+		"LargeBoxTall" "55"
+		"BoxGap" "2"	[$WIN32]
+		"SelectionNumberXPos" "4"
+		"SelectionNumberYPos" "-2"
 		"IconXPos" "8"
 		"IconYPos" "0"
 		"TextYPos" "70"		[$WIN32]
-		"TextYPos" "65"		[$X360]
 		"ErrorYPos" "48"
-		"TextColor" "SelectionTextFg"
+		"TextColor" "NotoWhite"
 		"MaxSlots"	"6"
 		"PlaySelectSounds"	"1"
-		"Alpha" "220"
-		"SelectionAlpha" "220"
-		"BoxColor" "0 0 0 220"
-		"SelectedBoxClor" "0 0 0 220"
-		"SelectionNumberFg"	"200 187 161 255"
-		"NumberFont" "HudSelectionText"
+		"Alpha" "255"
+		"SelectionAlpha" "255"
+		"BoxColor" "0 0 0 255"
+		"SelectedBoxClor" "0 0 0 255"
+		"SelectionNumberFg"	"NotoWhite"
+		"NumberFont" "NotoBold16"
 	}	
 	
 	CHudAccountPanel
@@ -938,9 +934,9 @@
 		"visible"				"1"
 		"enabled"				"1"
 		"xpos"					"c-150"
-		"ypos"					"255"
+		"ypos"					"c-180"
 		"wide"					"300"
-		"tall"					"215"
+		"tall"					"f0"
 	}
 
 	StatPanel

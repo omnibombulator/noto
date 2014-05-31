@@ -5,7 +5,7 @@
 		"ControlName"	"EditablePanel"
 		"fieldName"		"SplashContainer"
 		"xpos"			"c-150"
-		"ypos"			"c-20"
+		"ypos"			"c16"
 		"wide"			"300"
 		"tall"			"300"
 		"visible"		"1"
@@ -14,7 +14,7 @@
 		{
 			"ControlName"		"ScalableImagePanel"
 			"fieldName"		"SplashBackground"
-			"xpos"			"25"
+			"xpos"			"9999"
 			"ypos"			"0"
 			"wide"			"250"
 			"tall"			"70"
@@ -32,7 +32,7 @@
 			"font"			"HudFontGiantBold"
 			"labelText"		"Victory!"
 			"textAlignment" "center"
-			"xpos"			"2"
+			"xpos"			"9999"
 			"ypos"			"14"
 			"wide"			"300"
 			"tall"			"50"
@@ -43,13 +43,13 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"SplashLabel"
-			"font"			"HudFontGiantBold"
+			"font"			"NotoBold58"
 			"labelText"		"Victory!"
 			"textAlignment" "center"
 			"xpos"			"0"
-			"ypos"			"12"
+			"ypos"			"0"
 			"wide"			"300"
-			"tall"			"50"
+			"tall"			"58"
 			"fgcolor"		"tanlight"
 		}
 	}

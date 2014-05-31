@@ -23,14 +23,14 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"TitleLabel"
-		"font"			"EconFontMedium"
+		"font"			"NotoBold36"
 		"labelText"		"#ConfirmTitle"
 		"textAlignment"	"north"
 		"xpos"			"0"
-		"ypos"			"15"
+		"ypos"			"8"
 		"zpos"			"1"
 		"wide"			"300"
-		"tall"			"20"
+		"tall"			"36"
 		"autoResize"	"1"
 		"pinCorner"		"0"
 		"visible"		"1"
@@ -56,7 +56,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"ExplanationLabel"
-		"font"			"EconFontSmall"
+		"font"			"NotoBold16"
 		"labelText"		"%text%"
 		"textAlignment"	"north-west"
 		"xpos"			"60"
@@ -87,7 +87,7 @@
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"labelText"		"#GameUI_CancelBold"
-		"font"			"EconFontSmall"
+		"font"			"NotoBold20"
 		"textAlignment"	"center"
 		"textinsetx"	"50"
 		"dulltext"		"0"
@@ -95,12 +95,22 @@
 		"Command"		"cancel"
 		"sound_depressed"			"UI/buttonclick.wav"
 		"sound_released"			"UI/buttonclickrelease.wav"
-		"border_default"			"Econ.Button.Border.Default"
-		"border_armed"				"Econ.Button.Border.Armed"
-		"armedBgColor_override"		"Econ.Button.ArmedBgColor"
-		"armedFgColor_override"		"Econ.Button.ArmedFgColor"
-		"depressedBgColor_override"	"Econ.Button.DepressedBgColor"
-		"depressedFgColor_override"	"Econ.Button.DepressedFgColor"
+		
+		"fgcolor_override"	"NotoWhite"
+			
+		// default style
+		"defaultBgColor_override"	"NotoDarker"
+		"defaultFgColor_override" "NotoWhite"
+		"border_default"		"FuckinBorderDude"
+		
+		// armed style
+		"armedBgColor_override"	"NotoGreenSolid"
+		"armedFgColor_override" 	"NotoWhite"
+		"border_armed"		"FuckinBorderDude"
+	
+		// depressed style    
+		"depressedBgColor_override"	"NotoDarker"
+		"depressedFgColor_override" "NotoWhite"
 	}		
 
 	"ConfirmButton"
@@ -119,7 +129,7 @@
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"labelText"		"#ConfirmButtonText"
-		"font"			"EconFontSmall"
+		"font"			"NotoBold20"
 		"textAlignment"	"center"
 		"textinsetx"	"50"
 		"dulltext"		"0"
@@ -127,11 +137,20 @@
 		"Command"		"confirm"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
-		"border_default"			"Econ.Button.Border.Default"
-		"border_armed"				"Econ.Button.Border.Armed"
-		"armedBgColor_override"		"Econ.Button.ArmedBgColor"
-		"armedFgColor_override"		"Econ.Button.ArmedFgColor"
-		"depressedBgColor_override"	"Econ.Button.DepressedBgColor"
-		"depressedFgColor_override"	"Econ.Button.DepressedFgColor"
+		"fgcolor_override"	"NotoWhite"
+			
+		// default style
+		"defaultBgColor_override"	"NotoDarker"
+		"defaultFgColor_override" "NotoWhite"
+		"border_default"		"FuckinBorderDude"
+		
+		// armed style
+		"armedBgColor_override"	"NotoGreenSolid"
+		"armedFgColor_override" 	"NotoWhite"
+		"border_armed"		"FuckinBorderDude"
+	
+		// depressed style    
+		"depressedBgColor_override"	"NotoDarker"
+		"depressedFgColor_override" "NotoWhite"
 	}			
 }

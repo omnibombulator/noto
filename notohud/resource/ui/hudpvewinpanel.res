@@ -4,7 +4,7 @@
 	{
 		"ControlName"		"ScalableImagePanel"
 		"fieldName"		"WinPanelBG"
-		"xpos"			"0"
+		"xpos"			"9999"
 		"ypos"			"50"
 		"zpos"			"0"
 		"wide"			"300"
@@ -19,8 +19,8 @@
 		"src_corner_height"	"22"				// pixels inside the image
 		"src_corner_width"	"22"
 	
-		"draw_corner_width"	"5"				// screen size of the corners ( and sides ), proportional
-		"draw_corner_height" 	"5"	
+		"draw_corner_width"	"0"				// screen size of the corners ( and sides ), proportional
+		"draw_corner_height" 	"0"	
 	}
 
 	"WaveCompleteContainer"
@@ -28,11 +28,11 @@
 		"ControlName"	"EditablePanel"
 		"fieldName"		"WaveCompleteContainer"
 		"xpos"			"0"
-		"ypos"			"50"
+		"ypos"			"55"
 		"wide"			"300"
-		"tall"			"24"
+		"tall"			"46"
 		"visible"		"1"
-		"PaintBackgroundType" "2"
+		"PaintBackgroundType" "0"
 		
 		"WinningTeamLabelDropshadow"
 		{	
@@ -40,7 +40,7 @@
 			"fieldName"		"WinningTeamLabelDropshadow"
 			"font"			"HudFontMediumSmallBold"
 			"fgcolor"		"black"
-			"xpos"			"3"
+			"xpos"			"9999"
 			"ypos"			"3"
 			"wide"			"295"
 			"tall"			"26"
@@ -54,20 +54,20 @@
 			"brighttext"		"0"
 			
 			// blue Background
-			"PaintBackgroundType" "2"
+			"PaintBackgroundType" "0"
 			"fgcolor_override"	"black"		
-			"bgcolor_override"	"91 122 142 200"
+			"bgcolor_override"	"91 122 142 0"
 		}
 		
 		"WinningTeamLabel"
 		{	
 			"ControlName"		"CExLabel"
 			"fieldName"		"WinningTeamLabel"
-			"font"			"HudFontMediumSmallBold"
-			"xpos"			"2"
+			"font"			"NotoBold40"
+			"xpos"			"0"
 			"ypos"			"2"
-			"wide"			"295"
-			"tall"			"26"
+			"wide"			"300"
+			"tall"			"40"
 			"autoResize"		"0"
 			"pinCorner"		"0"
 			"visible"		"1"
@@ -81,11 +81,11 @@
 	{	
 		"ControlName"		"CExLabel"
 		"fieldName"		"WinReasonLabel"
-		"font"			"HudFontSmall"
+		"font"			"NotoBold16"
 		"xpos"			"0"
-		"ypos"			"80"
+		"ypos"			"90"
 		"zpos"			"1"
-		"wide"			"292"
+		"wide"			"300"
 		"tall"			"20"
 		"autoResize"		"0"
 		"pinCorner"		"0"
@@ -101,11 +101,11 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"DetailsLabel"
-		"font"			"HudFontSmallest"
-		"xpos"			"15"
-		"ypos"			"100"
+		"font"			"NotoBold12"
+		"xpos"			"0"
+		"ypos"			"105"
 		"zpos"			"1"
-		"wide"			"265"
+		"wide"			"300"
 		"tall"			"30"
 		"autoResize"		"0"
 		"pinCorner"		"0"
@@ -123,7 +123,7 @@
 	{
 		"ControlName"	"ScalableImagePanel"
 		"fieldName"		"RespecBackground"
-		"xpos"			"0"
+		"xpos"			"9999"
 		"ypos"			"142"
 		"wide"			"300"
 		"tall"			"25"
@@ -136,8 +136,8 @@
 		"src_corner_height"	"22"				// pixels inside the image
 		"src_corner_width"	"22"
 	
-		"draw_corner_width"	"5"				// screen size of the corners ( and sides ), proportional
-		"draw_corner_height" 	"5"	
+		"draw_corner_width"	"0"				// screen size of the corners ( and sides ), proportional
+		"draw_corner_height" 	"0"	
 	}
 
 	"RespecContainer"
