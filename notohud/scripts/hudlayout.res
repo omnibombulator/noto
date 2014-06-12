@@ -1052,6 +1052,18 @@
 		"PaintBackgroundType"	"0"
 	}
 	
+	"HudEurekaEffectTeleportMenu"
+	{
+		"fieldName" 	"HudEurekaEffectTeleportMenu"
+		"visible" 		"1"
+		"enabled" 		"1"
+		"xpos"			"c-143"
+		"ypos"			"c16"
+		"wide"			"286"
+		"tall"			"200"
+		"PaintBackgroundType"	"0"
+	}
+	
 	"HudMenuSpyDisguise"
 	{
 		"fieldName" 	"HudMenuSpyDisguise"
