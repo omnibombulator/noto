@@ -22,28 +22,6 @@
 		"fgcolor" 		 "192 192 192 20"
 	}
 	
-	KonrWangs
-	{
-		"controlName"	"CExLabel"
-		"fieldName"	 	"KonrWangs"
-		"visible"		"0"
-		"enabled"		"0"
-		"zpos"			"2"
-
-		"xpos"			"c-100"
-		"ypos"			"c-100"
-		"wide"			"200"
-		"tall"			"200"
-
-		//"font"		"KonrWingsOutline24"
-
-		"font"			"BonrWingsOutline30"
-		"labelText"		"(  )"
-		"textAlignment"	"center"	
-		
-		"fgcolor"		"NotoCross2"
-	}
-	
 	KonrWings
 	{
 		"controlName"	"CExLabel"
@@ -91,8 +69,8 @@
 	{
 		"controlName" "CExLabel"
 		"fieldName" "BanjoTooie"
-		"visible" "1"
-		"enabled" "1"
+		"visible" "0"
+		"enabled" "0"
 		"zpos" "2"
 
 		"xpos" "1"
@@ -112,7 +90,7 @@
 		"controlName" "CExLabel"
 		"fieldName" "FogNew"
 		"visible" "0"
-		"enabled" "1"
+		"enabled" "0"
 		"zpos" "2"
 
 		"xpos" "c-101"
@@ -181,7 +159,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"xpos"			"r162"	[$WIN32]
-		"ypos"			"c102"	[$WIN32]
+		"ypos"			"r52"	[$WIN32]
 		"wide"			"100"
 		"tall"			"8"
 	}
@@ -215,8 +193,8 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"xpos"			"c-45"	[$WIN32]
-		"ypos"			"c102"	[$WIN32]
-		"zpos"			"2"			// draw in front of ammo
+		"ypos"			"c93"	[$WIN32]
+		"zpos"			"1"			// draw in front of ammo
 		"wide"			"90"
 		"tall"			"8"
 	}
@@ -1442,12 +1420,10 @@
  		"fieldName" 	"HudMenuTauntSelection"
  		"visible" 		"1"
  		"enabled" 		"1"
- 		"xpos"			"c-235"
- 		"ypos"			"c-52"
- 		"ypos_hidef"	"c-42"
- 		"ypos_lodef"	"c-42"
- 		"wide"			"470"
- 		"tall"			"200"
+ 		"xpos"			"0"
+ 		"ypos"			"0"
+ 		"wide"			"f0"
+ 		"tall"			"480"
  		"PaintBackgroundType"	"0"
 	}
 }
