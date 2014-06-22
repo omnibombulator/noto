@@ -156,7 +156,7 @@
 		"armedFgColor_override"		"NotoWhite"
 		"depressedFgColor_override" "NotoWhite"
 		"selectedFgColor_override" 	"NotoGreenSolid"
-			
+		
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 		"sound_armed"		"UI/buttonrollover.wav"
@@ -166,10 +166,25 @@
 		"Default"				"1"
 		"selectonhover"			"1"
 		"keyboardinputenabled"	"0"
+		
+		"SubImage"
+		{
+			"ControlName"	"ImagePanel"
+			"fieldName"		"SubImage"
+			"xpos"			"0"
+			"ypos"			"0"
+			"zpos"			"7"
+			"wide"			"0"
+			"tall"			"0"
+			"visible"		"1"
+			"enabled"		"1"
+			"image"			"class_sel_sm_sniper_inactive"
+			"scaleImage"	"1"
+		}
 
 	}
 	"soldier"
-		{
+	{
 		"ControlName"		"CExImageButton"
 		"fieldName"			"soldier"
 		"xpos"				"5"
@@ -205,10 +220,25 @@
 		"Default"				"1"
 		"selectonhover"			"1"
 		"keyboardinputenabled"	"0"
-
-		}
-	"pyro"
+		
+		"SubImage"
 		{
+			"ControlName"	"ImagePanel"
+			"fieldName"		"SubImage"
+			"xpos"			"0"
+			"ypos"			"0"
+			"zpos"			"7"
+			"wide"			"0"
+			"tall"			"0"
+			"visible"		"1"
+			"enabled"		"1"
+			"image"			"class_sel_sm_sniper_inactive"
+			"scaleImage"	"1"
+		}
+
+	}
+	"pyro"
+	{
 		"ControlName"		"CExImageButton"
 		"fieldName"			"pyro"
 		"xpos"				"5"
@@ -244,8 +274,23 @@
 		"Default"				"1"
 		"selectonhover"			"1"
 		"keyboardinputenabled"	"0"
-
+		
+		"SubImage"
+		{
+			"ControlName"	"ImagePanel"
+			"fieldName"		"SubImage"
+			"xpos"			"0"
+			"ypos"			"0"
+			"zpos"			"7"
+			"wide"			"0"
+			"tall"			"0"
+			"visible"		"1"
+			"enabled"		"1"
+			"image"			"class_sel_sm_sniper_inactive"
+			"scaleImage"	"1"
 		}
+
+	}
 	
 	"Defense"
 	{
@@ -270,7 +315,7 @@
 		"fgcolor_lodef"	"White"
 	}
 	"demoman"
-		{
+	{
 		"ControlName"		"CExImageButton"
 		"fieldName"			"demoman"
 		"xpos"				"5"
@@ -306,10 +351,25 @@
 		"Default"				"1"
 		"selectonhover"			"1"
 		"keyboardinputenabled"	"0"
+		
+		"SubImage"
+		{
+			"ControlName"	"ImagePanel"
+			"fieldName"		"SubImage"
+			"xpos"			"0"
+			"ypos"			"0"
+			"zpos"			"7"
+			"wide"			"0"
+			"tall"			"0"
+			"visible"		"1"
+			"enabled"		"1"
+			"image"			"class_sel_sm_sniper_inactive"
+			"scaleImage"	"1"
 		}
+	}
 		
 	"heavyweapons"
-		{
+	{
 		"ControlName"		"CExLabel"
 		"fieldName"			"heavyweapons"
 		"xpos"				"5"
@@ -345,7 +405,22 @@
 		"Default"				"1"
 		"selectonhover"			"1"
 		"keyboardinputenabled"	"0"
+		
+		"SubImage"
+		{
+			"ControlName"	"ImagePanel"
+			"fieldName"		"SubImage"
+			"xpos"			"0"
+			"ypos"			"0"
+			"zpos"			"7"
+			"wide"			"0"
+			"tall"			"0"
+			"visible"		"1"
+			"enabled"		"1"
+			"image"			"class_sel_sm_sniper_inactive"
+			"scaleImage"	"1"
 		}
+	}
 		
 	"engineer"
 	{
@@ -384,6 +459,21 @@
 		"Default"				"1"
 		"selectonhover"			"1"
 		"keyboardinputenabled"	"0"
+		
+		"SubImage"
+		{
+			"ControlName"	"ImagePanel"
+			"fieldName"		"SubImage"
+			"xpos"			"0"
+			"ypos"			"0"
+			"zpos"			"7"
+			"wide"			"0"
+			"tall"			"0"
+			"visible"		"1"
+			"enabled"		"1"
+			"image"			"class_sel_sm_sniper_inactive"
+			"scaleImage"	"1"
+		}
 	}
 
 	
@@ -409,7 +499,7 @@
 		"fgcolor_lodef"	"TanLight"
 	}
 	"medic"
-			{
+	{
 		"ControlName"		"CExImageButton"
 		"fieldName"			"medic"
 		"xpos"				"5"
@@ -445,9 +535,24 @@
 		"Default"				"1"
 		"selectonhover"			"1"
 		"keyboardinputenabled"	"0"
-		}
-	"sniper"
+		
+		"SubImage"
 		{
+			"ControlName"	"ImagePanel"
+			"fieldName"		"SubImage"
+			"xpos"			"0"
+			"ypos"			"0"
+			"zpos"			"7"
+			"wide"			"0"
+			"tall"			"0"
+			"visible"		"1"
+			"enabled"		"1"
+			"image"			"class_sel_sm_sniper_inactive"
+			"scaleImage"	"1"
+		}
+	}
+	"sniper"
+	{
 		"ControlName"		"CExImageButton"
 		"fieldName"			"sniper"
 		"xpos"				"5"
@@ -473,19 +578,33 @@
 		"armedFgColor_override"		"NotoWhite"
 		"depressedFgColor_override" "NotoWhite"
 		"selectedFgColor_override" 	"NotoGreenSolid"
-			
+		
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
-		"sound_armed"		"UI/buttonrollover.wav"
-		
+		"sound_armed"		"UI/buttonrollover.wav"		
 		
 		"stayselectedonclick"	"1"
 		"Default"				"1"
 		"selectonhover"			"1"
 		"keyboardinputenabled"	"0"
-		}
-	"spy"
+		
+		"SubImage"
 		{
+			"ControlName"	"ImagePanel"
+			"fieldName"		"SubImage"
+			"xpos"			"0"
+			"ypos"			"0"
+			"zpos"			"7"
+			"wide"			"0"
+			"tall"			"0"
+			"visible"		"1"
+			"enabled"		"1"
+			"image"			"class_sel_sm_sniper_inactive"
+			"scaleImage"	"1"
+		}
+	}
+	"spy"
+	{
 		"ControlName"		"CExImageButton"
 		"fieldName"			"spy"
 		"xpos"				"5"
@@ -516,12 +635,26 @@
 		"sound_released"	"UI/buttonclickrelease.wav"
 		"sound_armed"		"UI/buttonrollover.wav"
 		
-		
 		"stayselectedonclick"	"1"
 		"Default"				"1"
 		"selectonhover"			"1"
 		"keyboardinputenabled"	"0"
+		
+		"SubImage"
+		{
+			"ControlName"	"ImagePanel"
+			"fieldName"		"SubImage"
+			"xpos"			"0"
+			"ypos"			"0"
+			"zpos"			"7"
+			"wide"			"0"
+			"tall"			"0"
+			"visible"		"1"
+			"enabled"		"1"
+			"image"			"class_sel_sm_sniper_inactive"
+			"scaleImage"	"1"
 		}
+	}
 
 	"CancelButton" [$WIN32] 
 	{
