@@ -1263,13 +1263,14 @@
 		"ControlName"	"EditablePanel"
 		"fieldName"		"HudAchievementTracker"
 		"xpos"			"5"
-		"NormalY"		"10"
-		"EngineerY"		"10"
+		"NormalY"		"300"
+		"EngineerY"		"300"
 		"zpos"			"2"
 		"wide"			"200"
-		"tall"			"280"
+		"tall"			"110"
 		"visible"		"1"
-		"enabled"		"1"	
+		"enabled"		"1"
+		"bgcolor_override"		"0 0 0 0"		
 	}
 	
 	HudTrainingInfoMsg

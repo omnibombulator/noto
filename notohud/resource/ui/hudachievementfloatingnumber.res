@@ -25,7 +25,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"fgcolor"		"TanLight"
-		"font"			"ScoreboardMediumSmall"	//AchievementTracker_Name
+		"font"			"NotoBold16"	//AchievementTracker_Name
 		"textAlignment"		"north-west"
 	}
 }
