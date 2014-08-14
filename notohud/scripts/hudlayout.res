@@ -552,7 +552,7 @@
 		"CornerRadius"	  "0"
 		"RightJustify"	  "1"	// If 1, draw notices from the right
 		
-		"TextFont"		"Noto12"
+		"TextFont"		"NotoSemibold12"
 		
 		"TeamBlue"		"HUDBlueTeamSolid"
 		"TeamRed"		"HUDRedTeamSolid"
@@ -1263,13 +1263,14 @@
 		"ControlName"	"EditablePanel"
 		"fieldName"		"HudAchievementTracker"
 		"xpos"			"5"
-		"NormalY"		"10"
-		"EngineerY"		"10"
+		"NormalY"		"300"
+		"EngineerY"		"300"
 		"zpos"			"2"
 		"wide"			"200"
-		"tall"			"280"
+		"tall"			"110"
 		"visible"		"1"
-		"enabled"		"1"	
+		"enabled"		"1"
+		"bgcolor_override"		"0 0 0 0"		
 	}
 	
 	HudTrainingInfoMsg
@@ -1413,6 +1414,18 @@
 		"enabled"		"1"
 		"bgcolor_override"	"0 0 0 0"
 		"PaintBackgroundType"	"0" // rounded corners
+	}
+	
+	CTFFlagCalloutPanel
+	{
+		"fieldName"		"CTFFlagCalloutPanel"
+		"visible" 		"0"
+		"enabled" 		"1"
+		"xpos"			"0"
+		"ypos"			"0"
+		"wide"	 		"40"
+		"tall"	 		"40"
+		"priority"		"40"
 	}
 	
 	"HudMenuTauntSelection"
