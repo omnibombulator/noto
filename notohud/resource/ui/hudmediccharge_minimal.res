@@ -36,7 +36,7 @@
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"font"			"NotoBold42"
-		"fgcolor"		"220 220 220 255"
+		"fgcolor"		"NotoMedicNormal"
 	}
 
 	"IndividualChargesLabel"
@@ -58,7 +58,7 @@
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"font"			"NotoBold42"
-		"fgcolor"		"220 220 220 255"
+		"fgcolor"		"NotoMedicNormal"
 	}
 	
 	"ChargeMeter"
@@ -79,7 +79,7 @@
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"bgcolor_override"	"NotoMedicBarBG"
-		"fgcolor_override" 		"32 160 32 255"
+		"fgcolor_override" 		"NotoMedicBarNormal"
 	}		
 
 	"ChargeMeter1"
