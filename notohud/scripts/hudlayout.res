@@ -7,7 +7,7 @@
 		"font"			"xHairCircle"
 		"visible" 		 "0"
 		"enabled" 		 "0"
-		"zpos"			"2"
+		"zpos"			"0"
 
 		"xpos" 		 "1"
 		"ypos" 		 "c-103"
@@ -28,7 +28,7 @@
 		"fieldName"	 	"KonrWings"
 		"visible"		"0"
 		"enabled"		"0"
-		"zpos"			"2"
+		"zpos"			"0"
 
 		"xpos"			"c-108"
 		"ypos"			"c-100"
@@ -71,7 +71,7 @@
 		"fieldName" "BanjoTooie"
 		"visible" "0"
 		"enabled" "0"
-		"zpos" "2"
+		"zpos" "0"
 
 		"xpos" "1"
 		"ypos" "c-101"
@@ -91,7 +91,7 @@
 		"fieldName" "FogNew"
 		"visible" "0"
 		"enabled" "0"
-		"zpos" "2"
+		"zpos" "0"
 
 		"xpos" "c-101"
 		"ypos" "c-101"
@@ -193,7 +193,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"xpos"			"c-45"	[$WIN32]
-		"ypos"			"c93"	[$WIN32]
+		"ypos"			"c102"	[$WIN32]
 		"zpos"			"1"			// draw in front of ammo
 		"wide"			"90"
 		"tall"			"8"
@@ -554,8 +554,8 @@
 		
 		"TextFont"		"NotoSemibold12"
 		
-		"TeamBlue"		"HUDBlueTeamSolid"
-		"TeamRed"		"HUDRedTeamSolid"
+		"TeamBlue"		"NotoBlueSolid"
+		"TeamRed"		"NotoRedSolid"
 		"IconColor"		"HudWhite"
 		"LocalPlayerColor"	"HUDBlack"
 
@@ -1263,14 +1263,13 @@
 		"ControlName"	"EditablePanel"
 		"fieldName"		"HudAchievementTracker"
 		"xpos"			"5"
-		"NormalY"		"300"
-		"EngineerY"		"300"
+		"NormalY"		"10"
+		"EngineerY"		"10"
 		"zpos"			"2"
 		"wide"			"200"
-		"tall"			"110"
+		"tall"			"280"
 		"visible"		"1"
-		"enabled"		"1"
-		"bgcolor_override"		"0 0 0 0"		
+		"enabled"		"1"	
 	}
 	
 	HudTrainingInfoMsg
