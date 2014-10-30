@@ -14,6 +14,8 @@
 		"enabled"		"1"
 		"tabPosition"		"0"
 		"bgcolor_override"	"0 0 0 240"
+		
+		"event247_image"	"illustrations/gamemode_halloween2014"
 	}
 
 	"Container"
