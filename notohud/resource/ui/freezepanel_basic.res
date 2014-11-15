@@ -30,7 +30,7 @@
 		"itemmodelpanel"
 		{
 			"fieldName"		"itemmodelpanel"
-			"use_item_rendertarget" "1"
+			"use_item_rendertarget" "0"
 			"useparentbg"		"1"
 		}
 		
@@ -73,7 +73,15 @@
 			"fgcolor"		"235 226 202 255"
 			"centerwrap"	"1"
 		}
-	}		
+	}	
+
+	"FreezePanel"
+	{
+		"ControlName"	"CTFFreezePanel"
+		"fieldName"		"FreezePanel"
+
+		"screenshot_move_panel_to_corner"	"1"
+	}	
 	
 	"FreezePanelBase"	[$WIN32]
 	{

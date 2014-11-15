@@ -25,22 +25,6 @@
 		"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
 		"draw_corner_height" 	"0"	
 	}
-	"TargetBG2"
-		{
-			"ControlName" "ImagePanel"
-			"fieldName" "TargetBG2"
-			"xpos" 		"0"
-			"ypos" 		"0"
-			"zpos" 		"-1"
-			"wide" 		"32"
-			"tall" 		"20"
-			"autoResize" "0"
-			"pinCorner" "0"
-			"visible" 	"1"
-			"enabled" 	"1"
-			"fillcolor" "32 32 32 255"
-			
-		}
 	"TargetBG"
 		{
 			"ControlName" "ImagePanel"
@@ -105,7 +89,7 @@
 		"ControlName"		"Label"
 		"fieldName"		"TargetNameLabel"
 		"font"			"NotoBold16"
-		"xpos"			"42"
+		"xpos"			"0"
 		"ypos"			"2"
 		"zpos"			"1"
 		"wide"			"640"
