@@ -5,14 +5,14 @@
 		"fieldName"				"ConfirmApplyStrangePartApplicationDialog"
 		"visible"				"1"
 		"enabled"				"1"
-		"xpos"					"c-200"
-		"ypos"					"c-200"
-		"wide"					"400"
-		"tall"					"240"
+		"xpos"					"0"
+		"ypos"					"0"
+		"wide"					"f0"
+		"tall"					"f0"
 		"bgcolor_override"		"46 43 42 0"
 		"paintbackgroundtype"	"0"
 		"settitlebarvisible"	"0"
-		"border"				"GrayDialogBorder"
+		"border"				"NoBorder"
 	}
 
 	"mouseoveritempanel"
@@ -25,9 +25,9 @@
 		"wide"			"300"
 		"tall"			"300"
 		"visible"		"0"
-		"bgcolor_override"		"NotoDarker"
+		"bgcolor_override"		"NotoBlack"
 		"noitem_textcolor"		"110 110 110 255"
-		"PaintBackgroundType"	"2"
+		"PaintBackgroundType"	"0"
 		"border"				"FuckinBorderDude"
 		"border_override"		"FuckinBorderDude"
 		"paintborder"	"1"
@@ -38,44 +38,6 @@
 		"model_hide"		"1"
 		"resize_to_text"	"1"
 		"padding_height"	"6"
-		
-		"BackColor"
-    	{
-    		"ControlName"		"ImagePanel"
-    		"fieldName"			"BackColor"
-    		"xpos"				"0"
-    		"ypos"				"0"
-    		"zpos"				"0"
-    		"wide"				"6"
-    		"tall"	 			"f0"
-    		"visible"			"1"
-    		"enabled"			"1"
-			"pinCorner"		"0"
-			"autoResize"	"0"
-			"paintbackground"		"1"
-			"PaintBackgroundType"	"2"
-			"border"		"NoBorder"
-			"fillcolor"			"NotoDarker"
-    	}
-		
-		"BackColor2"
-    	{
-    		"ControlName"		"ImagePanel"
-    		"fieldName"			"BackColor2"
-    		"xpos"				"294"
-    		"ypos"				"0"
-    		"zpos"				"0"
-    		"wide"				"6"
-    		"tall"	 			"f0"
-    		"visible"			"1"
-    		"enabled"			"1"
-			"pinCorner"		"0"
-			"autoResize"	"0"
-			"paintbackground"		"1"
-			"PaintBackgroundType"	"2"
-			"border"		"NoBorder"
-			"fillcolor"			"NotoDarker"
-    	}
 		
 		"attriblabel"
 		{
@@ -96,16 +58,31 @@
 			"centerwrap"	"1"
 		}
 	}
+	
+	"DarkBG"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"DarkBG"
+		"xpos"			"c-200"
+		"ypos"			"c-145"
+		"zpos"			"-2"
+		"wide"			"400"
+		"tall"			"240"
+		"visible"		"1"
+		"enabled"		"1"
+		"scaleImage"	"1"
+		"fillcolor"		"24 24 24 255"
+	}
 
 	"TitleLabel"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"TitleLabel"
-		"font"			"HudFontSmallBold"
+		"font"			"NotoBold16"
 		"labelText"		"dynamic"
 		"textAlignment"	"center"
-		"xpos"			"100"
-		"ypos"			"10"
+		"xpos"			"c-100"
+		"ypos"			"c-135"
 		"zpos"			"0"
 		"wide"			"200"
 		"tall"			"60"
@@ -123,8 +100,8 @@
 		"font"			"HudFontSmallBold"
 		"labelText"		""
 		"textAlignment"	"east"
-		"xpos"			"10"
-		"ypos"			"10"
+		"xpos"			"c-190"
+		"ypos"			"c-135"
 		"zpos"			"-1"
 		"wide"			"84"
 		"tall"			"64"
@@ -139,8 +116,8 @@
 	{
 		"ControlName"	"ScalableImagePanel"
 		"fieldName"		"tool_icon"
-		"xpos"			"10"
-		"ypos"			"10"
+		"xpos"			"c-190"
+		"ypos"			"c-135"
 		"zpos"			"2"
 		"wide"			"16"
 		"tall"			"16"
@@ -155,8 +132,8 @@
 	{		
 		"ControlName"	"CItemModelPanel"
 		"fieldName"		"tool_modelpanel"
-		"xpos"			"10"
-		"ypos"			"10"
+		"xpos"			"c-190"
+		"ypos"			"c-135"
 		"zpos"			"1"
 		"wide"			"84"
 		"tall"			"64"
@@ -186,8 +163,8 @@
 		"font"			"HudFontSmallBold"
 		"labelText"		""
 		"textAlignment"	"east"
-		"xpos"			"300"
-		"ypos"			"10"
+		"xpos"			"c105"
+		"ypos"			"c-135"
 		"zpos"			"-1"
 		"wide"			"84"
 		"tall"			"64"
@@ -202,8 +179,8 @@
 	{
 		"ControlName"	"ScalableImagePanel"
 		"fieldName"		"subject_icon"
-		"xpos"			"300"
-		"ypos"			"10"
+		"xpos"			"c105"
+		"ypos"			"c-135"
 		"zpos"			"2"
 		"wide"			"16"
 		"tall"			"16"
@@ -218,8 +195,8 @@
 	{		
 		"ControlName"	"CItemModelPanel"
 		"fieldName"		"subject_modelpanel"
-		"xpos"			"300"
-		"ypos"			"10"
+		"xpos"			"c105"
+		"ypos"			"c-135"
 		"zpos"			"1"
 		"wide"			"84"
 		"tall"			"64"
@@ -246,14 +223,14 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"ConfirmLabel"
-		"font"			"HudFontSmall"
-		"labelText"		"#ToolStrangePartApplyConfirm"
+		"font"			"NotoBold16"
+		"labelText"		"#ToolPaintConfirm"
 		"textAlignment"	"center"
-		"xpos"			"20"
-		"ypos"			"80"
+		"xpos"			"c-200"
+		"ypos"			"c20"
 		"zpos"			"0"
-		"wide"			"360"
-		"tall"			"60"
+		"wide"			"400"
+		"tall"			"20"
 		"autoResize"	"1"
 		"pinCorner"		"0"
 		"visible"		"1"
@@ -265,10 +242,10 @@
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"CancelButton"
-		"xpos"			"50"
-		"ypos"			"200"
+		"xpos"			"c5"
+		"ypos"			"c50"
 		"zpos"			"1"
-		"wide"			"130"
+		"wide"			"175"
 		"tall"			"25"
 		"autoResize"	"0"
 		"pinCorner"		"3"
@@ -276,7 +253,7 @@
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"labelText"		"#Cancel"
-		"font"			"HudFontSmallBold"
+		"font"			"NotoBold24"
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
@@ -286,30 +263,24 @@
 		"sound_released"	"UI/buttonclickrelease.wav"
 		
 		"fgcolor_override"	"NotoWhite"
-		
-		// default style
-		"defaultBgColor_override"	"NotoDarker"
-		"defaultFgColor_override" "NotoWhite"
-		"border_default"		"FuckinBorderDude"
-		
-		// armed style
-		"armedBgColor_override"	"NotoGreenSolid"
-		"armedFgColor_override" 	"NotoWhite"
-		"border_armed"		"FuckinBorderDude"
-		
-		// depressed style    
-		"depressedBgColor_override"	"NotoDarker"
+
+		"defaultFgColor_override" "NotoGray"
+		"armedFgColor_override" "NotoWhite"
 		"depressedFgColor_override" "NotoWhite"
+		
+		"defaultBgColor_override" "0 0 0 0"
+		"armedBgColor_override" "0 0 0 0"
+		"depressedBgColor_override" "0 0 0 0"
 	}
 	
 	"OkButton"
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"OkButton"
-		"xpos"			"220"
-		"ypos"			"200"
+		"xpos"			"c-180"
+		"ypos"			"c50"
 		"zpos"			"1"
-		"wide"			"130"
+		"wide"			"175"
 		"tall"			"25"
 		"autoResize"	"0"
 		"pinCorner"		"3"
@@ -317,7 +288,7 @@
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"labelText"		"#CraftNameConfirm"
-		"font"			"HudFontSmallBold"
+		"font"			"NotoBold24"
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
@@ -325,20 +296,15 @@
 		"Command"		"apply"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
+		
 		"fgcolor_override"	"NotoWhite"
 		
-		// default style
-		"defaultBgColor_override"	"NotoDarker"
-		"defaultFgColor_override" "NotoWhite"
-		"border_default"		"FuckinBorderDude"
-		
-		// armed style
-		"armedBgColor_override"	"NotoGreenSolid"
-		"armedFgColor_override" 	"NotoWhite"
-		"border_armed"		"FuckinBorderDude"
-		
-		// depressed style    
-		"depressedBgColor_override"	"NotoDarker"
+		"defaultFgColor_override" "NotoGray"
+		"armedFgColor_override" "NotoWhite"
 		"depressedFgColor_override" "NotoWhite"
+		
+		"defaultBgColor_override" "0 0 0 0"
+		"armedBgColor_override" "0 0 0 0"
+		"depressedBgColor_override" "0 0 0 0"
 	}
 }

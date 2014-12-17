@@ -504,19 +504,19 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"PlayerNameLabel"
-		"font"			"HudFontMediumSmall"
+		"font"			"NotoBold20"
 		"labelText"		"%name%"
-		"textAlignment" "south"
-		"xpos"			"-10"
-		"ypos"			"-50"
-		"wide"			"250"
-		"tall"			"32"
-		"fgcolor"		"tanlight"
-		"proportionalToParent"	"1"
+		"textAlignment" "center"
+		"xpos"			"c-200"
+		"ypos"			"12"
+		"wide"			"400"
+		"tall"			"20"
+		"fgcolor"		"NotoWhite"
+		//"proportionalToParent"	"1"
 
-		"pin_to_sibling"               "playermodelpanel"
-		"pin_corner_to_sibling"        "2"          
-		"pin_to_sibling_corner"        "0"     
+		//"pin_to_sibling"               "playermodelpanel"
+		//"pin_corner_to_sibling"        "2"          
+		//"pin_to_sibling_corner"        "0"     
 	}
 
 

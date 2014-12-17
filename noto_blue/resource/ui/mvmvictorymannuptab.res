@@ -122,7 +122,7 @@
 		"visible"		"0"
 		"enabled"		"1"
 		"tabPosition"		"0"
-		"bgcolor_override"	"42 39 37 255"
+		"bgcolor_override"	"NotoBlack"
 		"PaintBackgroundType"	"0"
 		"mouseinputenabled" "0"
 		"proportionalToParent"	"1"

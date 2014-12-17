@@ -44,46 +44,39 @@
 			"centerwrap"	"1"
 		}
 	}
-
+	
 	"DoneButton"
 	{
 		"ControlName"	"CExImageButton"
 		"fieldName"		"DoneButton"
-		"xpos"			"c175"
-		"ypos"			"372"
+		"xpos"			"r84"
+		"ypos"			"0"
 		"zpos"			"100"
-		"wide"			"106"
-		"tall"			"25"
+		"wide"			"80"
+		"tall"			"26"
 		"autoResize"	"0"
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"labelText"		"#DoneButton"
-		"font"			"HudFontSmallBold"
-		"textAlignment"	"center"
+		"font"			"NotoBold24"
+		"textAlignment"	"east"
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"default"		"1"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 		
-		"fgcolor_override"	"NotoWhite"
-			
-		// default style
-		"defaultBgColor_override"	"NotoDarker"
+		"paintbackground"	"1"
+		
 		"defaultFgColor_override" "NotoWhite"
-		"border_default"		"FuckinBorderDude"
+		"armedFgColor_override" "NotoBlack"
+		"depressedFgColor_override" "NotoBlack"
 		
-		// armed style
-		"armedBgColor_override"	"NotoGreenSolid"
-		"armedFgColor_override" 	"NotoWhite"
-		"border_armed"		"FuckinBorderDude"
+		"defaultBgColor_override" "0 0 0 0"
+		"armedBgColor_override" "0 0 0 0"
+		"depressedBgColor_override" "0 0 0 0"
 		
-		// depressed style    
-		"depressedBgColor_override"	"NotoDarker"
-		"depressedFgColor_override" "NotoWhite"
-		
-		"image_drawcolor"	"235 226 202 255"
 		"Command"		"done"
 	}
 
