@@ -130,7 +130,7 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"SaxtonBackgroundPanel"
-		"xpos"			"c-325"
+		"xpos"			"9999"
 		"ypos"			"0"
 		"wide"			"300"
 		"tall"			"300"

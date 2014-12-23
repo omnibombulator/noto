@@ -117,7 +117,7 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"SaxtonBackgroundPanel"
-		"xpos"			"c-315"
+		"xpos"			"9999"
 		"ypos"			"10"
 		"wide"			"300"
 		"tall"			"300"
@@ -128,7 +128,7 @@
 		{
 			"ControlName"	"ImagePanel"
 			"fieldName"		"MannCoImage"
-			"xpos"			"15"
+			"xpos"			"9999"
 			"ypos"			"0"
 			"zpos"			"0"
 			"wide"			"220"
@@ -142,7 +142,7 @@
 		{
 			"ControlName"	"ImagePanel"
 			"fieldName"		"SaxtonImage"
-			"xpos"			"0"
+			"xpos"			"9999"
 			"ypos"			"65"
 			"zpos"			"1"
 			"wide"			"275"

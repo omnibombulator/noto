@@ -88,7 +88,7 @@
 			"ypos"				"7"
 			"wide"				"50"
 			"tall"				"25"
-			"bgcolor_override"	"60 53 46 255"
+			"bgcolor_override"	"NotoDark"
 			"PaintBackgroundType" "0"
 			"proportionalToParent"	"1"
 
@@ -122,7 +122,7 @@
 			"zpos"				"-1"
 			"wide"				"50"
 			"tall"				"25"
-			"bgcolor_override"	"60 53 46 255"
+			"bgcolor_override"	"NotoDark"
 			"PaintBackgroundType" "0"
 			"proportionalToParent"	"1"
 
@@ -186,7 +186,7 @@
 				"tall"			"40"
 				"visible"		"1"
 				"PaintBackgroundType"	"0"
-				"bgcolor_override"		"60 53 46 255"
+				"bgcolor_override"		"NotoDark"
 				"proportionalToParent"	"1"
 				"skip_autoresize"	"1"
 			}
@@ -201,7 +201,7 @@
 				"tall"			"40"
 				"visible"		"1"
 				"PaintBackgroundType"	"0"
-				"bgcolor_override"		"60 53 46 255"
+				"bgcolor_override"		"NotoDark"
 				"proportionalToParent"	"1"
 				"skip_autoresize"	"1"
 			}
@@ -216,7 +216,7 @@
 				"tall"			"40"
 				"visible"		"1"
 				"PaintBackgroundType"	"0"
-				"bgcolor_override"		"60 53 46 255"
+				"bgcolor_override"		"NotoDark"
 				"proportionalToParent"	"1"
 				"skip_autoresize"	"1"
 			}
@@ -231,7 +231,7 @@
 				"tall"			"40"
 				"visible"		"1"
 				"PaintBackgroundType"	"0"
-				"bgcolor_override"		"60 53 46 255"
+				"bgcolor_override"		"NotoDark"
 				"proportionalToParent"	"1"
 				"skip_autoresize"	"1"
 			}
@@ -246,7 +246,7 @@
 				"tall"			"40"
 				"visible"		"1"
 				"PaintBackgroundType"	"0"
-				"bgcolor_override"		"60 53 46 255"
+				"bgcolor_override"		"NotoDark"
 				"proportionalToParent"	"1"
 				"skip_autoresize"	"1"
 			}
@@ -261,7 +261,7 @@
 				"tall"			"40"
 				"visible"		"1"
 				"PaintBackgroundType"	"0"
-				"bgcolor_override"		"60 53 46 255"
+				"bgcolor_override"		"NotoDark"
 				"proportionalToParent"	"1"
 				"skip_autoresize"	"1"
 			}
@@ -355,7 +355,7 @@
 			"wide"			"f0"
 			"tall"			"f0"
 			"visible"		"1"
-			"bgcolor_override"		"60 53 46 255"
+			"bgcolor_override"		"NotoDark"
 			"proportionalToParent"	"1"
 
 			"LevelProgressBarFGAnim"
@@ -368,7 +368,7 @@
 				"wide"			"f0"
 				"tall"			"f0"
 				"visible"		"0"
-				"bgcolor_override"	"208 145 58 255"
+				"bgcolor_override"	"NotoBackground"
 				"proportionalToParent"	"1"
 
 				"visible"		"1"
@@ -384,7 +384,7 @@
 				"wide"			"20"
 				"tall"			"f0"
 				"visible"		"1"
-				"bgcolor_override"	"TanDark"
+				"bgcolor_override"	"NotoBackground"
 				"proportionalToParent"	"1"
 			}
 		}

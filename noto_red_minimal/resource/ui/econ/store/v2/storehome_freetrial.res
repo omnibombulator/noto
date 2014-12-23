@@ -6,7 +6,7 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"Callout"
-		"xpos"			"c-300"
+		"xpos"			"9999"
 		"ypos"			"193"
 		"wide"			"235"
 		"tall"			"150"
