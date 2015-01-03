@@ -96,11 +96,46 @@
 		"armedBgColor_override" "0 0 0 0"
 		"depressedBgColor_override" "0 0 0 0"
 	}
-
+	
 	"Continue" [$WIN32] 
 	{
 		"ControlName"		"CExButton"
 		"fieldName"		"Continue"
+		"xpos"			"r150"
+		"ypos"			"0"
+		"zpos"			"6"
+		"wide"			"150"
+		"tall"			"26"
+		"autoResize"	"0"
+		"pinCorner"		"2"
+		"visible"		"1"
+		"enabled"		"1"
+		"tabPosition"		"0"
+		"labelText"		"CONTINUE"
+		"textAlignment"		"east"
+		"dulltext"		"0"
+		"brighttext"		"0"
+		"wrap"		"0"
+		"command"		"skip"
+		"font"			"NotoBold24"
+		
+		"paintbackground"	"1"
+		
+		"fgcolor"		"NotoMenuText"
+		
+		"defaultFgColor_override" "NotoMenuText"
+		"armedFgColor_override" "NotoMenuText2"
+		"depressedFgColor_override" "NotoMenuText2"
+		
+		"defaultBgColor_override" "0 0 0 0"
+		"armedBgColor_override" "0 0 0 0"
+		"depressedBgColor_override" "0 0 0 0"
+	}
+
+	"Continue2" [$WIN32] 
+	{
+		"ControlName"		"CExButton"
+		"fieldName"		"Continue2"
 		"xpos"			"9999"
 		"ypos"			"r40"
 		"zpos"			"6"
@@ -140,8 +175,6 @@
 		"command"		"back"
 		"font"			"NotoBold24"
 		"paintbackground"	"0"
-		
-		"paintbackground"	"1"
 		
 		"fgcolor"		"NotoMenuText"
 		
@@ -186,25 +219,32 @@
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"ReplayVideo"
-		"xpos"			"40"
-		"xpos_hidef"			"50"
-		"ypos"			"r40"
-		"ypos_lodef"			"r64"
-		"ypos_hidef"			"r54"
+		"xpos"			"2"
+		"ypos"			"0"
 		"zpos"			"6"
 		"wide"			"150"
-		"tall"			"30"
+		"tall"			"26"
 		"autoResize"	"0"
 		"pinCorner"		"2"
 		"visible"		"0"
 		"enabled"		"1"
 		"labelText"		"#TF_ReplayIntro"
-		"textAlignment"	"center"
+		"textAlignment"	"west"
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"command"		"replayVideo"
-		"font"			"MenuSmallFont"
-		"fgcolor"		"Black"
+		"font"			"NotoBold24"
+		"paintbackground"	"0"
+		
+		"fgcolor"		"NotoMenuText"
+		
+		"defaultFgColor_override" "NotoMenuText"
+		"armedFgColor_override" "NotoMenuText2"
+		"depressedFgColor_override" "NotoMenuText2"
+		
+		"defaultBgColor_override" "0 0 0 0"
+		"armedBgColor_override" "0 0 0 0"
+		"depressedBgColor_override" "0 0 0 0"
 	}
 	
 	"ShadedBar"

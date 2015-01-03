@@ -113,6 +113,12 @@
 		"command" "OpenCreateMultiplayerGameDialog"
 		"tooltip" "Create Server"
 	}
+	"NotoTraining"
+	{
+		"label"	"+"
+		"command" "offlinepractice"
+		"tooltip" "Training"
+	}
 	"NotoOptions"
 	{
 		"label"	"X"

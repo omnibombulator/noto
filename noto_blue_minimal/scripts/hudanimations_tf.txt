@@ -630,8 +630,8 @@ event TeamsFullArrowAnimateEnd
 
 event TrainingHudBounce
 {
-	Animate ObjectiveStatusTraining	Position		"c-160 r187"		Linear 0 0
-	Animate ObjectiveStatusTraining	Position		"c-160 r127"		Bounce 0.0 2.0
+	Animate ObjectiveStatusTraining	Position		"c-160 r127"		Linear 0 0
+	Animate ObjectiveStatusTraining	Position		"c-160 r117"		Bounce 0.0 2.0
 }
 
 event TrainingPressSpacebarBlink
@@ -666,13 +666,13 @@ event TrainingPressSpacebarBlinkStop
 event IntroMovieContinueBlink
 {
 	Animate	continue 	Alpha		"255"		Linear 0.0 0.1
-	Animate	continue 	Alpha		"0"			Linear 0.2 0.1
+	Animate	continue 	Alpha		"255"			Linear 0.2 0.1
 		
 	Animate	continue 	Alpha		"255"		Linear 0.4 0.1
-	Animate	continue 	Alpha		"0"			Linear 0.6 0.1
+	Animate	continue 	Alpha		"255"			Linear 0.6 0.1
 	
 	Animate	continue 	Alpha		"255"		Linear 0.8 0.1
-	Animate	continue 	Alpha		"0"			Linear 1.0 0.1
+	Animate	continue 	Alpha		"255"			Linear 1.0 0.1
 	
 	Animate	continue 	Alpha		"255"		Linear 1.2 0.1
 

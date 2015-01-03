@@ -8110,7 +8110,7 @@ Scheme
 		}
 		"20" // Icons
 		{
-			"font" "resource/sosa-regular-webfont.ttf"
+			"font" "resource/Sosa-Regular.ttf"
 			"name" "Sosa Regular"
 		}
 		"21" 
