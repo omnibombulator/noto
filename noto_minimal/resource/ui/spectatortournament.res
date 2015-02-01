@@ -406,7 +406,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"#game_respawntime_in_secs"
-		"textAlignment"		"east"
+		"textAlignment"		"west"
 		"font"			"NotoBold24"
 		"fgcolor_override"		"NotoWhite"
 	}
