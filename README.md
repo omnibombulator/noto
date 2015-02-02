@@ -24,7 +24,9 @@ Installing the HUD <a href="#top" title="Back to Top">^</a>
 ====
 First up, check out the [HUD Installation Guide](http://huds.tf/guides/?guide=1) on huds.tf. It runs through all the basics of installing any HUD.
 
-You'll notice inside the noto-master folder there are more folders. **noto_blue**, **noto_classic**, **noto_orange**, **noto_red** and **"minimal"** versions of each. Each version of these HUDs are the same, although they differ by the colors represented by the name of the folder. If you've used an older version of noto (a la notoHUD), you may prefer noto_classic.
+You'll notice inside the noto-master folder there are more folders. **noto** and **"noto_minimal"**. There is another folder called **noto_colors**, which holds files that mostly change the appearance of the in-game menus. Just copy the files from the color you want to use, and paste them inside the **noto** or **noto_minimal** folders. You'll be asked to replace the current files, confirm the action and you'll be good to go.
+
+Each version of these HUDs are the same, although they differ by the colors represented by the name of the folder. If you've used an older version of noto (a la notoHUD), you may prefer noto_classic.
 
 Copy the folder you wish to use into your custom folder and you're ready to go.
 
