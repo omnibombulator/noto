@@ -24,7 +24,7 @@ Installing the HUD <a href="#top" title="Back to Top">^</a>
 ====
 First up, check out the [HUD Installation Guide](http://huds.tf/guides/?guide=1) on huds.tf. It runs through all the basics of installing any HUD.
 
-You'll notice inside the noto-master folder there are more folders. **noto** and **"noto_minimal"**. There is another folder called **noto_colors**, which holds files that mostly change the appearance of the in-game menus. Just copy the files from the color you want to use, and paste them inside the **noto** or **noto_minimal** folders. You'll be asked to replace the current files, confirm the action and you'll be good to go.
+You'll notice inside the noto-master folder there are more folders. **noto** and **"noto_minimal"**. There is another folder called **noto_optional_colors**, which holds files that mostly change the appearance of the in-game menus. Just copy the files from the color you want to use, and paste them inside the **noto** or **noto_minimal** folders. You'll be asked to replace the current files, confirm the action and you'll be good to go.
 
 Each version of these HUDs are the same, although they differ by the colors represented by the name of the folder. If you've used an older version of noto (a la notoHUD), you may prefer noto_classic.
 
@@ -117,14 +117,16 @@ Unlike the above alternative colors, the crosshairs do not flash between colors 
 There are also a few other UI elements that can be changed from the `resource\clientscheme.res` file. These include, but aren't limited to the Damage Numbers, the Killstreak Counter and the Scoreboard Background.
 
 ##Scoreboards
-There are a few different Scoreboards included in the `resource\ui` folder. Each file has 2 different scoreboards inside that can be switched using the Toggle Scoreboard button on the main menu, or by using the console command `cl_hud_minmode`. They are as follows:
+There are a few different Scoreboards included in the `noto_scoreboards` folder, separated into different folders. Each folder has a `scoreboard.res` file inside, which has 2 different scoreboards inside that can be switched using the Toggle Scoreboard button on the main menu, or by using the console command `cl_hud_minmode`. They are as follows:
 
-- `scoreboard.res` default scoreboard. Includes a 6v6 and a 12v12 scoreboard.
-- `scoreboard_9.res` optional scoreboard. Includes a 9v9 and a 12v12 scoreboard.
-- `scoreboard_32.res` optional scoreboard. Includes a 6v6 and a 16v16 scoreboard.
-- `scoreboard_comp.res` optional scoreboard. Includes a 6v6 and a 9v9 scoreboard.
+- `6v6-9v9` Includes a 6v6 and a 9v9 scoreboard.
+- `6v6-12v12` Includes a 6v6 and a 12v12 scoreboard.
+- `6v6-16v16` Includes a 6v6 and a 16v16 scoreboard.
+- `9v9-12v12` Includes a 9v9 and a 12v12 scoreboard.
+- `9v9-16v16` Includes a 9v9 and a 16v16 scoreboard.
+- `12v12-16v16` Includes a 12v12 and a 16v16 scoreboard.
 
-To use one of the optional scoreboards, rename the original `scoreboard.res` to something else, and rename the optional scoreboard you wish to use to `scoreboard.res`.
+To use one of the optional scoreboards, copy the `scoreboard.res` from one of the folders, and paste it into the `resource\ui` folder. Make sure to replace the existing scoreboard.res file.
 
 ##Crosshairs
 There are a few different Crosshairs included in the `scripts\hudlayout.res` file. They are all disabled by default. You can turn them on by changing the **visible/enable** value to **1**.

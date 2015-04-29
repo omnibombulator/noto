@@ -1601,6 +1601,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		
+		"render_texture"	"0"
 		"fov"			"25"
 		"allow_rot"		"0"
 
