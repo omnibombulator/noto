@@ -9,7 +9,7 @@
 		"zpos"			"2"
 		"wide"			"50"
 		"tall"			"19"
-		"visible"		"1"
+		"visible"		"0"
 		"enabled"		"1"
 		"image"			"../hud/objectives_timepanel_blue_bg"	
 		"scaleImage"		"1"
@@ -17,6 +17,29 @@
 		"src_corner_width" "3"
 		"draw_corner_width" "0"
 		"draw_corner_height" "0"		
+	}
+	"TimeBG"
+	{
+		"ControlName"		"CTFImagePanel"
+		"fieldName"		"TimeBG"
+		"xpos"			"30"
+		"ypos"			"0"
+		"zpos"			"2"
+		"wide"			"50"
+		"tall"	 		"19"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"replay/thumbnails/noto_black"
+		"scaleImage"		"1"
+		"teambg_1"		"replay/thumbnails/noto_black"
+		"teambg_2"		"replay/thumbnails/noto_red"
+		"teambg_3"		"replay/thumbnails/noto_blue"
+
+		"src_corner_height"		"23"				// pixels inside the image
+		"src_corner_width"		"23"
+			
+		"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
+		"draw_corner_height" 	"0"	
 	}
 	"ImageBack"
 	{

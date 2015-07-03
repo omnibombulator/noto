@@ -32,7 +32,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"RespawnTimeLabel"
-			"font"			"MenuSmallFont"
+			"font"			"notobold12"
 			"labelText"		"%time%"
 			"textAlignment" "center"
 			"xpos"			"0"
@@ -40,7 +40,7 @@
 			"zpos"			"10"
 			"wide"			"f0"
 			"tall"			"f0"
-			"visible"			"0"
+			"visible"			"1"
 			"proportionalToParent"	"1"
 			"fgcolor"		"255 255 255 255"
 		}

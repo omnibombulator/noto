@@ -460,6 +460,42 @@
 		"enabled"		"1"
 	}
 	
+	"MarketPlaceButton"
+	{
+		"ControlName"	"CExButton"
+		"fieldName"		"MarketPlaceButton"
+		"xpos"			"c20"
+		"ypos"			"c60"
+		"zpos"			"2"
+		"wide"			"250"
+		"tall"			"32"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"tabPosition"	"0"
+		"labelText"		"#Store_MarketPlace"
+		"font"			"NotoBold20"
+		"textAlignment"	"east"
+		"dulltext"		"0"
+		"brighttext"	"0"
+		"default"		"1"
+		"Command"		"marketplace"
+		"sound_depressed"	"UI/buttonclick.wav"
+		"sound_released"	"UI/buttonclickrelease.wav"
+		
+		"paintbackground"	"0"
+		
+		"defaultFgColor_override" "NotoMenuText"
+		"armedFgColor_override" "NotoMenuText2"
+		"depressedFgColor_override" "NotoMenuText2"
+		
+		"defaultBgColor_override" "0 0 0 0"
+		"armedBgColor_override" "0 0 0 0"
+		"depressedBgColor_override" "0 0 0 0"
+	}
+	
+	
 	"CartButton"
 	{
 		"ControlName"	"CExButton"

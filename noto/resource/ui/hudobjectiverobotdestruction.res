@@ -332,7 +332,7 @@
 				"fieldName"				"BlueVictoryContainer"
 				"ControlName"			"EditablePanel"
 				"xpos"					"25"
-				"ypos"					"22"
+				"ypos"					"17"
 				"zpos"					"5"
 				"wide"					"f0"
 				"tall"					"f0"
@@ -362,7 +362,7 @@
 				{
 					"ControlName"	"CExLabel"
 					"fieldName"		"VictoryLabelShadow"
-					"xpos"			"1"
+					"xpos"			"9999"
 					"ypos"			"1"
 					"zpos"			"7"
 					"wide"			"95"
@@ -402,7 +402,7 @@
 				{
 					"ControlName"	"CExLabel"
 					"fieldName"		"VictoryLabelTimeShadow"
-					"xpos"			"1"
+					"xpos"			"9999"
 					"ypos"			"1"
 					"zpos"			"7"
 					"wide"			"55"
@@ -476,7 +476,7 @@
 				"fieldName"				"RedVictoryContainer"
 				"ControlName"			"EditablePanel"
 				"xpos"					"25"
-				"ypos"					"22"
+				"ypos"					"17"
 				"zpos"					"5"
 				"wide"					"f0"
 				"tall"					"f0"
@@ -506,7 +506,7 @@
 				{
 					"ControlName"	"CExLabel"
 					"fieldName"		"VictoryLabelShadow"
-					"xpos"			"141"
+					"xpos"			"9999"
 					"ypos"			"1"
 					"zpos"			"7"
 					"wide"			"90"
@@ -546,7 +546,7 @@
 				{
 					"ControlName"	"CExLabel"
 					"fieldName"		"VictoryLabelTimeShadow"
-					"xpos"			"1"
+					"xpos"			"9999"
 					"ypos"			"1"
 					"zpos"			"7"
 					"wide"			"55"

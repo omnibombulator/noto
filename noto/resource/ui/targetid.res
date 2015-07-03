@@ -13,11 +13,11 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"image"			"../hud/color_panel_brown"
+		"image"			"replay/thumbnails/noto_black"
 		"scaleImage"		"1"
-		"teambg_1"		"../hud/color_panel_brown"
-		"teambg_2"		"../hud/color_panel_red"
-		"teambg_3"		"../hud/color_panel_blu"
+		"teambg_1"		"replay/thumbnails/noto_black"
+		"teambg_2"		"replay/thumbnails/noto_red"
+		"teambg_3"		"replay/thumbnails/noto_blue"
 
 		"src_corner_height"		"23"				// pixels inside the image
 		"src_corner_width"		"23"
@@ -54,7 +54,7 @@
 		"pinCorner"		"0"
 		"visible"		"0"
 		"enabled"		"1"
-		"image"			"../hud/color_panel_blu"
+		"image"			"replay/thumbnails/noto_blue"
 		
 		"src_corner_height"		"23"				// pixels inside the image
 		"src_corner_width"		"23"
@@ -75,7 +75,7 @@
 		"pinCorner"		"0"
 		"visible"		"0"
 		"enabled"		"1"
-		"image"			"../hud/color_panel_red"
+		"image"			"replay/thumbnails/noto_red"
 		
 		"src_corner_height"		"23"				// pixels inside the image
 		"src_corner_width"		"23"
@@ -156,18 +156,33 @@
 		"scaleImage"	"1"
 	}
 	
+	"KillstreakIconAnchor"
+	{
+		"ControlName"	"EditablePanel"
+		"fieldName"	"KillstreakIconAnchor"
+		"xpos"	"-7"
+		"ypos"	"21"
+		"wide"	"10"
+		"tall"	"10"
+		"visible"	"1"
+		"enabled"	"1"
+	}
+	
 	"KillStreakIcon"
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"KillStreakIcon"
-		"xpos"			"36"
-		"ypos"			"21"
+		"xpos"			"0"
+		"ypos"			"0"
 		"zpos"			"12"
 		"wide"			"10"
 		"tall"			"10"
 		"visible"		"0"
 		"enabled"		"1"
 		"image"			"../hud/leaderboard_streak"
+		"pin_to_sibling" "KillstreakIconAnchor"
+		"pin_corner_to_sibling" "1"
+		"pin_to_sibling_corner" "1"
 		"scaleImage"	"1"
 	}
 	
@@ -206,8 +221,8 @@
 			"xpos"			"9999"
 			"ypos"			"7"
 			"zpos"			"11"
-			"wide"			"12"
-			"tall"			"12"
+			"wide"			"0"
+			"tall"			"0"
 			"visible"		"0"
 			"enabled"		"0"
 			"icon"			"obj_status_sentrygun_1"
@@ -251,4 +266,19 @@
 			"fgcolor_override"	"NotoWhite"
 		}	
 	}
+	"AvatarImage"
+	{
+		"ControlName"	"CAvatarImagePanel"
+		"fieldName"		"AvatarImage"
+		"xpos"			"100"
+		"ypos"			"2"
+		"zpos"			"99"
+		"wide"			"0"
+		"tall"			"0"
+		"visible"		"0"
+		"enabled"		"0"
+		"image"			""
+		"scaleImage"	"1"	
+		"color_outline"	"52 48 45 255"
+	}	
 }
