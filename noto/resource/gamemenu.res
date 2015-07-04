@@ -1,32 +1,41 @@
 "GameMenu" [$WIN32]
 {
-	"ResumeGameButton"
+	"VersionNumber"
 	{
-		"label"			"#MMenu_ResumeGame"
-		"command"		"ResumeGame"
-		"OnlyInGame"	"1"
-		"subimage" "icon_resume"
+		"label" "NotoHud" 
+		"command" "engine showconsole; echo NotoHud, created by Omnibombulator."
+		"subimage" ""
+		"OnlyAtMenu" "0"
+	}
+	"credittooltip"
+	{
+		"label" "NotoHud" 
+		"command" "engine toggleconsole"
+		"subimage" ""
+		"tooltip" "by omnibombulator"
 	}
 	"QuickplayButton"
 	{
-		"label" "#MMenu_PlayMultiplayer" 
+		"label" "/" 
 		"command" "quickplay"
-		"subimage" "glyph_multiplayer"
+		"subimage" ""
 		"OnlyAtMenu" "1"
+		"tooltip"	"Quickplay"
 	}
 	"QuickplayChangeButton"
 	{
-		"label" "#MMenu_NewGame" 
+		"label" "/" 
 		"command" "quickplay"
-		"subimage" "glyph_server"
+		"subimage" ""
 		"OnlyInGame" "1"
+		"tooltip"	"Quickplay"
 	}
 	"PlayPVEButton"
 	{
-		"label" "#MMenu_PlayCoop" 
+		"label" "MvM" 
 		"command" "playpve"
-		"subimage" "glyph_coop"
-		"OnlyAtMenu" "1"
+		"subimage" ""
+		"OnlyAtMenu" "0"
 	}
 	"PlayCompetitiveButton"
 	{
@@ -38,71 +47,133 @@
 	}
 	"ServerBrowserButton"
 	{
-		"label" "#MMenu_Servers" 
+		"label" "Servers" 
 		"command" "OpenServerBrowser"
-		"subimage" "glyph_server_browser"
+		"subimage" ""
 		"OnlyAtMenu" "1"
 	} 
 	"ChangeServerButton"
 	{
-		"label" "#MMenu_ChangeServer" 
+		"label" "Servers" 
 		"command" "OpenServerBrowser"
-		"subimage" "glyph_server_browser"
+		"subimage" ""
 		"OnlyInGame" "1"
 	}
 	"ReplayBrowserButton"
 	{
-		"label" "#GameUI_GameMenu_ReplayDemos"
+		"label" "@"
 		"command" "engine replay_reloadbrowser"
-		"subimage" "glyph_tv"
+		"subimage" ""
+		"tooltip"	"Replays"
 	}
 	"SteamWorkshopButton"
 	{
-		"label" "#MMenu_SteamWorkshop"
+		"label" "Workshop"
 		"command" "engine OpenSteamWorkshopDialog"
-		"subimage" "glyph_steamworkshop"
-	}
-	"VRModeButton"
-	{
-		"label" "#MMenu_VRMode_Activate"
-		"command" "engine vr_toggle"
-		"subimage" "glyph_vr"
-		"OnlyWhenVREnabled" "1"
+		"subimage" ""
 	}
 	"TrainingButton"
 	{
-		"label" "#TF_Training"
+		"label" "Training"
 		"command" "offlinepractice"
-		"subimage" "glyph_practice"
+		"subimage" ""
 		"OnlyAtMenu" "1"
 	}
-	
+	"NotoColor"
+	{
+		"label"		"."
+		"command" "echo"
+		"OnlyAtMenu"	"1"
+	}
+	"NotoColor_InGame"
+	{
+		"label"		"."
+		"command" "echo"
+		"OnlyInGame"	"1"
+	}
+	"QuietTime"
+	{
+		"label"		"."
+		"command" "echo"
+		"OnlyInGame"	"1"
+	}
+	"NotoQuit"
+	{
+		"label" "ã"
+		"command" "quit"
+        "tooltip" "Quit Game"
+	}
+	"ToggleScoreboard"
+	{
+		"label" "5"
+		"command" "engine toggle cl_hud_minmode"
+        "tooltip" "Toggle Scoreboard"
+	}
+	"ToggleConsole"
+	{
+		"label" "W"
+		"command" "engine toggleconsole"
+        "tooltip" "Toggle Console"
+	}
+	"NotoCreate"
+	{
+		"label"	"{"
+		"command" "OpenCreateMultiplayerGameDialog"
+		"tooltip" "Create Server"
+	}
+	"NotoTraining"
+	{
+		"label"	"+"
+		"command" "offlinepractice"
+		"tooltip" "Training"
+	}
+	"NotoOptions"
+	{
+		"label"	"X"
+		"Command" "OpenOptionsDialog"
+		"tooltip" "Options"
+	}
+	"NotoOptionsAdv"
+	{
+		"label"	"Y"
+		"Command" "opentf2options"
+		"tooltip" "Advanced Options"
+	}
 	// These buttons get positioned by the MainMenuOverride.res	
 	"CreateServerButton"
 	{
-		"label" "#GameUI_GameMenu_CreateServer"
+		"label" "Create"
 		"command" "OpenCreateMultiplayerGameDialog"
 		"OnlyAtMenu" "1"
 		"tooltip" "#GameUI_GameMenu_CreateServer"
 	}
 	"GeneralStoreButton"
 	{
-		"label" "#MMenu_Shop"
+		"label" "Å"
 		"command" "engine open_store"
-		"subimage" "glyph_store"
+		"subimage" ""
+		"tooltip"	"Store"
 	}	
 	"CharacterSetupButton"
 	{
-		"label" "#MMenu_CharacterSetup"
+		"label" "Loadout"
 		"command" "engine open_charinfo"
-		"subimage" "glyph_items"
+		"subimage" ""
 	}
 
 	// These buttons are only shown while in-game
 	// and also are positioned by the .res file
+	"ResumeGameButton"
+	{
+		"label"			"P"
+		"command"		"ResumeGame"
+		"OnlyInGame"	"1"
+		"subimage" "icon_resume"
+		"tooltip"  "Resume Game"
+	}
 	"CallVoteButton"
 	{
-		"label"			""
+		"label"			"%"
 		"command"		"callvote"
 		"OnlyInGame"	"1"
 		"subimage" "icon_checkbox"
@@ -110,7 +181,7 @@
 	}
 	"MutePlayersButton"
 	{
-		"label"			""
+		"label"			"0"
 		"command"		"OpenPlayerListDialog"
 		"OnlyInGame"	"1"
 		"subimage" "glyph_muted"
@@ -118,7 +189,7 @@
 	}
 	"RequestCoachButton"
 	{
-		"label"			""
+		"label"			"="
 		"command"		"engine cl_coach_find_coach"
 		"OnlyInGame"	"1"
 		"subimage" "icon_whistle"
