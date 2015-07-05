@@ -46,10 +46,10 @@
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatusHealthBonusImage"
 		"xpos"			"9999"
-		"ypos"			"5"
-		"zpos"			"3"
-		"wide"			"22"
-		"tall"			"22"
+		"ypos"			"0"
+		"zpos"			"4"
+		"wide"			"200"
+		"tall"			"20"
 		"visible"		"0"
 		"enabled"		"1"
 		"image"			"../hud/health_over_bg"
@@ -69,7 +69,7 @@
 		"textAlignment"	"center"
 		"labelText"		"%Health%"
 		"font"			"NotoBold20"
-		"fgcolor_override"		"220 220 220 255"
+		"fgcolor_override"		"NotoHealthSpecNormal"
 	}
 	"PlayerStatusPlayerLevel"
 	{
@@ -100,7 +100,7 @@
 		"pinCorner" "0"
 		"visible" 	"1"
 		"enabled" 	"1"
-		"fillcolor" "NotoDark"
+		"fillcolor" "NotoBlack"
 	}
 	"TargetBG3"
 	{
@@ -108,7 +108,7 @@
 		"fieldName" "TargetBG3"
 		"xpos" 		"0"
 		"ypos" 		"0"
-		"zpos" 		"4"
+		"zpos" 		"5"
 		"wide" 		"32"
 		"tall" 		"20"
 		"autoResize" "0"
@@ -132,7 +132,7 @@
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"alpha"			"0"		
-		"fillcolor"		"NotoHealthBGBuff"
+		"fillcolor"		"NotoHealthSpecBGBuff"
 		"PaintBackgroundType"	"0"
 	}
 	"HealthBarBuffID2"
@@ -150,7 +150,22 @@
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"alpha"			"0"		
-		"fillcolor"		"NotoHealthBGBuff2"
+		"fillcolor"		"NotoHealthSpecBGBuff2"
 		"PaintBackgroundType"	"0"
+	}
+	"PanelLeft"
+	{
+		"ControlName" 	"ImagePanel"
+		"fieldName" 	"PanelLeft"
+		"xpos" 			"32"
+		"ypos"			"0"
+		"zpos" 			"10"
+		"wide" 			"1"
+		"tall" 			"20"
+		"autoResize" 	"0"
+		"pinCorner"		"0"
+		"visible" 		"1"
+		"enabled" 		"1"
+		"fillcolor" 	"30 30 30 255"
 	}
 }

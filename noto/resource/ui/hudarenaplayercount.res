@@ -24,7 +24,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"image"			"../hud/color_panel_blu"
+			"image"			"replay/thumbnails/noto_blue"
 				
 			"src_corner_height"		"23"			// pixels inside the image
 			"src_corner_width"		"23"
@@ -84,21 +84,6 @@
 			"image"			"capture_icon_white"
 			"scaleImage"	"1"
 		}
-		
-		"ImageBack"
-		{
-			"ControlName"   "ImagePanel"           
-			"fieldName"     "ImageBack"
-			"xpos"          "5"
-			"ypos"          "0"
-			"zpos"          "-1"
-			"wide"          "50"
-			"tall"          "19"
-			"visible"       "1"
-			"enabled"       "1"
-			"fillcolor"     "32 32 32 255"
-			"scaleImage"    "1"
-		}
 	}
 
 	"redteam"
@@ -125,7 +110,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"image"			"../hud/color_panel_red"
+			"image"			"replay/thumbnails/noto_red"
 				
 			"src_corner_height"		"23"			// pixels inside the image
 			"src_corner_width"		"23"
@@ -184,21 +169,6 @@
 			"enabled"		"1"
 			"image"			"capture_icon_white"
 			"scaleImage"	"1"
-		}
-		
-		"ImageBack2"
-		{
-			"ControlName"   "ImagePanel"           
-			"fieldName"     "ImageBack2"
-			"xpos"          "5"
-			"ypos"          "0"
-			"zpos"          "-1"
-			"wide"          "50"
-			"tall"          "19"
-			"visible"       "1"
-			"enabled"       "1"
-			"fillcolor"     "32 32 32 255"
-			"scaleImage"    "1"
 		}
 	}
 }

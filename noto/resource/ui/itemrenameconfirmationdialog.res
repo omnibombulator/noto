@@ -28,10 +28,7 @@
 		"bgcolor_override"		"NotoBlack"
 		"noitem_textcolor"		"110 110 110 255"
 		"PaintBackgroundType"	"0"
-		"border"				"FuckinBorderDude"
-		"border_override"		"FuckinBorderDude"
 		"paintborder"	"1"
-		"paintbackground"	"1"
 		
 		"text_ypos"			"10"
 		"text_center"		"1"

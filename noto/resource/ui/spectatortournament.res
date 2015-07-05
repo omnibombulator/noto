@@ -14,7 +14,7 @@
 		"team1_player_base_y"				"221"
 		"team1_player_delta_x"				"0"
 		"team1_player_delta_y"				"-15"
-		"team2_player_base_offset_x"		"0"
+		"team2_player_base_offset_x"		"1"
 		"team2_player_base_y"				"241"
 		"team2_player_delta_x"				"0"
 		"team2_player_delta_y"				"15"
@@ -25,8 +25,6 @@
 			"wide"			"160"
 			"tall"			"15"
 			"zpos"			"0"
-		
-
 			
 			"color_ready"	"0 255 0 220"
 			"color_notready"	"0 0 0 220"
@@ -115,18 +113,18 @@
 			
 			"PanelRightWhite"
 			{
-			"ControlName" 	"ImagePanel"
-			"fieldName" 	"PanelRightWhite"
-			"xpos" 			"0"
-			"ypos"			"0"
-			"zpos" 			"-1"
-			"wide" 			"41"
-			"tall" 			"18"
-			"autoResize" 	"0"
-			"pinCorner"		"0"
-			"visible" 		"1"
-			"enabled" 		"1"
-			"fillcolor" 	"0 0 0 220"
+				"ControlName" 	"ImagePanel"
+				"fieldName" 	"PanelRightWhite"
+				"xpos" 			"0"
+				"ypos"			"0"
+				"zpos" 			"-1"
+				"wide" 			"41"
+				"tall" 			"18"
+				"autoResize" 	"0"
+				"pinCorner"		"0"
+				"visible" 		"1"
+				"enabled" 		"1"
+				"fillcolor" 	"0 0 0 220"
 			}
 		
 			"playername"
@@ -144,7 +142,7 @@
 				"visible"		"1"
 				"labelText"		"%playername%"
 				"textAlignment"	"west"
-				"fgcolor"		"255 255 255 255"
+				"fgcolor"		"NotoWhite"
 			
 			}
 			
@@ -551,4 +549,17 @@
 			"brighttext"	"0"
 		}
 	}
+	"spectator_extras"
+	{
+		"ControlName"	"EditablePanel"
+		"fieldName"		"spectator_extras"
+		"xpos"			"0"
+		"ypos"			"0"
+		"wide"			"f0"
+		"tall"			"480"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+	}	
 }

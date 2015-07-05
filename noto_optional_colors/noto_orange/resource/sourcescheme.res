@@ -18,10 +18,12 @@ Scheme
 		"RaysPrimaryDark"		"65 255 255 255"
 		"RaysBlack"				"43 43 43 255"
 		"RaysBlackTrans"		"43 43 43 200"
+		
+		"NotoGreen"				"211 98 22 255"
 		"RaysButtonHover"		"211 98 22 255"
+		"TFOrangeBright"        "211 98 22 255"
 		
 		"NotoWhite"				"220 220 220 255"
-		"NotoGreen"				"211 98 22 255"
 		"NotoDark"				"32 32 32 255"
 
 		// TF2
@@ -33,8 +35,6 @@ Scheme
 
 	    "TFTanLightBright"          "229 223 211 90"
 	    "TFTanLightDark"            "96 90 78 90"
-
-	    "TFOrangeBright"            "211 98 22 255"
 
 	    "TFTextBright"              "251 236 203 150"
 	    "TFTextLight"               "201 188 162 255"
@@ -433,18 +433,66 @@ Scheme
 	
 	CustomFontFiles
 	{
-		"9"
+		"6" 
 		{
 			"font" "resource/TF2Build.ttf"
 			"name" "TF2 Build"
-			"russian"
+			"turkish"
 			{
-				"range" "0x0000 0xFFFF"
+				"range" "0x0000 0x015F"
+			}
+			"swedish"
+			{
+				"range" "0x0000 0x00F6"
+			}
+			"spanish"
+			{
+				"range" "0x0000 0x00FC"
+			}
+			"romanian"
+			{
+				"range" "0x0000 0x021B"
 			}
 			"polish"
 			{
-				"range" "0x0000 0xFFFF"
+				"range" "0x0000 0x017C"
 			}
+			"norwegian"
+			{
+				"range" "0x0000 0x00F8"
+			}
+			"danish"
+			{
+				"range" "0x0000 0x00F8"
+			}
+			"hungarian"
+			{
+				"range" "0x0000 0x0171"
+			}
+			"german"
+			{
+				"range" "0x0000 0x00FC"
+			}
+			"french"
+			{
+				"range" "0x0000 0x0178"
+			}
+			"finnish"
+			{
+				"range" "0x0000 0x017E"
+			}
+			"czech"
+			{
+				"range" "0x0000 0x017E"
+			}
+			"bulgarian"
+			{
+				"range" "0x0000 0x0451"
+			}
+			"russian"
+			{
+				"range" "0x0000 0x0451"
+			}	
 		}
 	}
 }

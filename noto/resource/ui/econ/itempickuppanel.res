@@ -40,6 +40,8 @@
 			"text_xpos"		"250"
 			"text_wide"		"225"
 			"text_center"	"1"
+			"is_mouseover"		"1"
+			"hide_collection_panel" "1"
 			"text_zpos"	"1"
 			
 			"itemmodelpanel"

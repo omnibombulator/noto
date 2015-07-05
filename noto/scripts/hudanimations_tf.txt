@@ -223,6 +223,8 @@ event HudHealthBonusPulse
 	Animate	HealthBarBuffID 	Alpha		"0"				Linear 0.0 0.4
 	Animate	HealthBarBuffID 	Alpha		"255"			Linear 0.2 0.2
 	
+	Animate PlayerStatusHealthValueSpec		FgColor		"NotoHealthSpecBuff"		Accel 0.0 0.0
+	
 	Animate HealthBarBuffTourna   Alpha       "255"           Accel 0.0 0.0
 	Animate HealthBarBuffTourna2  Alpha       "255"           Accel 0.0 0.0
 	
@@ -252,7 +254,7 @@ event HudHealthBonusPulseStop
 	Animate HealthBarBuffTourna   Alpha       "0"           Accel 0.0 0.0
 	Animate HealthBarBuffTourna2  Alpha       "0"           Accel 0.0 0.0
 	
-	Animate PlayerStatusHealthValueSpec		FgColor		"220 220 220 255"		Accel 0.0 0.0
+	Animate PlayerStatusHealthValueSpec		FgColor		"NotoHealthSpecNormal"		Accel 0.0 0.0
 	
 	Animate PlayerStatusHealthValue			FgColor		"NotoHealthNormal"		Accel 0.0 0.0
 	Animate PlayerStatusHealthValueShadow	FgColor		"NotoHealthShadow"		Accel 0.0 0.0
@@ -266,7 +268,7 @@ event HudHealthDyingPulse
 	Animate PlayerStatusHealthValue			FgColor		"NotoHealthLow"		Accel 0.0 0.0
 	Animate PlayerStatusHealthValueShadow	FgColor		"NotoHealthShadowLow"		Accel 0.0 0.0
 
-	Animate	PlayerStatusHealthBonusImage 	Alpha		"255"		Linear 0.0 0.075
+	Animate	PlayerStatusHealthBonusImage 	Alpha		"0"		Linear 0.0 0.075
 	Animate	PlayerStatusHealthBonusImage 	Alpha		"0"			Linear 0.125 0.075
 	
 	Animate HealthBarLow   Alpha       "255"           Accel 0.0 0.0
@@ -509,7 +511,7 @@ event HudMedicCharged
 	Animate	ChargeMeter 	FgColor		"NotoMedicBarCharged1"		Linear 0.0 0.1
 	Animate	ChargeMeter 	FgColor		"NotoMedicBarCharged2"		Linear 0.3 0.4
 	
-	///////Rainbow Charge Text
+///////Rainbow Charge Text
 //	Animate	ChargeMeter 	FgColor		"ColorGreen"		Linear 0.0 0.1
 //	Animate	ChargeMeter 	FgColor		"ColorCyan"			Linear 0.1 0.1
 //	Animate	ChargeMeter 	FgColor		"ColorBlue"			Linear 0.2 0.1
@@ -877,4 +879,119 @@ event HudReadyPulseEnd
 	StopEvent HudReadyPulse			0.0
 	StopEvent HudReadyPulseLoop		0.0
 }
+
+// Respec in Win
+event RespecEarnedPulse
+{
+	Animate	RespecTextLabelWin	FgColor	"TanLight"		Linear 0.0 0.1
+	Animate	RespecTextLabelWin	FgColor	"RedSolid"		Linear 0.3 0.4
+	
+	RunEvent RespecEarnedPulseLoop		0.5
+}
+
+event RespecEarnedPulseLoop
+{
+	RunEvent RespecEarnedPulse			0.0
+}
+
+event RespecEarnedPulseEnd
+{
+	Animate	RespecTextLabelWin 	FgColor		"TanLight"		Linear 0.0 0.1
+	
+	StopEvent RespecEarnedPulse			0.0
+	StopEvent RespecEarnedPulseLoop		0.0
+}
+
+// Respec on Loss
+event RespecEarnedPulseLoss
+{
+	Animate	RespecTextLabelLoss	FgColor	"TanLight"		Linear 0.0 0.1
+	Animate	RespecTextLabelLoss	FgColor	"RedSolid"		Linear 0.3 0.4
+	
+	RunEvent RespecEarnedPulseLoopLoss		0.5
+}
+
+event RespecEarnedPulseLoopLoss
+{
+	RunEvent RespecEarnedPulseLoss			0.0
+}
+
+event RespecEarnedPulseEndLoss
+{
+	Animate	RespecTextLabelLoss FgColor		"TanLight"		Linear 0.0 0.1
+	Animate	RespecTextLabelLoss FgColor		"TanLight"		Linear 0.0 0.1
+	
+	StopEvent RespecEarnedPulseLoss		0.0
+	StopEvent RespecEarnedPulseLoopLoss	0.0
+}
+
+event RDPositiveScorePulse
+{
+	Animate Score FgColor	"25 255 25 255"		Linear 0.0 0.0
+	Animate Score FgColor	"TanLight"			Linear 0.1 0.2
+
+	Animate Score Position	"3 5"		Deaccel 0.0 0.05
+	Animate Score Position	"3 10"		Accel 0.05 0.2
+
+	Animate ScoreShadow FgColor	"0 0 0 200"		Deaccel 0.0 0.05
+	Animate ScoreShadow FgColor	"0 0 0 255"		Accel 0.1 0.2
+}
+
+event RDNegativeScorePulse
+{
+	Animate Score FgColor	"255 75 75 255"		Linear 0.0 0.0
+	Animate Score FgColor	"TanLight"			Linear 0.1 0.2
+
+	Animate Score Position	"3 5"		Deaccel 0.0 0.05
+	Animate Score Position	"3 10"		Accel 0.05 0.2
+
+	Animate ScoreShadow FgColor	"0 0 0 200"		Deaccel 0.0 0.05
+	Animate ScoreShadow FgColor	"0 0 0 255"		Accel 0.1 0.2
+}
+
+event QuestNotification_Present
+{
+	Animate MainContainer Position	"r0 94"		Deaccel 0		0
+	Animate MainContainer Position	"r115 94"		Deaccel	0.01	0.4
+}
+
+event QuestNotification_Hide
+{
+	Animate MainContainer Position	"r115 94"		Deaccel	0		0
+	Animate MainContainer Position	"r0 94"		Deaccel 0.01	0.4
+}
+
+event ItemCard_ShowPinHint
+{
+	Animate PinLabel Position	"0 -20"	Deaccel	0	0
+
+	Animate PinLabel FgColor	"TanLight"	Linear 0.2 0
+	Animate PinLabel Position	"0 0"	Deaccel 0.2	0.2
+}
+
+event ItemCard_HidePinHint
+{
+	Animate PinLabel Position	"0 5"	Deaccel	0	0.3
+
+	Animate PinLabel Position	"0 -20"	Accel 0.3	0.1
+}
+
+event ItemCard_ShowCloseButton
+{
+	Animate CloseButton Position	"-8 -68"	Deaccel	0	0.3
+
+	Animate CloseButton Position	"-8 -68"	Accel 0.3	0.1
+}
+
+event ItemCard_HideCloseButton
+{
+	Animate CloseButton Position	"-30 -90"	Deaccel	0	0.0
+}
+
+event QuestItem_StaticPhoto_Reveal
+{
+	Animate StaticPhoto Alpha	"0"	Accel		0	2
+}
+
+//
 

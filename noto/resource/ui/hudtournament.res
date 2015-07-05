@@ -50,10 +50,53 @@
 				{
 					"xpos"				"22"
 					"ypos"				"10"
-					"wide"			"48"
+					"wide"				"48"
 					"textAlignment"		"center"
 					"font"				"NotoBold8"
 					"fgcolor_override"	"NotoWhite"
+				}
+				
+				if_competitive
+				{
+					"font"			"Noto12"
+					"xpos"			"23"
+					"ypos"			"0"
+					"zpos"			"5"
+					"wide"			"120"
+					"tall"			"15"
+				}
+
+				if_readymode
+				{
+					"font"			"Noto12"
+					"xpos"			"23"
+					"ypos"			"0"
+					"zpos"			"5"
+					"wide"			"120"
+					"tall"			"15"
+					"textAlignment"	"west"
+					"fgcolor_override"	"NotoWhite"
+				}
+			}
+			
+			"PanelRightWhite"
+			{
+				"ControlName" 	"ImagePanel"
+				"fieldName" 	"PanelRightWhite"
+				"xpos" 			"0"
+				"ypos"			"0"
+				"zpos" 			"-1"
+				"wide" 			"18"
+				"tall" 			"18"
+				"autoResize" 	"0"
+				"pinCorner"		"0"
+				"visible" 		"1"
+				"enabled" 		"1"
+				"fillcolor" 	"0 0 0 220"
+				
+				if_mvm
+				{
+					"visible"	"0"
 				}
 			}
 			
@@ -79,6 +122,27 @@
 					"tall"			"20"
 					"image"			"../vgui/hud_connecting"
 				}
+				
+				if_competitive
+				{
+					"xpos"			"0"
+					"ypos"			"0"
+					"wide"			"20"
+					"tall"			"20"
+					"image"			"../vgui/hud_connecting"
+				}
+
+				if_readymode
+				{
+					"xpos"			"0"
+					"ypos"			"1"
+					"zpos"			"2"
+					"wide"			"16"
+					"tall"			"16"
+					"visible"		"1"
+					"enabled"		"1"
+					"image"			"../vgui/hud_connecting"
+				}
 			}
 			
 			"classimagebg"
@@ -98,6 +162,16 @@
 				if_mvm
 				{
 					"visible"		"1"
+				}
+				
+				if_competitive
+				{
+					"visible"		"0"
+				}
+				
+				if_readymode
+				{
+					"visible"		"0"
 				}
 			}
 			
@@ -144,6 +218,16 @@
 				{
 					"visible"		"0"
 				}	
+				
+				if_competitive
+				{
+					"visible"		"0"
+				}	
+				
+				if_readymode
+				{
+					"visible"		"0"
+				}	
 			}
 			
 			"ReadyImage"
@@ -166,6 +250,22 @@
 				{
 					"visible"		"1"
 				}
+				
+				if_competitive
+				{
+					"xpos"			"1"
+					"wide"			"16"
+					"tall"			"16"
+					"visible"		"1"
+				}	
+				
+				if_readymode
+				{
+					"xpos"			"1"
+					"wide"			"16"
+					"tall"			"16"
+					"visible"		"1"
+				}	
 			}
 			
 			"respawntime"
@@ -232,6 +332,18 @@
 				"wide"		"72"
 				"tall"		"20"
 			}
+			
+			if_competitive
+			{
+				"wide"			"160"
+				"tall"			"15"
+			}
+			
+			if_readymode
+			{
+				"wide"			"160"
+				"tall"			"15"
+			}
 		}
 		
 		if_mvm
@@ -244,6 +356,24 @@
 			"team1_player_base_y"			"66"
 			"team2_player_delta_x"			"72"
 		}		
+		
+		if_competitive
+		{
+			"team1_player_base_y"			"66"
+			"team2_player_delta_x"			"72"
+		}	
+		
+		if_readymode
+		{
+			"team1_player_base_offset_x"		"0"
+			"team1_player_base_y"				"221"
+			"team1_player_delta_x"				"0"
+			"team1_player_delta_y"				"-15"
+			"team2_player_base_offset_x"		"0"
+			"team2_player_base_y"				"241"
+			"team2_player_delta_x"				"0"
+			"team2_player_delta_y"				"15"
+		}	
 	}
 
 	"HudTournamentBG"
@@ -341,6 +471,18 @@
 		if_mvm
 		{
 			"visible"		"0"
+		}
+		
+		if_competitive
+		{
+			"visible"		"1"
+			"xpos"			"c-200"
+		}
+
+		if_readymode
+		{
+			"visible"		"1"
+			"xpos"			"c-200"
 		}
 	}
 	"TournamentBLUELabel"
