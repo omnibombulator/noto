@@ -115,7 +115,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"	"0"	
-		"fillcolor"		"NotoBlack"
+		"fillcolor"		"NotoScoreBGMain"
 		"PaintBackgroundType"	"0"
 		
 		if_mvm
@@ -240,7 +240,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"	"0"	
-		"fillcolor"		"NotoBlack"
+		"fillcolor"		"NotoScoreBGMain"
 		"PaintBackgroundType"	"0"
 		
 		if_mvm
@@ -506,7 +506,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"	"0"	
-		"fillcolor"		"NotoBlack"
+		"fillcolor"		"NotoScoreBGMain"
 		"PaintBackgroundType"	"0"
 		
 		if_mvm
@@ -529,7 +529,7 @@
 		"visible"		"0"
 		"enabled"		"1"
 		"tabPosition"	"0"	
-		"fillcolor"		"NotoBlack"
+		"fillcolor"		"NotoScoreBGMain"
 		"PaintBackgroundType"	"0"
 		
 		if_mvm

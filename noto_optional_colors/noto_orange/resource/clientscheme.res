@@ -66,6 +66,14 @@ Scheme
 		"NotoHealthBGLow"		"205 50 50 255"
 		"NotoHealthBGLow2"		"205 50 50 255"
 		
+		// NOTO HEALTH SPECTATOR COLORS
+		"NotoHealthSpecNormal"		"220 220 220 255"
+		"NotoHealthSpecBuff"		"220 220 220 255"
+		"NotoHealthSpecLow"			"220 220 220 255"
+		// health backgrounds
+		"NotoHealthSpecBGBuff"		"32 160 32 255"
+		"NotoHealthSpecBGBuff2"		"32 160 32 255"
+		
 		// NOTO AMMO COLORS
 		"NotoAmmoClip"			"220 220 220 255"
 		"NotoAmmoClipLow"		"220 220 220 255"
