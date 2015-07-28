@@ -902,6 +902,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
+			"fgcolor_override"	"NotoWhite"
 		}						
 		"DeathsLabel"
 		{
@@ -919,6 +920,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
+			"fgcolor_override"	"NotoWhite"
 		}			
 		"Kills"
 		{
@@ -934,10 +936,30 @@
 			"tall"			"20"
 			"autoResize"	"0"
 			"pinCorner"		"0"
+			"visible"		"0"
+			"enabled"		"1"
+			"bgcolor_override"	"0 0 0 0"
+		}	
+		"Kills2"
+		{
+			"ControlName"		"CExLabel"
+			"fieldName"		"Kills2"
+			"font"			"NotoBold20"
+			"labelText"		"%kills%"
+			"textAlignment"		"west"
+			"xpos"			"64"
+			"ypos"			"2"	[$WIN32]
+			"zpos"			"3"
+			"wide"			"35"
+			"tall"			"20"
+			"autoResize"	"0"
+			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
 			"bgcolor_override"	"0 0 0 0"
-		}						
+			"fgcolor_override"	"NotoWhite"
+		}
+		
 		"Deaths"
 		{
 			"ControlName"		"CExLabel"
@@ -952,8 +974,26 @@
 			"tall"			"20"
 			"autoResize"	"0"
 			"pinCorner"		"0"
+			"visible"		"0"
+			"enabled"		"1"
+		}
+		"Deaths2"
+		{
+			"ControlName"		"CExLabel"
+			"fieldName"		"Deaths2"
+			"font"			"NotoBold20"
+			"labelText"		"%deaths%"
+			"textAlignment"		"west"
+			"xpos"			"64"
+			"ypos"			"22"	[$WIN32]
+			"zpos"			"3"
+			"wide"			"35"
+			"tall"			"20"
+			"autoResize"	"0"
+			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
+			"fgcolor_override"	"NotoWhite"
 		}
 		
 		"HealingLabel"
@@ -987,8 +1027,27 @@
 			"tall"			"20"
 			"autoResize"	"0"
 			"pinCorner"		"0"
+			"visible"		"0"
+			"enabled"		"1"
+			"fgcolor_override"	"NotoWhite"
+		}	
+		"Healing2"
+		{
+			"ControlName"		"CExLabel"
+			"fieldName"		"Healing2"
+			"font"			"NotoBold20"
+			"labelText"		"%healing%"
+			"textAlignment"		"west"
+			"xpos"			"179"	[$WIN32]
+			"ypos"			"2"	[$WIN32]
+			"zpos"			"3"
+			"wide"			"50"
+			"tall"			"20"
+			"autoResize"	"0"
+			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
+			"fgcolor_override"	"NotoWhite"
 		}	
 		"DamageLabel"
 		{
@@ -1022,9 +1081,29 @@
 			"tall"			"20"
 			"autoResize"	"0"
 			"pinCorner"		"0"
+			"visible"		"0"
+			"enabled"		"1"
+			"bgcolor_override"	"0 0 0 0"
+			"fgcolor_override"	"NotoWhite"
+		}
+		"Damage2"
+		{
+			"ControlName"	"CExLabel"
+			"fieldName"		"Damage2"
+			"font"			"NotoBold20"
+			"labelText"		"%damage%"
+			"textAlignment"	"west"		[$WIN32]
+			"xpos"			"179"	[$WIN32]
+			"ypos"			"22"	[$WIN32]
+			"zpos"			"3"
+			"wide"			"50"
+			"tall"			"20"
+			"autoResize"	"0"
+			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
 			"bgcolor_override"	"0 0 0 0"
+			"fgcolor_override"	"NotoWhite"
 		}
 		
 		
@@ -1059,8 +1138,27 @@
 			"tall"			"15"
 			"autoResize"	"0"
 			"pinCorner"		"0"
+			"visible"		"0"
+			"enabled"		"1"
+			"fgcolor_override"	"NotoWhite"
+		}	
+		"Captures2"
+		{
+			"ControlName"		"CExLabel"
+			"fieldName"		"Captures2"
+			"font"			"ScoreboardVerySmall"
+			"labelText"		"%captures%"
+			"textAlignment"		"west"
+			"xpos"			"320"	[$WIN32]
+			"ypos"			"0"	[$WIN32]
+			"zpos"			"3"
+			"wide"			"35"
+			"tall"			"15"
+			"autoResize"	"0"
+			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
+			"fgcolor_override"	"NotoWhite"
 		}	
 		"DefensesLabel"
 		{
@@ -1093,8 +1191,27 @@
 			"tall"			"15"
 			"autoResize"	"0"
 			"pinCorner"		"0"
+			"visible"		"0"
+			"enabled"		"1"
+			"fgcolor_override"	"NotoWhite"
+		}	
+		"Defenses2"
+		{
+			"ControlName"		"CExLabel"
+			"fieldName"		"Defenses2"
+			"font"			"ScoreboardVerySmall"
+			"labelText"		"%defenses%"
+			"textAlignment"		"west"
+			"xpos"			"320"	[$WIN32]
+			"ypos"			"10"	[$WIN32]
+			"zpos"			"3"
+			"wide"			"35"
+			"tall"			"15"
+			"autoResize"	"0"
+			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
+			"fgcolor_override"	"NotoWhite"
 		}	
 		"DominationLabel"
 		{
@@ -1127,9 +1244,28 @@
 			"tall"			"15"
 			"autoResize"	"0"
 			"pinCorner"		"0"
+			"visible"		"0"
+			"enabled"		"1"
+			"fgcolor_override"	"NotoWhite"
+		}	
+		"Domination2"
+		{
+			"ControlName"		"CExLabel"
+			"fieldName"		"Domination2"
+			"font"			"ScoreboardVerySmall"
+			"labelText"		"%dominations%"
+			"textAlignment"		"west"
+			"xpos"			"320"	[$WIN32]
+			"ypos"			"20"	[$WIN32]
+			"zpos"			"3"
+			"wide"			"35"
+			"tall"			"15"
+			"autoResize"	"0"
+			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-		}						
+			"fgcolor_override"	"NotoWhite"
+		}		
 		"RevengeLabel"
 		{
 			"ControlName"		"CExLabel"
@@ -1161,8 +1297,27 @@
 			"tall"			"15"
 			"autoResize"	"0"
 			"pinCorner"		"0"
+			"visible"		"0"
+			"enabled"		"1"
+			"fgcolor_override"	"NotoWhite"
+		}
+		"Revenge2"
+		{
+			"ControlName"		"CExLabel"
+			"fieldName"		"Revenge2"
+			"font"			"ScoreboardVerySmall"
+			"labelText"		"%Revenge%"
+			"textAlignment"		"west"
+			"xpos"			"320"	[$WIN32]
+			"ypos"			"30"	[$WIN32]
+			"zpos"			"3"
+			"wide"			"35"
+			"tall"			"15"
+			"autoResize"	"0"
+			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
+			"fgcolor_override"	"NotoWhite"
 		}
 		
 		
@@ -1197,9 +1352,28 @@
 			"tall"			"15"
 			"autoResize"	"0"
 			"pinCorner"		"0"
+			"visible"		"0"
+			"enabled"		"1"
+			"fgcolor_override"	"NotoWhite"
+		}	
+		"Assists2"
+		{
+			"ControlName"		"CExLabel"
+			"fieldName"		"Assists2"
+			"font"			"ScoreboardVerySmall"
+			"labelText"		"%assists%"
+			"textAlignment"		"west"
+			"xpos"			"431"
+			"ypos"			"0"	[$WIN32]
+			"zpos"			"3"
+			"wide"			"35"
+			"tall"			"15"
+			"autoResize"	"0"
+			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-		}	
+			"fgcolor_override"	"NotoWhite"
+		}
 		"InvulnLabel"
 		{
 			"ControlName"		"CExLabel"
@@ -1231,8 +1405,27 @@
 			"tall"			"15"
 			"autoResize"	"0"
 			"pinCorner"		"0"
+			"visible"		"0"
+			"enabled"		"1"
+			"fgcolor_override"	"NotoWhite"
+		}
+		"Invuln2"
+		{
+			"ControlName"		"CExLabel"
+			"fieldName"		"Invuln2"
+			"font"			"ScoreboardVerySmall"
+			"labelText"		"%invulns%"
+			"textAlignment"		"west"
+			"xpos"			"431"	[$WIN32]
+			"ypos"			"10"	[$WIN32]
+			"zpos"			"3"
+			"wide"			"35"
+			"tall"			"15"
+			"autoResize"	"0"
+			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
+			"fgcolor_override"	"NotoWhite"
 		}
 		"HeadshotsLabel"
 		{
@@ -1265,8 +1458,27 @@
 			"tall"			"15"
 			"autoResize"	"0"
 			"pinCorner"		"0"
+			"visible"		"0"
+			"enabled"		"1"
+			"fgcolor_override"	"NotoWhite"
+		}
+		"Headshots2"
+		{
+			"ControlName"		"CExLabel"
+			"fieldName"		"Headshots2"
+			"font"			"ScoreboardVerySmall"
+			"labelText"		"%headshots%"
+			"textAlignment"		"west"
+			"xpos"			"431"	[$WIN32]
+			"ypos"			"20"	[$WIN32]
+			"zpos"			"3"
+			"wide"			"35"
+			"tall"			"15"
+			"autoResize"	"0"
+			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
+			"fgcolor_override"	"NotoWhite"
 		}
 		"BackstabsLabel"
 		{
@@ -1299,8 +1511,27 @@
 			"tall"			"15"
 			"autoResize"	"0"
 			"pinCorner"		"0"
+			"visible"		"0"
+			"enabled"		"1"
+			"fgcolor_override"	"NotoWhite"
+		}
+		"Backstabs2"
+		{
+			"ControlName"		"CExLabel"
+			"fieldName"		"Backstabs2"
+			"font"			"ScoreboardVerySmall"
+			"labelText"		"%backstabs%"
+			"textAlignment"		"west"		[$WIN32]
+			"xpos"			"431"	[$WIN32]
+			"ypos"			"30"	[$WIN32]
+			"zpos"			"3"
+			"wide"			"35"
+			"tall"			"15"
+			"autoResize"	"0"
+			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
+			"fgcolor_override"	"NotoWhite"
 		}
 		
 		
@@ -1335,8 +1566,27 @@
 			"tall"			"15"
 			"autoResize"	"0"
 			"pinCorner"		"0"
+			"visible"		"0"
+			"enabled"		"1"
+			"fgcolor_override"	"NotoWhite"
+		}	
+		"Destruction2"
+		{
+			"ControlName"		"CExLabel"
+			"fieldName"		"Destruction2"
+			"font"			"ScoreboardVerySmall"
+			"labelText"		"%destruction%"
+			"textAlignment"		"west"
+			"xpos"			"535"
+			"ypos"			"0"	[$WIN32]
+			"zpos"			"3"
+			"wide"			"35"
+			"tall"			"15"
+			"autoResize"	"0"
+			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
+			"fgcolor_override"	"NotoWhite"
 		}	
 		"TeleportsLabel"
 		{
@@ -1369,9 +1619,28 @@
 			"tall"			"15"
 			"autoResize"	"0"
 			"pinCorner"		"0"
+			"visible"		"0"
+			"enabled"		"1"
+			"fgcolor_override"	"NotoWhite"
+		}	
+		"Teleports2"
+		{
+			"ControlName"		"CExLabel"
+			"fieldName"		"Teleports2"
+			"font"			"ScoreboardVerySmall"
+			"labelText"		"%teleports%"
+			"textAlignment"		"west"
+			"xpos"			"535"	[$WIN32]
+			"ypos"			"10"	[$WIN32]
+			"zpos"			"3"
+			"wide"			"35"
+			"tall"			"15"
+			"autoResize"	"0"
+			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-		}						
+			"fgcolor_override"	"NotoWhite"
+		}		
 		"BonusLabel"
 		{
 			"ControlName"		"CExLabel"
@@ -1404,8 +1673,27 @@
 			"tall"			"15"
 			"autoResize"		"0"
 			"pinCorner"		"0"
+			"visible"		"0"
+			"enabled"		"1"
+			"fgcolor_override"	"NotoWhite"
+		}
+		"Bonus2"
+		{
+			"ControlName"		"CExLabel"
+			"fieldName"		"Bonus2"
+			"font"			"ScoreboardVerySmall"
+			"labelText"		"%bonus%"
+			"textAlignment"		"west"		[$WIN32]
+			"xpos"			"535"	[$WIN32]
+			"ypos"			"20"	[$WIN32]
+			"zpos"			"3"
+			"wide"			"35"
+			"tall"			"15"
+			"autoResize"		"0"
+			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
+			"fgcolor_override"	"NotoWhite"
 		}
 		"SupportLabel"
 		{
@@ -1438,8 +1726,27 @@
 			"tall"			"15"
 			"autoResize"	"0"
 			"pinCorner"		"0"
+			"visible"		"0"
+			"enabled"		"1"
+			"fgcolor_override"	"NotoWhite"
+		}
+		"Support2"
+		{
+			"ControlName"	"CExLabel"
+			"fieldName"		"Support2"
+			"font"			"ScoreboardVerySmall"
+			"labelText"		"%support%"
+			"textAlignment"	"west"		[$WIN32]
+			"xpos"			"535"	[$WIN32]
+			"ypos"			"30"	[$WIN32]
+			"zpos"			"3"
+			"wide"			"35"
+			"tall"			"15"
+			"autoResize"	"0"
+			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
+			"fgcolor_override"	"NotoWhite"
 		}
 		
 		"GameType"
