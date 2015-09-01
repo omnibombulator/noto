@@ -2198,11 +2198,11 @@ Scheme
         {
 			"1"
 			{
-			"name"                "Open Sans Bold"
-			"tall"                "18"
-			"weight"        "500"
-			"additive"        "0"
-			"antialias" "1"
+				"name"		"Open Sans Bold"
+				"tall"      "18"
+				"weight"    "500"
+				"additive"  "0"
+				"antialias" "1"
 			}
         }
 		ItemFontAttribSmallv2
@@ -2252,11 +2252,11 @@ Scheme
         {
 			"1"
 			{
-				"name"                "Open Sans"
-				"tall"                "14"
-				"weight"        "500"
-				"additive"        "0"
-				"antialias"         "1"
+				"name"		"Open Sans"
+				"tall"      "14"
+				"weight"    "500"
+				"additive"  "0"
+				"antialias" "1"
 			}
         }
 		"AchievementTracker_Name"
@@ -2462,23 +2462,23 @@ Scheme
 		{
 			"1"
 			{
-			"name"                "Verdana"
-			"tall"                "8"
-			"weight"        "400"
-			"antialias" "1"
-			additive"        "0"
+				"name"      "Verdana"
+				"tall"      "8"
+				"weight"    "400"
+				"antialias" "1"
+				additive"   "0"
 			}
 		}
 		"TradeUp_Quote"
 		{
 			"1"
 			{
-			"name"                "Trebuchet MS"
-			"tall"                "9"
-			"weight"        "400"
-			"antialias" "1"
-			"additive"        "0"
-			"italic"        "1"
+				"name"      "Trebuchet MS"
+				"tall"      "9"
+				"weight"    "400"
+				"antialias" "1"
+				"additive"  "0"
+				"italic"    "1"
 			}
 		}
 		//
