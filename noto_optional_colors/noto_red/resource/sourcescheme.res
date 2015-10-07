@@ -16,15 +16,13 @@ Scheme
 		"Blank"				"0 0 0 0"
 		"RaysPrimaryLight"		"0 255 255 255"
 		"RaysPrimaryDark"		"65 255 255 255"
-		"RaysBlack"				"43 43 43 255"
-		"RaysBlackTrans"		"43 43 43 200"
-		
-		"NotoGreen"				"205 50 50 255"
+		"RaysBlack"				"32 32 32 255"
+		"RaysBlackTrans"		"32 32 32 200"
 		"RaysButtonHover"		"205 50 50 255"
-		"TFOrangeBright"            "205 50 50 255"
 		
 		"NotoWhite"				"220 220 220 255"
-		"NotoDark"				"32 32 32 255"
+		"NotoGreen"				"205 50 50 255"
+		"NotoDark"				"24 24 24 255"
 
 		// TF2
 	    "TFDarkBrown"               "60 56 53 255"
@@ -36,6 +34,8 @@ Scheme
 	    "TFTanLightBright"          "229 223 211 90"
 	    "TFTanLightDark"            "96 90 78 90"
 
+	    "TFOrangeBright"            "205 50 50 255"
+
 	    "TFTextBright"              "251 236 203 150"
 	    "TFTextLight"               "201 188 162 255"
 	    "TFTextMedium"              "131 121 104 255"
@@ -45,8 +45,8 @@ Scheme
 
 	    "TFMediumBrown"		"69 64 58 255"
 
-	    "QuickListBGDeselected"		"69 64 58 255"
-	    "QuickListBGSelected"               "131 121 104 150"
+	    "QuickListBGDeselected"		"24 24 24 255"
+	    "QuickListBGSelected"               "205 50 50 255"
 
 	    "Blank"				"0 0 0 0"
 
@@ -65,7 +65,7 @@ Scheme
 		Border.Selection				"0 0 0 0"default/selected button
 
 		Button.TextColor				"NotoWhite"
-		Button.BgColor					"43 43 43 255"
+		Button.BgColor					"32 32 32 255"
 		Button.ArmedTextColor			"NotoWhite"
 		Button.ArmedBgColor				"NotoGreen"
 		Button.DepressedTextColor		"NotoWhite"
@@ -74,7 +74,7 @@ Scheme
 
 		CheckButton.TextColor			"NotoWhite"
 		CheckButton.SelectedTextColor	"NotoWhite"
-		CheckButton.BgColor				"43 43 43 255"
+		CheckButton.BgColor				"32 32 32 255"
 		CheckButton.HighlightFgColor	"NotoGreen"
 		CheckButton.ArmedBgColor		"Blank"
 		CheckButton.DepressedBgColor	"Blank"
@@ -122,24 +122,24 @@ Scheme
 
 		Menu.TextInset					"6"
 		Menu.FgColor			"White"
-		Menu.BgColor					"43 43 43 255"
+		Menu.BgColor					"32 32 32 255"
 		Menu.ArmedFgColor		"NotoGreen"
 		Menu.ArmedBgColor				"NotoGreen"
 		Menu.DividerColor		"BorderDark"
 
-		ScrollBarButton.FgColor				"White"
+		ScrollBarButton.FgColor				"NotoDark"
 		ScrollBarButton.BgColor				"Blank"
-		ScrollBarButton.ArmedFgColor		"White"
+		ScrollBarButton.ArmedFgColor		"NotoDark"
 		ScrollBarButton.ArmedBgColor		"Blank"
-		ScrollBarButton.DepressedFgColor	"White"
+		ScrollBarButton.DepressedFgColor	"NotoDark"
 		ScrollBarButton.DepressedBgColor	"Blank"
 
 		ScrollBarSlider.FgColor				"NotoDark"
-		ScrollBarSlider.BgColor				"43 43 43 255"
+		ScrollBarSlider.BgColor				"32 32 32 255"
 
 		Slider.NobColor				"NotoWhite"
 		Slider.TextColor			"NotoWhite"
-		Slider.TrackColor			"43 43 43 255"
+		Slider.TrackColor			"32 32 32 255"
 		Slider.DisabledTextColor1	"117 117 117 255"
 		Slider.DisabledTextColor2	"30 30 30 255"
 
@@ -164,7 +164,7 @@ Scheme
 		FrameTitleBar.BgColor			"Blank"
 		FrameTitleBar.DisabledBgColor	"Blank"
 		GraphPanel.FgColor				"NotoWhite"
-		GraphPanel.BgColor				"43 43 43 255"
+		GraphPanel.BgColor				"32 32 32 255"
 		ListPanel.TextBgColor				"Blank"
 		ListPanel.SelectedTextColor			"Black"
 		ListPanel.EmptyListInfoTextColor	"OffWhite"
@@ -173,12 +173,12 @@ Scheme
 		Panel.FgColor					"DullWhite"
 		Panel.BgColor					"Blank"
 		ProgressBar.FgColor				"NotoGreen"
-		ProgressBar.BgColor				"43 43 43 255"
+		ProgressBar.BgColor				"32 32 32 255"
 		PropertySheet.TextColor			"NotoWhite"
 		PropertySheet.SelectedTextColor	"White"
 		PropertySheet.TransitionEffectTime	"0.25"
 		RichText.TextColor				"NotoWhite"
-		RichText.BgColor				"43 43 43 255"
+		RichText.BgColor				"32 32 32 255"
 		RichText.SelectedTextColor		"Black"
 		RichText.SelectedBgColor		"NotoGreen"
 		ScrollBar.Wide					17
@@ -187,12 +187,12 @@ Scheme
 		SectionedListPanel.DividerColor		"Black"
 		SectionedListPanel.TextColor		"DullWhite"
 		SectionedListPanel.BrightTextColor	"NotoWhite"
-		SectionedListPanel.BgColor			"43 43 43 255"
+		SectionedListPanel.BgColor			"32 32 32 255"
 		SectionedListPanel.SelectedTextColor			"Black"
 		SectionedListPanel.SelectedBgColor				"NotoGreen"
 		SectionedListPanel.OutOfFocusSelectedTextColor	"Black"
 		SectionedListPanel.OutOfFocusSelectedBgColor	"100 100 100 128"
-		TextEntry.BgColor			"43 43 43 255"
+		TextEntry.BgColor			"32 32 32 255"
 		TextEntry.CursorColor		"OffWhite"
 		TextEntry.DisabledBgColor	"Blank"
 		TextEntry.SelectedTextColor	"Black"
@@ -201,11 +201,11 @@ Scheme
 		ToggleButton.SelectedTextColor	"White"
 		Tooltip.TextColor			"NotoWhite"
 		Tooltip.BgColor				"18 18 18 255"
-		TreeView.BgColor			"43 43 43 255"
+		TreeView.BgColor			"32 32 32 255"
 		WizardSubPanel.BgColor		"Blank"
 		MainMenu.DepressedTextColor	"150 150 150 128"
 		MainMenu.MenuItemHeight		"25"
-		MainMenu.Backdrop			"0 0 0 156"
+		MainMenu.Backdrop			"0 0 0 0"
 		Console.TextColor			"NotoWhite"
 		Console.DevTextColor		"White"
 		NewGame.TextColor			"White"
@@ -323,7 +323,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Build"
+				"name"		"Open Sans Bold"
 				"tall"		"35"
 				"tall_lodef"	"40"
 				"weight"	"500"
@@ -493,6 +493,36 @@ Scheme
 			{
 				"range" "0x0000 0x0451"
 			}	
+		}
+		"7" // Open Sans Bold
+		{
+		
+			"font" "resource/OpenSansBold.ttf"
+			"name" "Open Sans Bold"
+		}
+		"8" // Open Sans Extra Bold
+		{
+		
+			"font" "resource/OpenSansExtraBold.ttf"
+			"name" "Open Sans Extrabold"
+		}
+		"9" // Open Sans Semi Bold
+		{
+		
+			"font" "resource/OpenSansSemibold.ttf"
+			"name" "Open Sans Semibold"
+		}
+		"10" // Open Sans Light
+		{
+		
+			"font" "resource/OpenSansLight.ttf"
+			"name" "Open Sans Light"
+		}
+		"11" // Open Sans Regular
+		{
+		
+			"font" "resource/OpenSansRegular.ttf"
+			"name" "Open Sans"
 		}
 	}
 }

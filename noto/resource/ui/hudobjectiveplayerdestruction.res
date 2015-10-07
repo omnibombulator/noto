@@ -1,4 +1,4 @@
-"Resource/UI/HudObjectiveFlagPanel.res"
+"Resource/UI/HudObjectivePlayerDestruction.res"
 {	
 	"ObjectiveStatusRobotDestruction"
 	{
@@ -12,11 +12,11 @@
 		"visible"			"1"
 		"enabled"			"1"
 
-		"left_steal_edge_offset"	"25"
-		"right_steal_edge_offset"	"25"
-		"robot_x_offset"		"133"
-		"robot_y_offset"		"4"
-		"robot_x_step"			"20"
+		"left_steal_edge_offset"	"97"
+		"right_steal_edge_offset"	"97"
+		"robot_x_offset"		"78"
+		"robot_y_offset"		"47"
+		"robot_x_step"			"23"
 		"robot_y_step"			"0"
 		
 
@@ -78,37 +78,7 @@
 			"visible"	"0"
 		}
 	}
-
-	"ImageTopBlu"
-	{
-		"ControlName"   "ImagePanel"           
-		"fieldName"     "ImageTopBlu"
-		"xpos"          "c-190"
-		"ypos"          "r30"
-		"zpos"          "0"
-		"wide"          "58"
-		"tall"          "30"
-		"visible"       "1"
-		"enabled"       "1"
-		"fillcolor"     "NotoBlueSolid"
-		"scaleImage"    "1"
-	}	
-	
-	"ImageTopRed"
-	{
-		"ControlName"   "ImagePanel"           
-		"fieldName"     "ImageTopRed"
-		"xpos"          "c133"
-		"ypos"          "r30"
-		"zpos"          "0"
-		"wide"          "58"
-		"tall"          "30"
-		"visible"       "1"
-		"enabled"       "1"
-		"fillcolor"     "NotoRedSolid"
-		"scaleImage"    "1"
-	}
-	
+			
 	"PlayingToBG"
 	{
 		"ControlName"	"CTFImagePanel"
@@ -148,11 +118,11 @@
 	{
 		"ControlName"		"EditablePanel"
 		"fieldName"			"CarriedContainer"
-		"xpos"				"r150"
-		"ypos"				"r68"
+		"xpos"				"c-224"
+		"ypos"				"c109"
 		"zpos"				"1"
-		"wide"				"150"
-		"tall"				"80"
+		"wide"				"60"
+		"tall"				"16"
 		"visible"			"0"
 		"enabled"			"1"
 		"bgcolor_override"		"0 0 0 0"
@@ -161,18 +131,32 @@
 		{
 			"ControlName"	"ImagePanel"
 			"fieldName"		"CarriedImage"
-			"xpos"			"0"
-			"ypos"			"0"
-			"zpos"			"10"
-			"wide"			"f0"
-			"tall"			"f0"
+			"xpos"		"1"
+			"ypos"		"1"
+			"zpos"		"3"
+			"wide"		"15"
+			"tall"		"15"
 			"visible"		"1"
 			"enabled"		"1"
-			"image"			"../hud/obj_rd_powersupply_outline"
-			"fgcolor"		"NotoWhite"
+			"image"			"../hud/hud_obj_status_ammo_64"
 			"scaleImage"	"1"
 			"proportionalToParent"	"1"
 		}	
+		
+		"TeamLeaderImage"
+		{
+			"ControlName"	"CTFImagePanel"
+			"fieldName"		"TeamLeaderImage"
+			"xpos"			"1"
+			"ypos"			"1"
+			"zpos"			"2"
+			"wide"			"15"
+			"tall"			"15"
+			"visible"		"0"
+			"enabled"		"1"
+			"image"			"importtool_goldstar"
+			"scaleImage"	"1"	
+		}
 
 		"CarriedProgressBar"
 		{
@@ -180,40 +164,29 @@
 			"ControlName"			"ImagePanel"
 			"xpos"					"0"
 			"ypos"					"0"
-			"zpos"					"10"
+			"zpos"					"0"
 			"wide"					"f0"
 			"tall"					"f0"
 			"scaleimage"			"0"
-			"visible"				"1"
+			"visible"				"0"
 			"proportionalToParent"	"1"
-			"positionImage"			"0"
-			"drawcolor"				"84 111 127 255"
-			"Image"					"../HUD/obj_rd_powersupply_meter"
-
-			"left_offset"			"30"
-			"right_offset"			"30"
-			"standard_color"		"84  111 127 255"
-			"bright_color"			"110 159 189 255"
-			"left_to_right"			"1"
 		}
 
 		"FlagValue"
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"FlagValue"
-			"xpos"			"c-50"
-			"ypos"			"23"
-			"zpos"			"11"
-			"wide"			"100"
-			"tall"			"35"
-			"tall_hidef"	"100"
-			"tall_lodef"	"75"
+			"xpos"			"0"
+			"ypos"			"-1"
+			"zpos"			"4"
+			"wide"			"60"
+			"tall"			"17"
 			"visible"		"1"
 			"enabled"		"1"
 			"textAlignment"	"center"	
 			"labelText"		"%flagvalue%"
-			"font"			"HudFontMediumBold"
-			"fgcolor"		"NotoWhite"	
+			"font"			"NotoBold16"
+			"fgcolor"		"NotoWhite"
 			"proportionalToParent"	"1"	
 		}	
 
@@ -221,22 +194,48 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"FlagValueShadow"
-			"xpos"			"9999"
-			"ypos"			"24"
-			"zpos"			"11"
-			"wide"			"100"
-			"tall"			"35"
-			"tall_hidef"	"100"
-			"tall_lodef"	"75"
-			"visible"		"1"
+			"xpos"			"1"
+			"ypos"			"1"
+			"zpos"			"3"
+			"wide"			"25"
+			"tall"			"15"
+			"visible"		"0"
 			"enabled"		"1"
 			"textAlignment"	"center"	
 			"labelText"		"%flagvalue%"
-			"font"			"HudFontMediumBold"
-			"font_hidef"	"HudFontGiant"
-			"font_lodef"	"HudFontGiant"
+			"font"			"HudFontSmallBold"
 			"fgcolor"		"Black"	
 			"proportionalToParent"	"1"	
+		}
+
+		"WhiteBG"
+		{
+			"ControlName"	"EditablePanel"
+			"fieldName"		"WhiteBG"
+			"xpos"			"9999"
+			"ypos"			"71"
+			"zpos"			"1"
+			"wide"			"40"
+			"tall"			"18"
+			"visible"		"0"
+			"enabled"		"1"
+			"PaintBackgroundType"	"0"
+			"bgcolor_override"	"TanLight"
+		}	
+	
+		"GreenBG"
+		{
+			"ControlName"	"EditablePanel"
+			"fieldName"		"WhiteBG"
+			"xpos"			"0"
+			"ypos"			"0"
+			"zpos"			"2"
+			"wide"			"60"
+			"tall"			"16"
+			"visible"		"1"
+			"enabled"		"1"
+			"PaintBackgroundType"	"0"
+			"bgcolor_override"	"NotoDark"
 		}
 	}
 
@@ -282,6 +281,36 @@
 				"proportionalToParent"	"1"
 			}
 			
+			"ImageTopBlu"
+			{
+				"ControlName"   "ImagePanel"           
+				"fieldName"     "ImageTopBlu"
+				"xpos"          "0"
+				"ypos"          "25"
+				"zpos"          "4"
+				"wide"          "20"
+				"tall"          "30"
+				"visible"       "1"
+				"enabled"       "1"
+				"fillcolor"     "NotoBlueSolid"
+				"scaleImage"    "1"
+			}	
+			
+			"ImageTopRed"
+			{
+				"ControlName"   "ImagePanel"           
+				"fieldName"     "ImageTopRed"
+				"xpos"          "280"
+				"ypos"          "25"
+				"zpos"          "4"
+				"wide"          "20"
+				"tall"          "30"
+				"visible"       "1"
+				"enabled"       "1"
+				"fillcolor"     "NotoRedSolid"
+				"scaleImage"    "1"
+			}
+			
 			"ImageBack"
 			{
 				"ControlName"   "ImagePanel"           
@@ -319,12 +348,122 @@
 				"xpos"          "279"
 				"ypos"          "25"
 				"zpos"          "3"
-				"wide"          "22"
+				"wide"          "21"
 				"tall"          "30"
 				"visible"       "1"
 				"enabled"       "1"
 				"fillcolor"     "NotoBlack"
 				"scaleImage"    "1"
+			}
+
+			"FlagImageBlue"
+			{
+				"ControlName"	"ImagePanel"
+				"fieldName"		"FlagImageBlue"
+				"xpos"			"9999"
+				"ypos"			"40"
+				"zpos"			"5"
+				"wide"			"20"
+				"tall"			"20"
+				"visible"		"0"
+				"enabled"		"1"
+				"image"			"../hud/hud_obj_status_ammo_64"
+				"scaleImage"	"1"
+				"proportionalToParent"	"1"
+			}
+
+			"EscrowBlue"
+			{
+				"ControlName"	"CExLabel"
+				"fieldName"		"EscrowBlue"
+				"xpos"			"0"
+				"ypos"			"25"
+				"zpos"			"5"
+				"wide"			"20"
+				"tall"			"30"
+				"visible"		"1"
+				"enabled"		"1"
+				"textAlignment"	"center"	
+				"labelText"		"%blue_escrow%"
+				"font"			"NotoBold14"
+				"fgcolor"		"NotoWhite"	
+				"fgcolor_override"		"NotoWhite"	
+				"bgcolor_override"		"0 0 0 0"
+				"proportionalToParent"	"1"
+				"textinsetx"	"0"
+			}
+			
+			"EscrowBlueShadow"
+			{
+				"ControlName"	"CExLabel"
+				"fieldName"		"EscrowBlueShadow"
+				"xpos"			"41"
+				"ypos"			"8"
+				"zpos"			"5"
+				"wide"			"25"
+				"tall"			"16"
+				"visible"		"0"
+				"enabled"		"1"
+				"textAlignment"	"center"	
+				"labelText"		"%blue_escrow%"
+				"font"			"HudFontMediumSmallBold"
+				"fgcolor"		"Black"		
+				"proportionalToParent"	"1"
+			}
+
+			"FlagImageRed"
+			{
+				"ControlName"	"ImagePanel"
+				"fieldName"		"FlagImageRed"
+				"xpos"			"9999"
+				"ypos"			"30"
+				"zpos"			"5"
+				"wide"			"20"
+				"tall"			"20"
+				"visible"		"0"
+				"enabled"		"1"
+				"image"			"../hud/hud_obj_status_ammo_64"
+				"scaleImage"	"1"
+				"proportionalToParent"	"1"
+			}
+
+			"EscrowRed"
+			{
+				"ControlName"	"CExLabel"
+				"fieldName"		"EscrowRed"
+				"xpos"			"280"
+				"ypos"			"25"
+				"zpos"			"5"
+				"wide"			"20"
+				"tall"			"30"
+				"visible"		"1"
+				"enabled"		"1"
+				"textAlignment"	"center"	
+				"labelText"		"%red_escrow%"
+				"font"			"NotoBold14"
+				"fgcolor"		"NotoWhite"	
+				"fgcolor_override"		"NotoWhite"	
+				"bgcolor_override"		"0 0 0 0"
+				"proportionalToParent"	"1"
+				"textinsetx"	"0"
+			}
+			
+			"EscrowRedShadow"
+			{
+				"ControlName"	"CExLabel"
+				"fieldName"		"EscrowRedShadow"
+				"xpos"			"236"
+				"ypos"			"8"
+				"zpos"			"5"
+				"wide"			"25"
+				"tall"			"16"
+				"visible"		"0"
+				"enabled"		"1"
+				"textAlignment"	"center"	
+				"labelText"		"%red_escrow%"
+				"font"			"HudFontMediumSmallBold"
+				"fgcolor"		"Black"		
+				"proportionalToParent"	"1"
 			}
 
 			"BlueVictoryContainer"
@@ -807,7 +946,7 @@
 			{
 				"ControlName"	"CExLabel"
 				"fieldName"		"IntelValueShadow"
-				"xpos"			"9999"
+				"xpos"			"1"
 				"ypos"			"1"
 				"zpos"			"11"
 				"wide"			"f0"
@@ -907,7 +1046,7 @@
 			{
 				"ControlName"	"CExLabel"
 				"fieldName"		"IntelValueShadow"
-				"xpos"			"9999"
+				"xpos"			"1"
 				"ypos"			"1"
 				"zpos"			"11"
 				"wide"			"f0"
@@ -920,6 +1059,90 @@
 				"fgcolor"		"Black"	
 				"proportionalToParent"	"1"
 			}
+		}
+	}
+
+	"CountdownContainer"
+	{
+		"fieldName"				"CountdownContainer"
+		"ControlName"			"EditablePanel"
+		"xpos"					"c-150"
+		"ypos"					"r80"
+		"zpos"					"1"
+		"wide"					"300"
+		"tall"					"110"
+		"visible"				"0"
+		"enabled"				"1"
+		"proportionalToParent"	"1"
+
+		"Background"
+		{
+			"ControlName"	"CTFImagePanel"
+			"fieldName"		"Background"
+			"xpos"			"105"
+			"ypos"			"10"
+			"zpos"			"1"
+			"wide"			"90"
+			"tall"			"45"
+			"visible"		"0"
+			"enabled"		"1"
+			"image"			"../hud/ammo_blue_bg"
+			"scaleImage"	"1"	
+			"teambg_2"		"../hud/ammo_red_bg"
+			"teambg_3"		"../hud/ammo_blue_bg"
+			"proportionalToParent"	"1"
+		}
+
+		"CountdownImage"
+		{
+			"ControlName"		"ImagePanel"
+			"fieldName"		"CountdownImage"
+			"xpos"			"115"
+			"ypos"			"15"
+			"zpos"			"2"
+			"wide"			"35"
+			"tall"			"35"
+			"visible"		"0"
+			"enabled"		"1"
+			"image"			"../hud/arrow_big_down"
+			"scaleImage"		"1"	
+			"proportionalToParent"	"1"
+		}
+		
+		"CountdownLabelTime"
+		{
+			"ControlName"	"CExLabel"
+			"fieldName"		"CountdownLabelTime"
+			"xpos"			"150"
+			"ypos"			"17"
+			"zpos"			"8"
+			"wide"			"35"
+			"tall"			"35"
+			"visible"		"1"
+			"enabled"		"1"
+			"textAlignment"	"center"	
+			"labelText"		"%countdowntime%"
+			"font"			"NotoBold30"
+			"fgcolor"		"TanLight"		
+			"proportionalToParent"	"1"
+		}
+
+		"CountdownLabelTimeTimeShadow"
+		{
+			"ControlName"	"CExLabel"
+			"fieldName"		"CountdownLabelTimeTimeShadow"
+			"xpos"			"151"
+			"ypos"			"18"
+			"zpos"			"7"
+			"wide"			"35"
+			"tall"			"35"
+			"visible"		"0"
+			"enabled"		"1"
+			"textAlignment"	"center"	
+			"labelText"		"%countdowntime%"
+			"font"			"HudFontMediumBold"
+			"fgcolor"		"Black"		
+			"proportionalToParent"	"1"
 		}
 	}
 }

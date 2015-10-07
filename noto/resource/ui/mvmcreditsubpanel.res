@@ -28,7 +28,7 @@
 		"wide"			"135"
 		"tall"			"42"
 		"visible"		"1"
-		"bgcolor_override"		"NotoDark"
+		"bgcolor_override"		"NotoBlack"
 	}
 	
 	"CreditCollectedTextLabel"

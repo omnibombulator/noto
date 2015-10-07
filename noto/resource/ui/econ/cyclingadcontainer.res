@@ -17,10 +17,10 @@
 		"ControlName"	"Button"
 		"fieldName"		"PrevButton"
 		"xpos"		"-2"
-		"ypos"		"cs-0.5"
+		"ypos"		"0"
 		"zpos"		"2"
 		"wide"		"10"
-		"tall"		"25"
+		"tall"		"60"
 		"autoResize"		"0"
 		"pinCorner"		"0"
 		"visible"		"1"
@@ -46,10 +46,10 @@
 		"ControlName"	"Button"
 		"fieldName"		"NextButton"
 		"xpos"		"r8"
-		"ypos"		"cs-0.5"
+		"ypos"		"0"
 		"zpos"		"2"
 		"wide"		"10"
-		"tall"		"25"
+		"tall"		"60"
 		"autoResize"		"0"
 		"pinCorner"		"0"
 		"visible"		"1"
@@ -100,7 +100,7 @@
 		"proportionaltoparent"	"1"
 		"mouseinputenabled"		"0"
 
-		"bgcolor_override"		"0 0 0 255"
+		"bgcolor_override"		"NotoBackground"
 	}
 
 }

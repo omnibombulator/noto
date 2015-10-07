@@ -58,23 +58,21 @@
 				
 				if_competitive
 				{
-					"font"			"Noto12"
-					"xpos"			"23"
-					"ypos"			"0"
-					"zpos"			"5"
-					"wide"			"120"
-					"tall"			"15"
+					"xpos"				"22"
+					"ypos"				"10"
+					"wide"				"48"
+					"textAlignment"		"center"
+					"font"				"NotoBold8"
+					"fgcolor_override"	"NotoWhite"
 				}
 
 				if_readymode
 				{
-					"font"			"Noto12"
-					"xpos"			"23"
-					"ypos"			"0"
-					"zpos"			"5"
-					"wide"			"120"
-					"tall"			"15"
-					"textAlignment"	"west"
+					"xpos"				"22"
+					"ypos"				"10"
+					"wide"				"48"
+					"textAlignment"		"center"
+					"font"				"NotoBold8"
 					"fgcolor_override"	"NotoWhite"
 				}
 			}
@@ -135,12 +133,9 @@
 				if_readymode
 				{
 					"xpos"			"0"
-					"ypos"			"1"
-					"zpos"			"2"
-					"wide"			"16"
-					"tall"			"16"
-					"visible"		"1"
-					"enabled"		"1"
+					"ypos"			"0"
+					"wide"			"20"
+					"tall"			"20"
 					"image"			"../vgui/hud_connecting"
 				}
 			}
@@ -171,7 +166,7 @@
 				
 				if_readymode
 				{
-					"visible"		"0"
+					"visible"		"1"
 				}
 			}
 			
@@ -191,6 +186,21 @@
 				"TFFont"					"HudFontSmallest"
 				"HealthDeathWarningColor"	"HUDDeathWarning"
 				"TextColor"					"HudOffWhite"
+				
+				if_mvm
+				{
+					"xpos"				"9999"
+				}
+				
+				if_competitive
+				{
+					"xpos"				"9999"
+				}
+				
+				if_readymode
+				{
+					"xpos"				"9999"
+				}
 			}
 			
 			"ReadyBG"
@@ -261,9 +271,6 @@
 				
 				if_readymode
 				{
-					"xpos"			"1"
-					"wide"			"16"
-					"tall"			"16"
 					"visible"		"1"
 				}	
 			}
@@ -307,6 +314,11 @@
 				{	
 					"visible"		"0"
 				}
+				
+				if_readymode
+				{	
+					"visible"		"0"
+				}
 			}
 			
 			"specindex"
@@ -325,6 +337,21 @@
 				"labelText"		"%specindex%"
 				"textAlignment"	"north-west"
 				//"fgcolor"		"235 226 202 255"
+				
+				if_mvm
+				{
+					"visible"		"0"
+				}
+				
+				if_competitive
+				{
+					"visible"		"0"
+				}
+				
+				if_readymode
+				{
+					"visible"		"0"
+				}
 			}
 			
 			if_mvm
@@ -341,8 +368,8 @@
 			
 			if_readymode
 			{
-				"wide"			"160"
-				"tall"			"15"
+				"wide"		"72"
+				"tall"		"20"
 			}
 		}
 		
@@ -365,14 +392,8 @@
 		
 		if_readymode
 		{
-			"team1_player_base_offset_x"		"0"
-			"team1_player_base_y"				"221"
-			"team1_player_delta_x"				"0"
-			"team1_player_delta_y"				"-15"
-			"team2_player_base_offset_x"		"0"
-			"team2_player_base_y"				"241"
-			"team2_player_delta_x"				"0"
-			"team2_player_delta_y"				"15"
+			"team1_player_base_y"			"66"
+			"team2_player_delta_x"			"72"
 		}	
 	}
 

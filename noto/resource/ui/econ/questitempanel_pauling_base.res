@@ -200,7 +200,7 @@
 				"ControlName"	"EditablePanel"
 				"fieldname"		"DiscardButton"
 				"xpos"			"30"
-				"ypos"			"220"
+				"ypos"			"240"
 				"zpos"			"101"
 				"wide"			"100"
 				"tall"			"25"
@@ -662,7 +662,7 @@
 						"visible"		"0"
 					}
 				}
-				
+
 				"QuestExpirationWarning"
 				{
 					"ControlName"			"Label"

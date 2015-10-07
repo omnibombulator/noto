@@ -100,7 +100,7 @@
 		"font"			"NotoBold24"
 		"labelText"		"#TF_TradeStartDialog_Title"
 		"textAlignment"	"west"
-		"xpos"			"2"
+		"xpos"			"5"
 		"ypos"			"0"
 		"zpos"			"1"
 		"wide"			"400"

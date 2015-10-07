@@ -193,11 +193,12 @@
 			"fieldName"		"ServerList"
 			"xpos"			"10"
 			"ypos"			"40"
-			"zpos"			"1"
+			"zpos"			"2"
 			"wide"			"480"
 			"tall"			"250"
 			"autoResize"	"1"
 			"pinCorner"		"0"
+			"bgcolor_override"	"0 0 0 0"
 		}
 
 		"ConnectButton"

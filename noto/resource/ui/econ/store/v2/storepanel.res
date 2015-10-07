@@ -112,7 +112,7 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"Sheet"
-		"tabxindent"	"0"
+		"tabxindent"	"5"
 		"tabxdelta"		"3"
 		"tabxfittotext"	"1"
 		"tabheight"		"26"

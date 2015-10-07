@@ -19,15 +19,15 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"PopFileLabel"
-		"font"			"NotoBold12"
+		"font"			"NotoBold24"
 		"labelText"		"%popfile%"
 		"textAlignment"	"west"
 		"xpos"			"c-260"
-		"ypos"			"r197"
-		"zpos"			"22"
-		"wide"			"260"
-		"tall"			"13"
-		"textinsetx"	"2"
+		"ypos"			"c-78"
+		"zpos"			"24"
+		"wide"			"520"
+		"tall"			"24"
+		"textinsetx"	"5"
 		"fgcolor"		"NotoWhite"
 	}
 	
@@ -36,10 +36,10 @@
 		"ControlName"	"EditablePanel"
 		"fieldName"		"DifficultyContainer"
 		"xpos"			"c-260"
-		"ypos"			"r197"
+		"ypos"			"c-78"
 		"zpos"			"22"
 		"wide"			"520"
-		"tall"			"13"
+		"tall"			"24"
 		"visible"		"1"
 		
 		"DifficultyLabel"
@@ -61,15 +61,16 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"DifficultyValue"
-			"font"			"NotoBold12"
+			"font"			"NotoBold22"
 			"labelText"		"%difficultyvalue%"
-			"textAlignment"	"center"
+			"textAlignment"	"east"
 			"xpos"			"0"
 			"ypos"			"0"
-			"wide"			"520"
-			"tall"			"13"
+			"wide"			"515"
+			"tall"			"24"
 			"textinsetx"	"0"
 			"fgcolor"		"NotoWhite"
+			"textinsetx"	"5"
 		}
 	}
 	
@@ -78,10 +79,10 @@
 		"ControlName"		"ImagePanel"
 		"fieldName"		"RedBGDarkMVM"
 		"xpos"			"c-260"
-		"ypos"			"r197"	[$WIN32]
+		"ypos"			"c-78"
 		"zpos"			"21"
 		"wide"			"520"
-		"tall"			"13"
+		"tall"			"24"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
@@ -118,7 +119,7 @@
 		"ControlName"	"SectionedListPanel"
 		"fieldName"		"MvMPlayerList"
 		"xpos"			"c-260"
-		"ypos"			"r187"
+		"ypos"			"c-54"
 		"zpos"			"20"
 		"wide"			"520"
 		"tall"			"130"
@@ -136,20 +137,36 @@
 		"ControlName"		"ImagePanel"
 		"fieldName"		"DarkBG"
 		"xpos"			"c-260"
-		"ypos"			"r187"	[$WIN32]
+		"ypos"			"c-78"
 		"zpos"			"0"
 		"wide"			"520"
-		"tall"			"132"
+		"tall"			"156"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"	"0"	
-		"fillcolor"		"32 32 32 255"
+		"fillcolor"		"NotoScoreBGMain"
 		"PaintBackgroundType"	"0"
 	}
 	
-	
+	"DarkBG2"
+	{
+		"ControlName"		"ImagePanel"
+		"fieldName"		"DarkBG2"
+		"xpos"			"0"
+		"ypos"			"r55"
+		"zpos"			"0"
+		"wide"			"f0"
+		"tall"			"156"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"tabPosition"	"0"	
+		"fillcolor"		"NotoScoreBGMain"
+		"PaintBackgroundType"	"0"
+	}
 	
 	"CreditStatsContainer"
 	{
