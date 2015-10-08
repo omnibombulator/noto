@@ -94,7 +94,7 @@
 		"wrap"			"0"
 		"font"			"NotoSemiBold10"
 		"fgcolor_override"	"220 220 220 255"
-		"bgcolor_override"	"NotoDark"
+		"bgcolor_override"	"30 30 30 255"
 	}			
 	"WaitingForPlayersBG"
 	{
@@ -129,7 +129,7 @@
 		"wrap"			"0"
 		"font"			"NotoSemiBold10"
 		"fgcolor_override"	"220 220 220 255"
-		"bgcolor_override"	"NotoDark"
+		"bgcolor_override"	"30 30 30 255"
 	}			
 	"OvertimeBG"
 	{
@@ -164,7 +164,7 @@
 		"wrap"			"0"
 		"font"			"NotoSemiBold10"
 		"fgcolor_override"	"220 220 220 255"
-		"bgcolor_override"	"NotoDark"
+		"bgcolor_override"	"30 30 30 255"
 	}			
 	"SuddenDeathBG"
 	{
@@ -199,7 +199,7 @@
 		"wrap"			"0"
 		"font"			"NotoSemiBold10"
 		"fgcolor_override"	"220 220 220 255"
-		"bgcolor_override"	"NotoDark"
+		"bgcolor_override"	"30 30 30 255"
 	}	
 	"SetupBG"
 	{
@@ -234,7 +234,7 @@
 		"wrap"			"0"
 		"font"			"NotoBold10"
 		"fgcolor_override"	"220 220 220 255"
-		"bgcolor_override"	"NotoDark"
+		"bgcolor_override"	"30 30 30 255"
 	}	
 	"ServerTimeLimitLabelBG"
 	{

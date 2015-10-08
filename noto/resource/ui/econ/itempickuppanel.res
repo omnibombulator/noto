@@ -25,16 +25,17 @@
 		"modelpanels_height"		"260"
 		"modelpanels_ypos"			"110"
 		
+		
 		"modelpanelskv"	
 		{
 			"PaintBackgroundType"	"0"
 			"paintborder"			"0"
 			"bgcolor_override"		"NotoBlack"
 			
-			"model_xpos"	"-125"
+			"model_xpos"	"0"
 			"model_center_y"	"1"
 			"model_tall"	"160"
-			"model_zpos"	"1"
+			"model_wide"	"240"
 			
 			"text_forcesize"	"1"
 			"text_xpos"		"250"

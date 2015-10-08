@@ -255,5 +255,4 @@
 			"fgcolor"		"tanlight"		
 		}
 	}
-	
 }
