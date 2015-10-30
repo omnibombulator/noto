@@ -488,10 +488,10 @@
 		"image"			"../Effects/powerup_vampire_hud"
 		"fgcolor"		"NotoWhite"
 	}
-	"PlayerStatus_RuneWarlock"
+	"PlayerStatus_RuneReflect"
 	{
 		"ControlName"	"ImagePanel"
-		"fieldName"		"PlayerStatus_RuneWarlock"
+		"fieldName"		"PlayerStatus_RuneReflect"
 		"xpos"			"85"
 		"ypos"			"0"
 		"zpos"			"7"
@@ -500,7 +500,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"scaleImage"	"1"	
-		"image"			"../Effects/powerup_warlock_hud"
+		"image"			"../Effects/powerup_Reflect_hud"
 		"fgcolor"		"NotoWhite"
 	}
 	"PlayerStatus_RunePrecision"
@@ -546,6 +546,51 @@
 		"enabled"		"1"
 		"scaleImage"	"1"	
 		"image"			"../Effects/powerup_knockout_hud"
+		"fgcolor"		"NotoWhite"
+	}
+	"PlayerStatus_RuneKing"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"PlayerStatus_RuneKing"
+		"xpos"			"85"
+		"ypos"			"0"
+		"zpos"			"7"
+		"wide"			"30"
+		"tall"			"30"
+		"visible"		"1"
+		"enabled"		"1"
+		"scaleImage"	"1"	
+		"image"			"../Effects/powerup_king_hud"
+		"fgcolor"		"NotoWhite"
+	}
+	"PlayerStatus_RunePlague"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"PlayerStatus_RunePlague"
+		"xpos"			"85"
+		"ypos"			"0"
+		"zpos"			"7"
+		"wide"			"30"
+		"tall"			"30"
+		"visible"		"1"
+		"enabled"		"1"
+		"scaleImage"	"1"	
+		"image"			"../Effects/powerup_plague_hud"
+		"fgcolor"		"NotoWhite"
+	}
+	"PlayerStatus_RuneSupernova"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"PlayerStatus_RuneSupernova"
+		"xpos"			"85"
+		"ypos"			"0"
+		"zpos"			"7"
+		"wide"			"30"
+		"tall"			"30"
+		"visible"		"1"
+		"enabled"		"1"
+		"scaleImage"	"1"	
+		"image"			"../Effects/powerup_supernova_hud"
 		"fgcolor"		"NotoWhite"
 	}
 }

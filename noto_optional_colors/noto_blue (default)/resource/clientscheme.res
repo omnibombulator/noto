@@ -48,7 +48,7 @@ Scheme
 		"NotoButtonDepressed"	"90 180 0 0"
 		
 		//"NotoButtonDefault"	"32 32 32 255"
-		//"NotoButtonArmed"	"90 180 0 255"
+		//"NotoButtonArmed"		"90 180 0 255"
 		//"NotoButtonSelect"	"90 180 0 255"
 		//"NotoButtonDepressed"	"90 180 0 255"
 		
@@ -159,6 +159,11 @@ Scheme
 		"TFOrange"			"145 73 59 255"
 		
 		"QuestGold"			"208 147 75 255"
+		"HalloweenThemeColor2015_Light"	"238 126 17 255"
+		"HalloweenThemeColor2015"		"135 54 16 255"
+		"HalloweenThemeColor2015_Dark"	"108 49 21 255"
+		"QuestStandardHighlight"	"0 255 0 255"
+		"QuestBonusHighlight"		"150 160 255 255"
 		
 		"White"				"235 235 235 255"
 		"Red"				"192 28 0 140"
@@ -1204,7 +1209,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"Open Sans"
 				"tall"		"18"
 				"tall_hidef"	"24"
 				"tall_lodef"	"18"
@@ -1648,7 +1653,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"Open Sans"
 				"tall"		"34"
 				"tall_hidef"	"38"
 				"tall_lodef"	"38"
@@ -1737,10 +1742,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
-				"tall"		"10"
-				"tall_hidef"	"12"
-				"tall_lodef"	"14"
+				"name"		"Open Sans"
+				"tall"		"12"
 				"weight"	"400"
 				"additive"	"0"
 				"antialias" "1"
@@ -1992,7 +1995,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"Open Sans Bold"
 				"tall"		"28"
 				"tall_lodef"	"24"
 				"weight"	"500"
@@ -2020,7 +2023,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"Open Sans"
 				"tall"		"22"
 				"weight"	"500"
 			}
@@ -2029,7 +2032,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"Open Sans"
 				"tall"		"18"
 				"weight"	"500"
 			}
@@ -2194,7 +2197,18 @@ Scheme
 				"antialias" "1"
 			}
 		}
-		ItemFontAttribSmallv2
+		"ItemFontNameLarger"
+		{
+			"1"
+			{
+				"name"		"Open Sans Bold"
+				"tall"		"18"
+				"weight"	"500"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
+		"ItemFontAttribSmallv2"
 		{
 			"1"
 			{
@@ -2237,6 +2251,17 @@ Scheme
 				"antialias" 	"1"
 			}
 		}	
+		"ItemFontAttribLarger"
+		{
+			"1"
+			{
+				"name"		"Open Sans"
+				"tall"		"14"
+				"weight"	"500"
+				"additive"	"0"
+				"antialias" 	"1"
+			}
+		}
 		
 		"AchievementTracker_Name"
 		{
@@ -2403,13 +2428,133 @@ Scheme
 				"weight"	"500"
 			}
 		}
-
-		"AdFont_ItemName"
+		
+		"QuestInstructionText_Merasmus"
 		{
 			"1"
 			{
 				"name"		"TF2 Secondary"
 				"tall"		"10"
+				"weight"	"400"
+				"yres"		"480 599"
+				"additive"	"0"
+				"antialias"	"1"
+			}
+			"2"
+			{
+				"name"		"TF2 Secondary"
+				"tall"		"14"
+				"weight"	"400"
+				"additive"	"0"
+				"yres"		"600 1023"
+				"antialias"	"1"
+			}
+			"3"
+			{
+				"name"		"TF2 Secondary"
+				"tall"		"22"
+				"weight"	"400"
+				"additive"	"0"
+				"yres"		"1024 6000"
+				"antialias"	"1"
+			}
+		}
+
+		"QuestFlavorText_Merasmus"
+		{
+			"1"
+			{
+				"name"		"TF2 Secondary"
+				"tall"		"10"
+				"weight"	"400"
+				"yres"		"480 599"
+				"additive"	"0"
+				"antialias"	"1"
+				"italic"	"1"
+			}
+			"2"
+			{
+				"name"		"TF2 Secondary"
+				"tall"		"14"
+				"weight"	"400"
+				"additive"	"0"
+				"yres"		"600 1023"
+				"antialias"	"1"
+				"italic"	"1"
+			}
+			"3"
+			{
+				"name"		"TF2 Secondary"
+				"tall"		"22"
+				"weight"	"400"
+				"additive"	"0"
+				"yres"		"1024 6000"
+				"antialias"	"1"
+				"italic"	"1"
+			}
+		}
+
+		"QuestObjectiveText_Merasmus"
+		{
+			"1"
+			{
+				"name"		"TF2 Secondary"
+				"tall"		"10"
+				"weight"	"800"
+				"yres"		"480 599"
+				"additive"	"0"
+				"antialias"	"1"
+			}
+			"2"
+			{
+				"name"		"TF2 Secondary"
+				"tall"		"14"
+				"weight"	"800"
+				"additive"	"0"
+				"yres"		"600 1023"
+				"antialias"	"1"
+			}
+			"3"
+			{
+				"name"		"TF2 Secondary"
+				"tall"		"18"
+				"weight"	"800"
+				"additive"	"0"
+				"yres"		"1024 6000"
+				"antialias"	"1"
+			}
+		}
+
+		"QuestMediumText_Merasmus"
+		{
+			"1"
+			{
+				"name"		"TF2 Secondary"
+				"tall"		"13"
+				"weight"	"400"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
+		
+		"QuestLargeText_Merasmus"
+		{
+			"1"
+			{
+				"name"		"TF2 Secondary"
+				"tall"		"16"
+				"weight"	"400"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
+
+		"AdFont_ItemName"
+		{
+			"1"
+			{
+				"name"		"Open Sans Bold"
+				"tall"		"12"
 				"weight"	"400"
 				"additive"	"0"
 				"antialias" "1"
@@ -2437,7 +2582,32 @@ Scheme
 				"antialias" 	"1"
 			}
 		}
-				
+		
+		"TradeUp_Text"
+		{
+			"1"
+			{
+				"name"		"Verdana"
+				"tall"		"8"
+				"weight"	"400"
+				"antialias" "1"
+				"additive"	"0"
+			}
+		}
+
+		"TradeUp_Quote"
+		{
+			"1"
+			{
+				"name"		"Trebuchet MS"
+				"tall"		"9"
+				"weight"	"400"
+				"antialias" "1"
+				"additive"	"0"
+				"italic"	"1"
+			}
+		}
+		
 		//
 		//////////////////// REPLAY FONTS //////////////////////////////
 		//
