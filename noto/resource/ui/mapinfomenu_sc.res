@@ -128,7 +128,7 @@
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"MapInfoContinue"
-		"xpos"			"r115"
+		"xpos"			"r142"
 		"ypos"			"0"
 		"zpos"			"5"
 		"wide"			"115"
@@ -153,38 +153,6 @@
 		"defaultFgColor_override" "NotoMenuText"
 		"armedFgColor_override" "NotoMenuText2"
 		"depressedFgColor_override" "NotoMenuText2"
-		
-		"defaultBgColor_override" "0 0 0 0"
-		"armedBgColor_override" "0 0 0 0"
-		"depressedBgColor_override" "0 0 0 0"
-	}
-	
-	"MapInfoContinue2" [$WIN32]
-	{
-		"ControlName"	"CExButton"
-		"fieldName"		"MapInfoContinue2"
-		"xpos"			"9999"
-		"ypos"			"200"
-		"zpos"			"5"
-		"wide"			"115"
-		"tall"			"26"
-		"autoResize"	"0"
-		"pinCorner"		"2"
-		"visible"		"1"
-		"enabled"		"1"
-		"labelText"		"(&E)"
-		"textAlignment"	"east"
-		"dulltext"		"0"
-		"brighttext"	"0"
-		"command"		"continue"
-		"default"		"1"
-		"font"			"NotoBold24"
-		"paintbackground"	"0"
-		
-		"fgcolor"		"NotoGray"
-		"defaultFgColor_override" "NotoGray"
-		"armedFgColor_override" "NotoWhite"
-		"depressedFgColor_override" "NotoWhite"
 		
 		"defaultBgColor_override" "0 0 0 0"
 		"armedBgColor_override" "0 0 0 0"
@@ -230,10 +198,10 @@
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"MapInfoBack"
-		"xpos"			"r205"
-		"ypos"			"0"
+		"xpos"			"r142"
+		"ypos"			"26"
 		"zpos"			"6"
-		"wide"			"100"
+		"wide"			"115"
 		"tall"			"26"
 		"autoResize"	"0"
 		"pinCorner"		"2"
@@ -257,37 +225,6 @@
 		
 		"defaultBgColor_override" "0 0 0 0"
 		"armedBgColor_override" "0 0 0 0"
-		"depressedBgColor_override" "0 0 0 0"
-	}
-	
-	"MapInfoBack2" [$WIN32]
-	{
-		"ControlName"	"CExButton"
-		"fieldName"		"MapInfoBack2"
-		"xpos"			"9999"
-		"ypos"			"26"
-		"zpos"			"6"
-		"wide"			"100"
-		"tall"			"454"
-		"autoResize"	"0"
-		"pinCorner"		"2"
-		"visible"		"1"
-		"enabled"		"1"
-		"labelText"		"(&Q)"
-		"textAlignment"	"west"
-		"dulltext"		"0"
-		"brighttext"	"0"
-		"command"		"back"
-		"font"			"Sosa52"
-		"paintbackground"	"1"
-		
-		"fgcolor"		"NotoGray"
-		"defaultFgColor_override" "NotoGray"
-		"armedFgColor_override" "NotoWhite"
-		"depressedFgColor_override" "NotoWhite"
-		
-		"defaultBgColor_override" "0 0 0 0"
-		"armedBgColor_override" "0 0 0 255"
 		"depressedBgColor_override" "0 0 0 0"
 	}
 	
@@ -375,4 +312,64 @@
 			"icon"		"#GameUI_Icons_A_BUTTON"	
 		}
 	}	
+	
+	"MapInfoContinueHintIcon" [$WIN32]
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"MapInfoContinueHintIcon"
+		"font"			"GameUIButtonsSteamControllerSmallest"
+		"xpos"			"r24"
+		"ypos"			"0"
+		"zpos"			"7"
+		"wide"			"24"
+		"tall"			"26"
+		"autoResize"	"0"
+		"pinCorner"		"2"
+		"visible"		"1"
+		"enabled"		"1"
+		"labelText"		"A"
+		"textAlignment"	"Left"
+		"dulltext"		"0"
+		"brighttext"	"0"
+	}
+	
+	"MapInfoIntroHintIcon" [$WIN32]
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"MapInfoIntroHintIcon"
+		"font"			"GameUIButtonsSteamControllerSmallest"
+		"xpos"			"r24"
+		"ypos"			"52"
+		"zpos"			"7"
+		"wide"			"24"
+		"tall"			"26"
+		"autoResize"	"0"
+		"pinCorner"		"2"
+		"visible"		"0"
+		"enabled"		"1"
+		"labelText"		"Y"
+		"textAlignment"	"Left"
+		"dulltext"		"0"
+		"brighttext"	"0"
+	}
+	
+	"MapInfoBackHintIcon" [$WIN32]
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"MapInfoBackHintIcon"
+		"font"			"GameUIButtonsSteamControllerSmallest"
+		"xpos"			"r24"
+		"ypos"			"26"
+		"zpos"			"7"
+		"wide"			"24"
+		"tall"			"26"
+		"autoResize"	"0"
+		"pinCorner"		"2"
+		"visible"		"1"
+		"enabled"		"1"
+		"labelText"		"B"
+		"textAlignment"	"Left"
+		"dulltext"		"0"
+		"brighttext"	"0"
+	}
 }
