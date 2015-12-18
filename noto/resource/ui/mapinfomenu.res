@@ -1,4 +1,3 @@
-
 "Resource/UI/MapInfoMenu.res"
 {
 	"mapinfo"

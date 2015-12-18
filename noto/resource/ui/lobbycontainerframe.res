@@ -351,19 +351,20 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"MannUpDisabledLabel"
-		"font"			"HudFontSmall"
+		"font"			"NotoBold18"
 		"labelText"		"#TF_Matchmaking_MannUpDisabled"
 		"textAlignment"	"center"
-		"xpos"			"c-295"
-		"ypos"			"300"
+		"xpos"			"c-305"
+		"ypos"			"295"
 		"zpos"			"30"
-		"wide"			"180"
-		"tall"			"40"
+		"wide"			"400"
+		"tall"			"60"
 		"wrap"				   "1"
 		"centerwrap"		   "1"
 		"PaintBackgroundType"	"0"
-		"bgcolor_override"				"0 0 0 240"
+		"bgcolor_override"				"NotoBackground"
 	}
+
 
 	"PracticeButton"
 	{
