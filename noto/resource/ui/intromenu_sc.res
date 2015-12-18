@@ -103,7 +103,7 @@
 
 	"ContinueHintIcon" [$WIN32]
 	{
-		"ControlName"	"CExLabel"
+		"ControlName"	"CSCHintIcon"
 		"fieldName"		"ContinueHintIcon"
 		"font"			"GameUIButtonsSteamControllerSmallest"
 		"xpos"			"r185"
@@ -115,10 +115,11 @@
 		"pinCorner"		"2"
 		"visible"		"1"
 		"enabled"		"1"
-		"labelText"		"A"
 		"textAlignment"	"Left"
 		"dulltext"		"0"
 		"brighttext"	"0"
+		"actionSet"		"InGameHUDControls"
+		"actionName"	"menu_select"
 	}
 	
 	"Back" [$WIN32] 
@@ -148,7 +149,7 @@
 
 	"BackHintIcon" [$WIN32]
 	{
-		"ControlName"	"CExLabel"
+		"ControlName"	"CSCHintIcon"
 		"fieldName"		"BackHintIcon"
 		"font"			"GameUIButtonsSteamControllerSmallest"
 		"xpos"			"45"
@@ -160,10 +161,11 @@
 		"pinCorner"		"2"
 		"visible"		"1"
 		"enabled"		"1"
-		"labelText"		"B"
 		"textAlignment"	"Left"
 		"dulltext"		"0"
 		"brighttext"	"0"
+		"actionSet"		"InGameHUDControls"
+		"actionName"	"menu_cancel"
 	}
 
 	"ReplayVideo" [$WIN32] 

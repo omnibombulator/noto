@@ -264,7 +264,7 @@
 
 	"OkIntroHintIcon"
 	{
-		"ControlName"	"CExLabel"
+		"ControlName"	"CSCHintIcon"
 		"fieldName"		"OkHintIcon"
 		"font"			"GameUIButtonsSteamControllerSmallest"
 		"xpos"			"r24"
@@ -276,9 +276,10 @@
 		"pinCorner"		"2"
 		"visible"		"1"
 		"enabled"		"1"
-		"labelText"		"A"
 		"textAlignment"	"Left"
 		"dulltext"		"0"
 		"brighttext"	"0"
+		"actionSet"		"InGameHUDControls"
+		"actionName"	"menu_select"
 	}
 }

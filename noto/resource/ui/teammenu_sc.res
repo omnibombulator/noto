@@ -319,7 +319,7 @@
 	
 	"JoinSpectatorsHintIcon"
 	{
-		"ControlName"	"CExLabel"
+		"ControlName"	"CSCHintIcon"
 		"fieldName"		"JoinSpectatorsHintIcon"
 		"xpos"			"c-128"
 		"ypos"			"c-26"
@@ -332,7 +332,8 @@
 		"textAlignment"	"south-west"
 		"pinCorner"		"0"
 		"font"			"GameUIButtonsSteamControllerSmallest"
-		"labelText"		"A"
+		"actionSet"		"InGameHUDControls"
+		"actionName"	"menu_select"
 	}
 
 	"teambutton1"
@@ -385,7 +386,7 @@
 	
 	"JoinBluHintIcon"
 	{
-		"ControlName"	"CExLabel"
+		"ControlName"	"CSCHintIcon"
 		"fieldName"		"JoinBluHintIcon"
 		"xpos"			"c2"
 		"ypos"			"c-26"
@@ -398,7 +399,8 @@
 		"textAlignment"	"south-west"
 		"pinCorner"		"0"
 		"font"			"GameUIButtonsSteamControllerSmallest"
-		"labelText"		"A"
+		"actionSet"		"InGameHUDControls"
+		"actionName"	"menu_select"
 	}
 	
 	"teambutton2"
@@ -444,7 +446,7 @@
 	
 	"JoinRedHintIcon"
 	{
-		"ControlName"	"CExLabel"
+		"ControlName"	"CSCHintIcon"
 		"fieldName"		"JoinRedHintIcon"
 		"xpos"			"c132"
 		"ypos"			"c-26"
@@ -457,7 +459,8 @@
 		"textAlignment"	"south-west"
 		"pinCorner"		"0"
 		"font"			"GameUIButtonsSteamControllerSmallest"
-		"labelText"		"A"
+		"actionSet"		"InGameHUDControls"
+		"actionName"	"menu_select"
 	}
 	
 	"teambutton3"
@@ -503,7 +506,7 @@
 	
 	"JoinAutoHintIcon"
 	{
-		"ControlName"	"CExLabel"
+		"ControlName"	"CSCHintIcon"
 		"fieldName"		"JoinAutoHintIcon"
 		"xpos"			"c-258"
 		"ypos"			"c-26"
@@ -516,12 +519,13 @@
 		"textAlignment"	"south-west"
 		"pinCorner"		"0"
 		"font"			"GameUIButtonsSteamControllerSmallest"
-		"labelText"		"A"
+		"actionSet"		"InGameHUDControls"
+		"actionName"	"menu_select"
 	}
 	
 	"CancelHintIcon"
 	{
-		"ControlName"	"CExLabel"
+		"ControlName"	"CSCHintIcon"
 		"fieldName"		"CancelHintIcon"
 		"font"			"GameUIButtonsSteamControllerSmallest"
 		"xpos"			"r24"
@@ -533,10 +537,11 @@
 		"pinCorner"		"2"
 		"visible"		"0"
 		"enabled"		"1"
-		"labelText"		"B"
 		"textAlignment"	"Left"
 		"dulltext"		"0"
 		"brighttext"	"0"
+		"actionSet"		"InGameHUDControls"
+		"actionName"	"menu_cancel"
 	}
 	
 	"CancelButton" [$WIN32] 
@@ -968,7 +973,7 @@
 	
 	"PrevOptionHintIcon"
 	{
-		"ControlName"	"CExLabel"
+		"ControlName"	"CSCHintIcon"
 		"fieldName"		"PrevOptionHintIcon"
 		"xpos"			"30"
 		"ypos"			"c-26"
@@ -981,12 +986,13 @@
 		"textAlignment"	"west"
 		"pinCorner"		"0"
 		"font"			"GameUIButtonsSteamControllerSmall"
-		"labelText"		"A"
+		"actionSet"		"InGameHUDControls"
+		"actionName"	"menu_left"
 	}
 
 	"NextOptionHintIcon"
 	{
-		"ControlName"	"CExLabel"
+		"ControlName"	"CSCHintIcon"
 		"fieldName"		"NextOptionHintIcon"
 		"xpos"			"r160"
 		"ypos"			"c-26"
@@ -999,7 +1005,8 @@
 		"textAlignment"	"east"
 		"pinCorner"		"0"
 		"font"			"GameUIButtonsSteamControllerSmall"
-		"labelText"		"B"
+		"actionSet"		"InGameHUDControls"
+		"actionName"	"menu_right"
 	}
 }
 

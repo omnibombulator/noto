@@ -315,7 +315,7 @@
 	
 	"MapInfoContinueHintIcon" [$WIN32]
 	{
-		"ControlName"	"CExLabel"
+		"ControlName"	"CSCHintIcon"
 		"fieldName"		"MapInfoContinueHintIcon"
 		"font"			"GameUIButtonsSteamControllerSmallest"
 		"xpos"			"r24"
@@ -327,15 +327,16 @@
 		"pinCorner"		"2"
 		"visible"		"1"
 		"enabled"		"1"
-		"labelText"		"A"
 		"textAlignment"	"Left"
 		"dulltext"		"0"
 		"brighttext"	"0"
+		"actionSet"		"InGameHUDControls"
+		"actionName"	"menu_select"
 	}
 	
 	"MapInfoIntroHintIcon" [$WIN32]
 	{
-		"ControlName"	"CExLabel"
+		"ControlName"	"CSCHintIcon"
 		"fieldName"		"MapInfoIntroHintIcon"
 		"font"			"GameUIButtonsSteamControllerSmallest"
 		"xpos"			"r24"
@@ -347,15 +348,16 @@
 		"pinCorner"		"2"
 		"visible"		"0"
 		"enabled"		"1"
-		"labelText"		"Y"
 		"textAlignment"	"Left"
 		"dulltext"		"0"
 		"brighttext"	"0"
+		"actionSet"		"InGameHUDControls"
+		"actionName"	"menu_toggle_function"
 	}
 	
 	"MapInfoBackHintIcon" [$WIN32]
 	{
-		"ControlName"	"CExLabel"
+		"ControlName"	"CSCHintIcon"
 		"fieldName"		"MapInfoBackHintIcon"
 		"font"			"GameUIButtonsSteamControllerSmallest"
 		"xpos"			"r24"
@@ -367,9 +369,10 @@
 		"pinCorner"		"2"
 		"visible"		"1"
 		"enabled"		"1"
-		"labelText"		"B"
 		"textAlignment"	"Left"
 		"dulltext"		"0"
 		"brighttext"	"0"
+		"actionSet"		"InGameHUDControls"
+		"actionName"	"menu_cancel"
 	}
 }
