@@ -39,7 +39,7 @@
 	}
 	"PlayCompetitiveButton"
 	{
-		"label" "#MMenu_PlayComp" 
+		"label" "Competitive" 
 		"command" "ladder_ui_show"
 		"subimage" "glyph_practice"
 		"OnlyAtMenu" "1"

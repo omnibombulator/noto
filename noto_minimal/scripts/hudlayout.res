@@ -165,14 +165,14 @@
 		"fieldName" "HudKothTimeStatus"
 		"visible" "1"
 		"enabled" "1"
-		"xpos"	"c-95"
+		"xpos"	"0"
 		"ypos"	"0"
-		"wide"	"190"
+		"wide"	"f0"
 		"tall"	"f0"
 		
-		"blue_active_xpos"			"16"
+		"blue_active_xpos"			"c-55"
 	
-		"red_active_xpos"			"106"
+		"red_active_xpos"			"c5"
 	}	
 
 	HudItemEffectMeter
@@ -1527,5 +1527,40 @@
 		"ypos"	"0"
 		"wide"	"f0"
 		"tall"	"f0"
+	}
+	
+	MatchSummary
+	{
+		"fieldName" "MatchSummary"
+		"visible" "0"
+		"enabled" "1"
+		"xpos"	"0"
+		"ypos"	"0"
+		"wide"	"f0"
+		"tall"	"f0"
+	}
+
+	HudMatchStatus
+	{
+		"fieldName"				"HudMatchStatus"
+		"visible"				"1"
+		"enabled"				"1"
+		"xpos"					"0"
+		"ypos"					"0"
+		"zpos"					"2"
+		"wide"					"f0"
+		"tall"					"f0"
+	}
+
+	HudTeamStatus
+	{
+		"fieldName"				"HudTeamStatus"
+		"visible"				"1"
+		"enabled"				"1"
+		"xpos"					"0"
+		"ypos"					"0"
+		"zpos"					"2"
+		"wide"					"f0"
+		"tall"					"f0"
 	}
 }
