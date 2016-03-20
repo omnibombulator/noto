@@ -133,7 +133,7 @@
 			{
 				"ControlName"	"CExLabel"
 				"fieldName"		"playername"
-				"font"			"Noto12"
+				"font"			"Notobold12"
 				"xpos"			"44"
 				"ypos"			"-1"
 				"zpos"			"5"

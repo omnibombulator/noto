@@ -1825,6 +1825,11 @@
 				"scaleImage"	"1"
 			}		
 		}
+		
+		if_competitive
+		{
+			"xpos"			"386"
+		}
 	}
 	
 	"SteamWorkshopButton"
@@ -1951,6 +1956,11 @@
 				"scaleImage"	"1"
 			}		
 		}
+		
+		if_competitive
+		{
+			"xpos"			"357"
+		}
 	}
 	
 	"CharacterSetupButton"
@@ -2014,6 +2024,11 @@
 				"enabled"		"1"
 				"scaleImage"	"1"
 			}		
+		}
+		
+		if_competitive
+		{
+			"xpos"			"271"
 		}
 	}
 
@@ -2456,11 +2471,11 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldname"		"PlayCompetitiveButton"
-		"xpos"			"c-285"
-		"ypos"			"180"
+		"xpos"			"160"
+		"ypos"			"0"
 		"zpos"			"11"
-		"wide"			"270"
-		"tall"			"36"
+		"wide"			"115"
+		"tall"			"26"
 		"visible"		"1"
 		"enabled"		"1"
 		"PaintBackgroundType"	"0"
@@ -2471,16 +2486,16 @@
 			"fieldName"		"SubButton"
 			"xpos"			"0"
 			"ypos"			"0"
-			"wide"			"250"
+			"wide"			"115"
 			"tall"			"26"
 			"autoResize"	"0"
 			"pinCorner"		"3"
 			"visible"		"1"
 			"enabled"		"1"
 			"tabPosition"	"0"
-			"textinsetx"	"25"
+			"textinsetx"	"0"
 			"use_proportional_insets" "1"
-			"font"			"HudFontSmallBold"
+			"font"			"NotoBold24"
 			"textAlignment"	"west"
 			"dulltext"		"0"
 			"brighttext"	"0"
@@ -2488,13 +2503,17 @@
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 			
-			"border_default"	"MainMenuButtonDefault"
-			"border_armed"		"MainMenuButtonArmed"
-			"paintbackground"	"0"
+			"border_default"	""
+			"border_armed"		""
+			"paintbackground"	"1"
 			
-			"defaultFgColor_override" "46 43 42 255"
-			"armedFgColor_override" "235 226 202 255"
-			"depressedFgColor_override" "46 43 42 255"
+			"defaultFgColor_override" "NotoMenuText"
+			"armedFgColor_override" "NotoMenuText2"
+			"depressedFgColor_override" "NotoMenuText2"
+			
+			"defaultBgColor_override" "0 0 0 0"
+			"armedBgColor_override" "0 0 0 0"
+			"depressedBgColor_override" "0 0 0 0"
 			
 			"image_drawcolor"	"117 107 94 255"
 			"image_armedcolor"	"235 226 202 255"
@@ -2508,7 +2527,7 @@
 				"zpos"			"1"
 				"wide"			"14"
 				"tall"			"14"
-				"visible"		"1"
+				"visible"		"0"
 				"enabled"		"1"
 				"scaleImage"	"1"
 			}
@@ -2523,7 +2542,7 @@
 			"zpos"			"12"
 			"wide"			"20"
 			"tall"			"20"
-			"visible"		"1"
+			"visible"		"0"
 			"image"			"beta"
 			"scaleImage"	"1"
 		}
@@ -2967,6 +2986,11 @@
 				"enabled"		"1"
 				"scaleImage"	"1"
 			}		
+		}
+		
+		if_competitive
+		{
+			"xpos"			"473"
 		}
 	}
 	
@@ -3651,6 +3675,11 @@
 				"scaleImage"	"1"
 			}		
 		}
+		
+		if_competitive
+		{
+			"xpos"			"415"
+		}
 	}
 	
 	"NotoOptionsAdv"
@@ -3715,6 +3744,11 @@
 				"enabled"		"1"
 				"scaleImage"	"1"
 			}		
+		}
+		
+		if_competitive
+		{
+			"xpos"			"444"
 		}
 	}
 	
@@ -3926,7 +3960,12 @@
 			"scaleImage"	"1"
 			
 			"image"			"glyph_quit"
-		}				
+		}	
+
+		if_competitive
+		{
+			"xpos"			"502"
+		}		
 	}			
 	
 	"BackToReplaysButton"
