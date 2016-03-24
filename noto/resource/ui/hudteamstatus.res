@@ -221,6 +221,20 @@
 				"textAlignment"	"north-west"
 				//"fgcolor"		"235 226 202 255"
 			}
+			"DeathPanel"
+			{
+				"ControlName"	"ImagePanel"
+				"fieldName"		"DeathPanel"
+				"xpos"			"3"
+				"ypos"			"0"
+				"zpos"			"0"
+				"wide"			"19"
+				"tall"			"19"
+				"visible"		"0"
+				"enabled"		"1"
+				"image"			"../HUD/comp_player_status"	
+				"scaleImage"	"1"	
+			}
 		}
 	}
 }
