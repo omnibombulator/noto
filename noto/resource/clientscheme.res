@@ -4054,6 +4054,17 @@ Scheme
 				"antialias"	"1"
 			}
 		}
+		"sosa48drop"
+		{
+			"1"
+			{
+				"name"		"Sosa Regular"
+				"tall"		"48"
+				"additive"  "0"
+				"antialias"	"1"
+				"dropshadow"	"1"
+			}
+		}
 		"sosa50"
 		{
 			"1"

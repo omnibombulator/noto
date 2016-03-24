@@ -1496,19 +1496,16 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"WatchStreamButton"
-		"xpos"			"c188"
-		"ypos"			"28"
+		"xpos"			"7"
+		"ypos"			"26"
 		"zpos"			"1"
-		"wide"			"32"
-		"tall"			"32"
+		"wide"			"150"
+		"tall"			"26"
 		"autoResize"	"0"
 		"pinCorner"		"3"
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"	"0"
-		
-		"navUp"			"Notifications_Panel"
-		"navLeft"		"SettingsButton"
 
 		"SubButton"
 		{
@@ -1523,10 +1520,10 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"tabPosition"	"0"
-			"textinsetx"	"25"
-			"labelText"		""
+			"textinsetx"	"0"
+			"labelText"		"Live Streams"
 			"use_proportional_insets" "1"
-			"font"			"HudFontSmallBold"
+			"font"			"NotoBold24"
 			"command"		"watch_stream"
 			"textAlignment"	"west"
 			"dulltext"		"0"
@@ -1551,8 +1548,8 @@
 				"xpos"			"cs-0.5"
 				"ypos"			"cs-0.5"
 				"zpos"			"1"
-				"wide"			"f0"
-				"tall"			"f0"
+				"wide"			"0"
+				"tall"			"0"
 				"visible"		"1"
 				"enabled"		"1"
 				"scaleImage"	"1"
@@ -1569,18 +1566,16 @@
 	{
 		"ControlName"	"CTFStreamListPanel"
 		"fieldName"		"StreamListPanel"
-		"xpos"			"c5"
-		"ypos"			"65"
+		"xpos"			"0"
+		"ypos"			"52"
 		"zpos"			"1"
-		"wide"			"300"
+		"wide"			"f0"
 		"tall"			"350"
 		"visible"		"0"
 		"PaintBackgroundType"	"2"
-		"paintbackground"	"0"
-		"border"		"MainMenuHighlightBorder"
-
-		"navDown"		"SettingsButton"		// when a sub element can't nav down it will pass through this
-		"navLeft"		"WatchStreamButton"	// when a sub element can't nav left it will pass through this
+		"paintbackground"	"1"
+		"bgcolor_override"	"0 0 0 0"
+		"border"		"NoBorder"
 	}
 	
 	"ShowWarButton"
