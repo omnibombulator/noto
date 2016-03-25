@@ -1492,6 +1492,92 @@
 		}
 	}
 	
+	"WatchStreamButton"
+	{
+		"ControlName"	"EditablePanel"
+		"fieldName"		"WatchStreamButton"
+		"xpos"			"7"
+		"ypos"			"26"
+		"zpos"			"1"
+		"wide"			"150"
+		"tall"			"26"
+		"autoResize"	"0"
+		"pinCorner"		"3"
+		"visible"		"1"
+		"enabled"		"1"
+		"tabPosition"	"0"
+
+		"SubButton"
+		{
+			"ControlName"	"CExImageButton"
+			"fieldName"		"SubButton"
+			"xpos"			"0"
+			"ypos"			"0"
+			"wide"			"f0"
+			"tall"			"f0"
+			"autoResize"	"0"
+			"pinCorner"		"3"
+			"visible"		"1"
+			"enabled"		"1"
+			"tabPosition"	"0"
+			"textinsetx"	"0"
+			"labelText"		"Live Streams"
+			"use_proportional_insets" "1"
+			"font"			"NotoBold24"
+			"command"		"watch_stream"
+			"textAlignment"	"west"
+			"dulltext"		"0"
+			"brighttext"	"0"
+			"default"		"1"
+			"sound_depressed"	"UI/buttonclick.wav"
+			"sound_released"	"vo/null.mp3"
+			"actionsignallevel" "2"
+			"proportionaltoparent"	"1"
+				
+			"sound_depressed"	"UI/buttonclick.wav"
+			"sound_released"	"UI/buttonclickrelease.wav"
+			"paintbackground"	"0"
+			"paintborder"		"0"
+			"image_drawcolor"	"235 226 202 255"
+			"image_armedcolor"	"255 255 255 255"
+
+			"SubImage"
+			{
+				"ControlName"	"ImagePanel"
+				"fieldName"		"SubImage"
+				"xpos"			"cs-0.5"
+				"ypos"			"cs-0.5"
+				"zpos"			"1"
+				"wide"			"0"
+				"tall"			"0"
+				"visible"		"1"
+				"enabled"		"1"
+				"scaleImage"	"1"
+				"image"			"button_streaming"
+
+				"proportionaltoparent"	"1"
+				"mouseinputenabled"	"0"
+				"keyboardinputenabled" "0"
+			}		
+		}
+	}
+
+	"StreamListPanel"
+	{
+		"ControlName"	"CTFStreamListPanel"
+		"fieldName"		"StreamListPanel"
+		"xpos"			"0"
+		"ypos"			"52"
+		"zpos"			"1"
+		"wide"			"f0"
+		"tall"			"350"
+		"visible"		"0"
+		"PaintBackgroundType"	"2"
+		"paintbackground"	"1"
+		"bgcolor_override"	"0 0 0 0"
+		"border"		"NoBorder"
+	}
+	
 	"ShowWarButton"
 	{
 		"ControlName"	"CExImageButton"

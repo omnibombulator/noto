@@ -1,3 +1,4 @@
+#base "colorscheme.res"
 #base "SourceSchemeBase.res"
 
 Scheme
@@ -6,23 +7,13 @@ Scheme
 	// color details
 	// this is a list of all the colors used by the scheme
 	Colors
-	{
-		// rayshud	
+	{	
 		"White"				"255 255 255 255"
 		"OffWhite"			"200 200 200 255"
 		"DullWhite"			"142 142 142 255"
 		"TransparentBlack"		"0 0 0 128"
 		"Black"				"10 10 10 255" 
 		"Blank"				"0 0 0 0"
-		"RaysPrimaryLight"		"0 255 255 255"
-		"RaysPrimaryDark"		"65 255 255 255"
-		"RaysBlack"				"32 32 32 255"
-		"RaysBlackTrans"		"32 32 32 200"
-		"RaysButtonHover"		"70 130 180 255"
-		
-		"NotoWhite"				"220 220 220 255"
-		"NotoGreen"				"70 130 180 255"
-		"NotoDark"				"24 24 24 255"
 
 		// TF2
 	    "TFDarkBrown"               "60 56 53 255"
@@ -34,8 +25,6 @@ Scheme
 	    "TFTanLightBright"          "229 223 211 90"
 	    "TFTanLightDark"            "96 90 78 90"
 
-	    "TFOrangeBright"            "70 130 180 255"
-
 	    "TFTextBright"              "251 236 203 150"
 	    "TFTextLight"               "201 188 162 255"
 	    "TFTextMedium"              "131 121 104 255"
@@ -44,9 +33,6 @@ Scheme
 	    "TFTextDull"                "131 121 104 255"
 
 	    "TFMediumBrown"		"69 64 58 255"
-
-	    "QuickListBGDeselected"		"24 24 24 255"
-	    "QuickListBGSelected"               "70 130 180 255"
 
 	    "Blank"				"0 0 0 0"
 
@@ -67,15 +53,15 @@ Scheme
 		Button.TextColor				"NotoWhite"
 		Button.BgColor					"32 32 32 255"
 		Button.ArmedTextColor			"NotoWhite"
-		Button.ArmedBgColor				"NotoGreen"
+		Button.ArmedBgColor				"NotoMenu"
 		Button.DepressedTextColor		"NotoWhite"
-		Button.DepressedBgColor			"NotoGreen"
+		Button.DepressedBgColor			"NotoMenu"
 		Button.FocusBorderColor			"0 0 0 0"
 
 		CheckButton.TextColor			"NotoWhite"
 		CheckButton.SelectedTextColor	"NotoWhite"
 		CheckButton.BgColor				"32 32 32 255"
-		CheckButton.HighlightFgColor	"NotoGreen"
+		CheckButton.HighlightFgColor	"NotoMenu"
 		CheckButton.ArmedBgColor		"Blank"
 		CheckButton.DepressedBgColor	"Blank"
 		CheckButton.Border1  			"Blank"
@@ -86,7 +72,7 @@ Scheme
 		ToggleButton.SelectedTextColor	"TFTextBright"
 
 		ComboBoxButton.ArrowColor		"NotoWhite"
-		ComboBoxButton.ArmedArrowColor	"NotoGreen"
+		ComboBoxButton.ArmedArrowColor	"NotoMenu"
 		ComboBoxButton.BgColor			"Blank"
 		ComboBoxButton.DisabledBgColor	"Blank"
 
@@ -94,10 +80,10 @@ Scheme
 		RadioButton.SelectedTextColor	"White"
 		RadioButton.ArmedTextColor	"TFTextMedium"
 
-		Frame.BgColor					"NotoDark"
+		Frame.BgColor					"NotoBlack"
 		Frame.OutOfFocusBgColor			"32 32 32 200"
 		FrameGrip.Color1				"NotoWhite"
-		FrameGrip.Color2				"NotoDark"
+		FrameGrip.Color2				"NotoBlack"
 		FrameTitleButton.FgColor		"NotoWhite"
 		FrameTitleBar.Font				"UIBold"
 		FrameTitleBar.TextColor			"NotoWhite"
@@ -112,29 +98,29 @@ Scheme
 		Label.DisabledFgColor2			"10 10 10 255"
 
 		ListPanel.TextColor					"NotoWhite"
-		ListPanel.BgColor					"NotoDark"
-		ListPanel.SelectedBgColor			"NotoGreen"
+		ListPanel.BgColor					"NotoBlack"
+		ListPanel.SelectedBgColor			"NotoMenu"
 		ListPanel.SelectedOutOfFocusBgColor	"100 100 100 128"
 
 		MainMenu.TextColor			"White"
-		MainMenu.ArmedTextColor		"NotoGreen"
+		MainMenu.ArmedTextColor		"NotoMenu"
 		MainMenu.Inset				"32"
 
 		Menu.TextInset					"6"
 		Menu.FgColor			"White"
 		Menu.BgColor					"32 32 32 255"
-		Menu.ArmedFgColor		"NotoGreen"
-		Menu.ArmedBgColor				"NotoGreen"
+		Menu.ArmedFgColor		"NotoMenu"
+		Menu.ArmedBgColor				"NotoMenu"
 		Menu.DividerColor		"BorderDark"
 
-		ScrollBarButton.FgColor				"NotoDark"
+		ScrollBarButton.FgColor				"NotoBlack"
 		ScrollBarButton.BgColor				"Blank"
-		ScrollBarButton.ArmedFgColor		"NotoDark"
+		ScrollBarButton.ArmedFgColor		"NotoBlack"
 		ScrollBarButton.ArmedBgColor		"Blank"
-		ScrollBarButton.DepressedFgColor	"NotoDark"
+		ScrollBarButton.DepressedFgColor	"NotoBlack"
 		ScrollBarButton.DepressedBgColor	"Blank"
 
-		ScrollBarSlider.FgColor				"NotoDark"
+		ScrollBarSlider.FgColor				"NotoBlack"
 		ScrollBarSlider.BgColor				"32 32 32 255"
 
 		Slider.NobColor				"NotoWhite"
@@ -145,7 +131,7 @@ Scheme
 
 		TextEntry.TextColor			"OffWhite"
 		TextEntry.DisabledTextColor	"DullWhite"
-		TextEntry.SelectedBgColor	"NotoGreen"
+		TextEntry.SelectedBgColor	"NotoMenu"
 
 		// Borrowed from CS:S SourceScheme
 		Frame.TitleTextInsetX			14
@@ -172,7 +158,7 @@ Scheme
 		Menu.ArmedTextColor				"Black"
 		Panel.FgColor					"DullWhite"
 		Panel.BgColor					"Blank"
-		ProgressBar.FgColor				"NotoGreen"
+		ProgressBar.FgColor				"NotoMenu"
 		ProgressBar.BgColor				"32 32 32 255"
 		PropertySheet.TextColor			"NotoWhite"
 		PropertySheet.SelectedTextColor	"White"
@@ -180,7 +166,7 @@ Scheme
 		RichText.TextColor				"NotoWhite"
 		RichText.BgColor				"32 32 32 255"
 		RichText.SelectedTextColor		"Black"
-		RichText.SelectedBgColor		"NotoGreen"
+		RichText.SelectedBgColor		"NotoMenu"
 		ScrollBar.Wide					17
 		SectionedListPanel.HeaderTextColor	"White"
 		SectionedListPanel.HeaderBgColor	"Blank"
@@ -189,7 +175,7 @@ Scheme
 		SectionedListPanel.BrightTextColor	"NotoWhite"
 		SectionedListPanel.BgColor			"32 32 32 255"
 		SectionedListPanel.SelectedTextColor			"Black"
-		SectionedListPanel.SelectedBgColor				"NotoGreen"
+		SectionedListPanel.SelectedBgColor				"NotoMenu"
 		SectionedListPanel.OutOfFocusSelectedTextColor	"Black"
 		SectionedListPanel.OutOfFocusSelectedBgColor	"100 100 100 128"
 		TextEntry.BgColor			"32 32 32 255"
@@ -210,7 +196,7 @@ Scheme
 		Console.DevTextColor		"White"
 		NewGame.TextColor			"White"
 		NewGame.FillColor			"0 0 0 255"
-		NewGame.SelectionColor		"NotoGreen"
+		NewGame.SelectionColor		"NotoMenu"
 		NewGame.DisabledColor		"128 128 128 196"
 	}
 	

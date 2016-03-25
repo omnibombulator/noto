@@ -1,132 +1,27 @@
+// Crosshairs Start
+
+// Crosshair Circle
+#base "circle.res"
+
+// Thin Cross
+#base "thincross.res"
+
+// Konr Wings
+#base "konrwings.res"
+
+// Banjo Tooie
+#base "banjotooie.res"
+
+// Fog
+#base "fog.res"
+
+// Crosshairs End
+
+
+// Now back to our scheduled programming
+
 "Resource/HudLayout.res"
 {
-	xHairCircle
-	{
-		"controlName"	"CExLabel"
-		"fieldName"	 	"xHairCircle"
-		"font"			"xHairCircle"
-		"visible" 		 "0"
-		"enabled" 		 "0"
-		"zpos"			"0"
-
-		"xpos" 		 "1"
-		"ypos" 		 "c-103"
-		"wide" 		 "f0"
-		"tall" 		 "200"
-
-		//"font"		"xHairCircleOutline"
-		"font"			"xHairCircle"
-		"labelText"		"o"
-		"textAlignment"	"center"	
-		
-		"fgcolor" 		 "192 192 192 20"
-	}
-	
-	KonrWangs
-	{
-		"controlName"	"CExLabel"
-		"fieldName"	 	"KonrWangs"
-		"visible"		"0"
-		"enabled"		"0"
-		"zpos"			"0"
-
-		"xpos"			"c-100"
-		"ypos"			"c-100"
-		"wide"			"200"
-		"tall"			"200"
-
-		//"font"		"KonrWingsOutline24"
-
-		"font"			"BonrWingsOutline30"
-		"labelText"		"(  )"
-		"textAlignment"	"center"	
-		
-		"fgcolor"		"NotoCross2"
-	}
-	
-	KonrWings
-	{
-		"controlName"	"CExLabel"
-		"fieldName"	 	"KonrWings"
-		"visible"		"0"
-		"enabled"		"0"
-		"zpos"			"0"
-
-		"xpos"			"c-108"
-		"ypos"			"c-100"
-		"wide"			"200"
-		"tall"			"200"
-
-		//"font"		"KonrWingsOutline24"
-
-		"font"			"KonrWings24"
-		"labelText"		"i"
-		"textAlignment"	"center"	
-		
-		"fgcolor"		"NotoCross2"
-	}
-
-	ThinCross
-	{
-		"controlName"	"CExLabel"
-		"fieldName"	 	"ThinCross"
-		"visible" 		 "0"
-		"enabled" 		 "0"
-		"zpos"			"0"
-
-		"xpos" 		 "0"
-		"ypos" 		 "c-103"
-		"wide" 		 "f0"
-		"tall" 		 "201"
-
-		"font"		"SymbolOutline24"
-		"font"			"Symbol24"
-		"labelText"		"+"
-		"textAlignment"	"center"	
-		
-		"fgcolor" 		 "NotoCross"
-	}
-	
-	BanjoTooie
-	{
-		"controlName" "CExLabel"
-		"fieldName" "BanjoTooie"
-		"visible" "0"
-		"enabled" "1"
-		"zpos" "0"
-
-		"xpos" "1"
-		"ypos" "c-101"
-		"wide" "f0"
-		"tall" "198"
-
-		"font" "Crosshairs24"
-		"labelText" "z"
-		"textAlignment" "center"
-
-		"fgcolor" "NotoCross2"
-	}
-	
-	FogNew
-	{
-		"controlName" "CExLabel"
-		"fieldName" "FogNew"
-		"visible" "0"
-		"enabled" "1"
-		"zpos" "0"
-
-		"xpos" "c-101"
-		"ypos" "c-101"
-		"wide" "197"
-		"tall" "200"
-
-		"font" "Crosshairs24"
-		"labelText" "3"
-		"textAlignment" "center"
-
-		"fgcolor" "NotoCross2"
-	}
-	
 	HudPlayerStatus
 	{
 		"fieldName" "HudPlayerStatus"

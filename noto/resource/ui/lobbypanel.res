@@ -2047,7 +2047,7 @@
 			"tall"			"285"
 			"PaintBackgroundType"	"0"
 			"paintbackground"		"1"
-			"bgcolor_override"	"25 25 25 200"
+			"bgcolor_override"	"25 25 25 0"
 			"border"			"QuickplayBorder"
 
 			"StatsLabel"
@@ -2077,7 +2077,7 @@
 				"zpos"			"-1"
 				"wide"			"200"
 				"tall"			"200"
-				"visible"		"1"
+				"visible"		"0"
 				"enabled"		"1"
 				"mouseinputenabled" "0"
 				"image"			"competitive/comp_badge_ui_spotlight"
@@ -2234,7 +2234,7 @@
 				"tall"			"12"
 				"PaintBackgroundType"	"0"
 				"paintbackground"		"1"
-				"bgcolor_override"	"75 75 75 200"
+				"bgcolor_override"	"75 75 75 0"
 				//"border"			"QuickplayBorder"
 			}
 
@@ -2298,7 +2298,7 @@
 				"zpos"				"1"
 				"wide"				"p0.9"
 				"tall"				"2"
-				"visible"			"1"
+				"visible"			"0"
 				"proportionaltoparent" "1"
 				"bgcolor_override"	"89 81 71 255"
 			}
@@ -2403,7 +2403,7 @@
 			"tall"			"285"
 			"PaintBackgroundType"	"0"
 			"paintbackground"		"1"
-			"bgcolor_override"	"25 25 25 200"
+			"bgcolor_override"	"25 25 25 0"
 			"border"			"QuickplayBorder"
 			"mouseinputenabled" "1"
 
