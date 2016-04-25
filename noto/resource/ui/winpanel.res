@@ -1,5 +1,17 @@
 "Resource/UI/winpanel.res"
 {
+	"WinAnchor"
+	{
+		"ControlName"	"EditablePanel"
+		"fieldName"	"WinAnchor"
+		"xpos"	"0"
+		"ypos"	"0"
+		"wide"	"f0"
+		"tall"	"f0"
+		"visible"	"1"
+		"enabled"	"1"
+	}
+
 	"TeamScoresPanel"
 	{
 		"ControlName"		"EditablePanel"
@@ -9,38 +21,40 @@
 		"wide"			"f0"
 		"tall"			"f0"
 		"visible"		"1"
+		
+		"pin_to_sibling" "WinAnchor"
+		"pin_corner_to_sibling" "PIN_TOPLEFT"
+		"pin_to_sibling_corner" "PIN_TOPLEFT"
 
 		"BlueScoreBG"
 		{
-			"ControlName"		"ImagePanel"
+			"ControlName"		"EditablePanel"
 			"fieldName"		"BlueScoreBG"
-			"xpos"			"0"
-			"ypos"			"10"
-			"wide"			"240"
-			"tall"			"50"
+			"xpos"			"r-2"
+			"ypos"			"15"
+			"wide"			"135"
+			"tall"			"40"
 			"autoResize"	"0"
 			"pinCorner"		"0"
 			"visible"		"0"
 			"enabled"		"0"
-			"image"			"../hud/winpanel_blue_bg_team"
-			"image_lodef"	"../hud/winpanel_blue_bg_team_lodef"
-			"scaleImage"		"1"
+			
+			"border"		"TFFatLineBorderBlueBGMoreOpaque"
 		}
 		"RedScoreBG"
 		{
-			"ControlName"		"ImagePanel"
+			"ControlName"	"EditablePanel"
 			"fieldName"		"RedScoreBG"
-			"xpos"			"140"
-			"ypos"			"10"
-			"wide"			"240"
-			"tall"			"50"
+			"xpos"			"r-2"
+			"ypos"			"15"
+			"wide"			"135"
+			"tall"			"40"
 			"autoResize"	"0"
 			"pinCorner"		"0"
 			"visible"		"0"
 			"enabled"		"0"
-			"image"			"../hud/winpanel_red_bg_team"
-			"image_lodef"	"../hud/winpanel_red_bg_team_lodef"
-			"scaleImage"		"1"
+
+			"border"		"TFFatLineBorderRedBGMoreOpaque"
 		}
 		"BlueTeamLabel"
 		{
@@ -96,6 +110,34 @@
 			"pinCorner"		"0"
 			"visible"		"0"
 			"enabled"		"0"
+		}		
+		"BlueLeaderAvatar"
+		{
+			"ControlName"		"CAvatarImagePanel"
+			"fieldName"		"BlueLeaderAvatar"
+			"xpos"			"r-5"
+			"ypos"			"14"
+			"zpos"			"5"
+			"wide"			"40"
+			"tall"			"40"
+			"visible"		"1"
+			"enabled"		"1"
+			"image"			""
+			"scaleImage"	"1"	
+			"color_outline"	"52 48 45 255"
+		}
+		"BlueLeaderAvatarBG"
+		{
+			"ControlName"	"EditablePanel"
+			"fieldName"		"BlueLeaderAvatarBG"
+			"xpos"			"r-5"
+			"ypos"			"12"
+			"zpos"			"4"
+			"wide"			"44"
+			"tall"			"44"
+			"visible"		"1"
+			"PaintBackgroundType"	"2"
+			"bgcolor_override"	"117 107 94 255"
 		}			
 		"RedTeamLabel"
 		{
@@ -152,20 +194,49 @@
 			"visible"		"0"
 			"enabled"		"0"
 		}							
-
+		"RedLeaderAvatar"
+		{
+			"ControlName"		"CAvatarImagePanel"
+			"fieldName"		"RedLeaderAvatar"
+			"xpos"			"r-5"
+			"ypos"			"14"
+			"zpos"			"5"
+			"wide"			"40"
+			"tall"			"40"
+			"visible"		"1"
+			"enabled"		"1"
+			"image"			""
+			"scaleImage"	"1"	
+			"color_outline"	"52 48 45 255"
+		}
+		"RedLeaderAvatarBG"
+		{
+			"ControlName"	"EditablePanel"
+			"fieldName"		"RedLeaderAvatarBG"
+			"xpos"			"r-5"
+			"ypos"			"12"
+			"zpos"			"4"
+			"wide"			"44"
+			"tall"			"44"
+			"visible"		"1"
+			"PaintBackgroundType"	"2"
+			"bgcolor_override"	"117 107 94 255"
+		}
 	}
-	"WinPanelBG"
+	"WinPanelBGBorder"
 	{
-		"ControlName"		"ImagePanel"
-		"fieldName"		"WinPanelBG"
-		"xpos"			"-102"
-		"ypos"			"50"
+		"ControlName"		"EditablePanel"
+		"fieldName"		"WinPanelBGBorder"
+		"xpos"			"cs-0.5"
+		"ypos"			"70"
 		"zpos"			"0"
-		"wide"			"496"
-		"tall"			"220"
+		"wide"			"p0.94"
+		"tall"			"185"
 		"visible"		"0"
-		"enabled"		"0"
+		"enabled"		"1"
 		"scaleImage"		"1"	
+		"border"		"TFFatLineBorderBlueBG"
+		"proportionaltoparent"	"1"
 	}
 	"WinningTeamLabel"
 	{	
