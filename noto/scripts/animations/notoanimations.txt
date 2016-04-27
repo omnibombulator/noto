@@ -1508,4 +1508,17 @@ event QuestItem_Highlight_Off_Halloween
 	Animate GlowImage Alpha 0 Bias 0.8 0 0.2
 }
 
+
+
+
+event WinPanel_CompPos
+{
+	Animate WinPanel ypos 0 Linear 0 0
+}
+
+event WinPanel_NormalPos
+{
+	Animate WinPanel ypos 0 Linear 0 0
+}
+
 //
