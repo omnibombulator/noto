@@ -381,7 +381,7 @@
 		"tabPosition"	"1"
 		"textinsetx"	"0"
 		"textinsety"	"0"
-		"labelText"		"Any"	[$WIN32]
+		"labelText"		"Any (&R)"	[$WIN32]
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
